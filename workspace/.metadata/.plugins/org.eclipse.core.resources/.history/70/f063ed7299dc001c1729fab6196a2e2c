@@ -1,0 +1,31 @@
+package com.pcwk.ehr;
+
+import java.sql.SQLException;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+public class UserDaoTest {
+	
+	static final Logger LOG = LogManager.getLogger(UserDaoTest.class);
+	
+	UserDao dao;
+	UserVO  userVO;
+	
+	public UserDaoTest() {
+		dao = new UserDao();
+		userVO = new UserVO("p27", "최유빈27", "4321");
+	}
+	
+	
+	public void add(UserVO inVO)throws SQLException, ClassNotFoundException{
+		int flag = dao.add(userVO);
+		if(1 == flag) {
+			LOG.debug("=========================================");
+			LOG.debug("=성공=");
+			LOG.debug("=========================================");
+		}
+		
+	}
+
+}
