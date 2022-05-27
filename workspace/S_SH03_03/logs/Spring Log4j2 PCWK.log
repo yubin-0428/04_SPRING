@@ -1,0 +1,25 @@
+[2022-05-27 15:12:25.540] DEBUG UserDaoTest.<init>(UserDaoTest.java:22) - ======================================
+[2022-05-27 15:12:25.556] DEBUG UserDaoTest.<init>(UserDaoTest.java:23) - =context=org.springframework.context.annotation.AnnotationConfigApplicationContext@25a65b77, started on Fri May 27 15:12:25 KST 2022
+[2022-05-27 15:12:25.556] DEBUG UserDaoTest.<init>(UserDaoTest.java:24) - =dao=com.pcwk.ehr.UserDao@7161d8d1
+[2022-05-27 15:12:25.556] DEBUG UserDaoTest.<init>(UserDaoTest.java:25) - ======================================
+[2022-05-27 15:12:26.377] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:23) - ========================
+[2022-05-27 15:12:26.388] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:24) - =connection=oracle.jdbc.driver.T4CConnection@18f8cd79
+[2022-05-27 15:12:26.388] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:25) - ========================
+[2022-05-27 15:12:26.388] DEBUG UserDao.add(UserDao.java:118) - ============================
+[2022-05-27 15:12:26.388] DEBUG UserDao.add(UserDao.java:119) - param : UserVO [uId=p27, name=최유빈27, passwd=4321]
+[2022-05-27 15:12:26.388] DEBUG UserDao.add(UserDao.java:120) - sql : 
+ INSERT INTO hr_member ( 
+        u_id,           
+        name,           
+        passwd          
+    ) VALUES (          
+        ?,              
+        ?,              
+        ?               
+    )                   
+
+[2022-05-27 15:12:26.388] DEBUG UserDao.add(UserDao.java:121) - ============================
+[2022-05-27 15:12:27.023] DEBUG UserDaoTest.main(UserDaoTest.java:66) - ==============================
+[2022-05-27 15:12:27.023] DEBUG UserDaoTest.main(UserDaoTest.java:67) - =ClassNotFoundException | SQLException e=ORA-00001: 무결성 제약 조건(SPRING.PK_HR_MEMBER)에 위배됩니다
+
+[2022-05-27 15:12:27.023] DEBUG UserDaoTest.main(UserDaoTest.java:68) - ==============================

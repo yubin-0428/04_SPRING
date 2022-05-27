@@ -32,8 +32,10 @@
 			<item value="com.pcwk.ehr"/>
 		</list>
 		<list key="artifactId">
-			<item value="S_SH02_01"/>
-			<item value="S_SH01_01"/>
+			<item value="S_SH03_04"/>
+			<item value="S_SH03_03"/>
+			<item value="S_SH03_02"/>
+			<item value="S_SH03_01"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -45,7 +47,6 @@
 		</list>
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
-			<item value="0.1"/>
 		</list>
 	</section>
 	<section name="MavenProjectWizardArtifactPage">

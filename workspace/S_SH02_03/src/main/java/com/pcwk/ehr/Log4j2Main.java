@@ -12,3 +12,4 @@ public class Log4j2Main {
 	}
 
 }
+ 

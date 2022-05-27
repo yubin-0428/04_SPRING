@@ -1,0 +1,87 @@
+[2022-05-27 09:43:58.211] DEBUG UserDaoTest.main(UserDaoTest.java:54) - ==============================
+[2022-05-27 09:43:58.211] DEBUG UserDaoTest.main(UserDaoTest.java:55) - =ClassNotFoundException | SQLException e=IO 오류: The Network Adapter could not establish the connection
+[2022-05-27 09:43:58.221] DEBUG UserDaoTest.main(UserDaoTest.java:56) - ==============================
+[2022-05-27 09:46:41.400] DEBUG SimpleConnectionMaker.makeNewConnection(SimpleConnectionMaker.java:27) - ========================
+[2022-05-27 09:46:41.418] DEBUG SimpleConnectionMaker.makeNewConnection(SimpleConnectionMaker.java:28) - =connection=oracle.jdbc.driver.T4CConnection@3cc2931c
+[2022-05-27 09:46:41.419] DEBUG SimpleConnectionMaker.makeNewConnection(SimpleConnectionMaker.java:29) - ========================
+[2022-05-27 09:46:41.419] DEBUG UserDao.add(UserDao.java:117) - ============================
+[2022-05-27 09:46:41.419] DEBUG UserDao.add(UserDao.java:118) - param : UserVO [uId=p27, name=최유빈27, passwd=4321]
+[2022-05-27 09:46:41.419] DEBUG UserDao.add(UserDao.java:119) - sql : 
+ INSERT INTO hr_member ( 
+        u_id,           
+        name,           
+        passwd          
+    ) VALUES (          
+        ?,              
+        ?,              
+        ?               
+    )                   
+
+[2022-05-27 09:46:41.419] DEBUG UserDao.add(UserDao.java:120) - ============================
+[2022-05-27 09:46:41.545] DEBUG UserDaoTest.main(UserDaoTest.java:54) - ==============================
+[2022-05-27 09:46:41.545] DEBUG UserDaoTest.main(UserDaoTest.java:55) - =ClassNotFoundException | SQLException e=ORA-00001: 무결성 제약 조건(SPRING.PK_HR_MEMBER)에 위배됩니다
+
+[2022-05-27 09:46:41.545] DEBUG UserDaoTest.main(UserDaoTest.java:56) - ==============================
+[2022-05-27 09:46:58.524] DEBUG SimpleConnectionMaker.makeNewConnection(SimpleConnectionMaker.java:27) - ========================
+[2022-05-27 09:46:58.541] DEBUG SimpleConnectionMaker.makeNewConnection(SimpleConnectionMaker.java:28) - =connection=oracle.jdbc.driver.T4CConnection@3cc2931c
+[2022-05-27 09:46:58.541] DEBUG SimpleConnectionMaker.makeNewConnection(SimpleConnectionMaker.java:29) - ========================
+[2022-05-27 09:46:58.541] DEBUG UserDao.add(UserDao.java:117) - ============================
+[2022-05-27 09:46:58.542] DEBUG UserDao.add(UserDao.java:118) - param : UserVO [uId=p27, name=최유빈27, passwd=4321]
+[2022-05-27 09:46:58.542] DEBUG UserDao.add(UserDao.java:119) - sql : 
+ INSERT INTO hr_member ( 
+        u_id,           
+        name,           
+        passwd          
+    ) VALUES (          
+        ?,              
+        ?,              
+        ?               
+    )                   
+
+[2022-05-27 09:46:58.542] DEBUG UserDao.add(UserDao.java:120) - ============================
+[2022-05-27 09:46:58.980] DEBUG UserDaoTest.main(UserDaoTest.java:54) - ==============================
+[2022-05-27 09:46:58.980] DEBUG UserDaoTest.main(UserDaoTest.java:55) - =ClassNotFoundException | SQLException e=ORA-00001: 무결성 제약 조건(SPRING.PK_HR_MEMBER)에 위배됩니다
+
+[2022-05-27 09:46:58.980] DEBUG UserDaoTest.main(UserDaoTest.java:56) - ==============================
+[2022-05-27 10:21:47.031] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:23) - ========================
+[2022-05-27 10:21:47.046] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:24) - =connection=oracle.jdbc.driver.T4CConnection@3cc2931c
+[2022-05-27 10:21:47.050] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:25) - ========================
+[2022-05-27 10:21:47.050] DEBUG UserDao.add(UserDao.java:117) - ============================
+[2022-05-27 10:21:47.050] DEBUG UserDao.add(UserDao.java:118) - param : UserVO [uId=p27, name=최유빈27, passwd=4321]
+[2022-05-27 10:21:47.050] DEBUG UserDao.add(UserDao.java:119) - sql : 
+ INSERT INTO hr_member ( 
+        u_id,           
+        name,           
+        passwd          
+    ) VALUES (          
+        ?,              
+        ?,              
+        ?               
+    )                   
+
+[2022-05-27 10:21:47.050] DEBUG UserDao.add(UserDao.java:120) - ============================
+[2022-05-27 10:21:47.224] DEBUG UserDao.add(UserDao.java:130) - flag : 1
+[2022-05-27 10:21:47.255] DEBUG UserDaoTest.add(UserDaoTest.java:40) - =========================================
+[2022-05-27 10:21:47.255] DEBUG UserDaoTest.add(UserDaoTest.java:41) - =성공=
+[2022-05-27 10:21:47.255] DEBUG UserDaoTest.add(UserDaoTest.java:42) - =========================================
+[2022-05-27 10:21:47.745] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:23) - ========================
+[2022-05-27 10:21:47.745] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:24) - =connection=oracle.jdbc.driver.T4CConnection@5ddeb7cb
+[2022-05-27 10:21:47.745] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:25) - ========================
+[2022-05-27 10:21:47.745] DEBUG UserDao.get(UserDao.java:52) - ============================
+[2022-05-27 10:21:47.745] DEBUG UserDao.get(UserDao.java:53) - param : UserVO [uId=p27, name=최유빈27, passwd=4321]
+[2022-05-27 10:21:47.745] DEBUG UserDao.get(UserDao.java:54) - sql : 
+ SELECT                   
+    u_id,                
+    name,                
+    passwd               
+ FROM                     
+    hr_member            
+ WHERE u_id = ?          
+
+[2022-05-27 10:21:47.745] DEBUG UserDao.get(UserDao.java:55) - ============================
+[2022-05-27 10:21:47.808] DEBUG UserDao.get(UserDao.java:71) - ============================
+[2022-05-27 10:21:47.808] DEBUG UserDao.get(UserDao.java:72) - outVO : UserVO [uId=p27, name=최유빈27, passwd=4321]
+[2022-05-27 10:21:47.808] DEBUG UserDao.get(UserDao.java:73) - ============================
+[2022-05-27 10:21:47.823] DEBUG UserDaoTest.get(UserDaoTest.java:26) - =========================================
+[2022-05-27 10:21:47.823] DEBUG UserDaoTest.get(UserDaoTest.java:27) - =성공=
+[2022-05-27 10:21:47.823] DEBUG UserDaoTest.get(UserDaoTest.java:28) - =========================================

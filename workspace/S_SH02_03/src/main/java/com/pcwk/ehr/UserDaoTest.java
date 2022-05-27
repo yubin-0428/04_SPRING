@@ -4,7 +4,7 @@ import java.sql.SQLException;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
+ 
 public class UserDaoTest {
 	
 	static final Logger LOG = LogManager.getLogger(UserDaoTest.class);
@@ -13,7 +13,7 @@ public class UserDaoTest {
 	UserVO  userVO;
 	
 	public UserDaoTest() {
-		dao = new NUserDao();
+		dao = new UserDao();
 		userVO = new UserVO("p27", "최유빈27", "4321");
 	}
 	
