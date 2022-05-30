@@ -1,0 +1,47 @@
+[2022-05-30 10:05:52.763] WARN  AbstractApplicationContext.refresh(AbstractApplicationContext.java:591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userDao' defined in class path resource [applicationContext.xml]: Cannot resolve reference to bean 'dataSource' while setting bean property 'dataSource'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'dataSource' available
+[2022-05-30 10:06:10.174] WARN  AbstractApplicationContext.refresh(AbstractApplicationContext.java:591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userDao' defined in class path resource [applicationContext.xml]: Cannot resolve reference to bean 'dataSource' while setting bean property 'dataSource'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'dataSource' available
+[2022-05-30 10:08:22.963] WARN  AbstractApplicationContext.refresh(AbstractApplicationContext.java:591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [applicationContext.xml]: Initialization of bean failed; nested exception is org.springframework.beans.ConversionNotSupportedException: Failed to convert property value of type 'com.pcwk.ehr.UserDao' to required type 'javax.sql.DataSource' for property 'dataSource'; nested exception is java.lang.IllegalStateException: Cannot convert value of type 'com.pcwk.ehr.UserDao' to required type 'javax.sql.DataSource' for property 'dataSource': no matching editors or conversion strategy found
+[2022-05-30 10:09:07.648] WARN  AbstractApplicationContext.refresh(AbstractApplicationContext.java:591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [applicationContext.xml]: Initialization of bean failed; nested exception is org.springframework.beans.ConversionNotSupportedException: Failed to convert property value of type 'com.pcwk.ehr.UserDao' to required type 'javax.sql.DataSource' for property 'dataSource'; nested exception is java.lang.IllegalStateException: Cannot convert value of type 'com.pcwk.ehr.UserDao' to required type 'javax.sql.DataSource' for property 'dataSource': no matching editors or conversion strategy found
+[2022-05-30 10:10:04.207] WARN  AbstractApplicationContext.refresh(AbstractApplicationContext.java:591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [applicationContext.xml]: Initialization of bean failed; nested exception is org.springframework.beans.ConversionNotSupportedException: Failed to convert property value of type 'com.pcwk.ehr.UserDao' to required type 'javax.sql.DataSource' for property 'dataSource'; nested exception is java.lang.IllegalStateException: Cannot convert value of type 'com.pcwk.ehr.UserDao' to required type 'javax.sql.DataSource' for property 'dataSource': no matching editors or conversion strategy found
+[2022-05-30 10:12:38.425] WARN  AbstractApplicationContext.refresh(AbstractApplicationContext.java:591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [applicationContext.xml]: Initialization of bean failed; nested exception is org.springframework.beans.ConversionNotSupportedException: Failed to convert property value of type 'com.pcwk.ehr.UserDao' to required type 'javax.sql.DataSource' for property 'dataSource'; nested exception is java.lang.IllegalStateException: Cannot convert value of type 'com.pcwk.ehr.UserDao' to required type 'javax.sql.DataSource' for property 'dataSource': no matching editors or conversion strategy found
+[2022-05-30 10:15:13.188] WARN  AbstractApplicationContext.refresh(AbstractApplicationContext.java:591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [applicationContext.xml]: Initialization of bean failed; nested exception is org.springframework.beans.ConversionNotSupportedException: Failed to convert property value of type 'com.pcwk.ehr.UserDao' to required type 'javax.sql.DataSource' for property 'dataSource'; nested exception is java.lang.IllegalStateException: Cannot convert value of type 'com.pcwk.ehr.UserDao' to required type 'javax.sql.DataSource' for property 'dataSource': no matching editors or conversion strategy found
+[2022-05-30 10:16:34.718] DEBUG UserDaoTest.<init>(UserDaoTest.java:25) - ======================================
+[2022-05-30 10:16:34.730] DEBUG UserDaoTest.<init>(UserDaoTest.java:26) - =context=org.springframework.context.support.GenericXmlApplicationContext@212bf671, started on Mon May 30 10:16:34 KST 2022
+[2022-05-30 10:16:34.730] DEBUG UserDaoTest.<init>(UserDaoTest.java:27) - =dao=com.pcwk.ehr.UserDao@366647c2
+[2022-05-30 10:16:34.731] DEBUG UserDaoTest.<init>(UserDaoTest.java:28) - ======================================
+[2022-05-30 10:16:36.079] DEBUG UserDao.add(UserDao.java:123) - ============================
+[2022-05-30 10:16:36.079] DEBUG UserDao.add(UserDao.java:124) - param : UserVO [uId=p27, name=최유빈27, passwd=4321]
+[2022-05-30 10:16:36.079] DEBUG UserDao.add(UserDao.java:125) - sql : 
+ INSERT INTO hr_member ( 
+        u_id,           
+        name,           
+        passwd          
+    ) VALUES (          
+        ?,              
+        ?,              
+        ?               
+    )                   
+
+[2022-05-30 10:16:36.079] DEBUG UserDao.add(UserDao.java:126) - ============================
+[2022-05-30 10:16:36.207] DEBUG UserDao.add(UserDao.java:136) - flag : 1
+[2022-05-30 10:16:36.211] DEBUG UserDaoTest.add(UserDaoTest.java:52) - =========================================
+[2022-05-30 10:16:36.212] DEBUG UserDaoTest.add(UserDaoTest.java:53) - =성공=
+[2022-05-30 10:16:36.212] DEBUG UserDaoTest.add(UserDaoTest.java:54) - =========================================
+[2022-05-30 10:16:36.395] DEBUG UserDao.get(UserDao.java:57) - ============================
+[2022-05-30 10:16:36.395] DEBUG UserDao.get(UserDao.java:58) - param : UserVO [uId=p27, name=최유빈27, passwd=4321]
+[2022-05-30 10:16:36.396] DEBUG UserDao.get(UserDao.java:59) - sql : 
+ SELECT                   
+    u_id,                
+    name,                
+    passwd               
+ FROM                     
+    hr_member            
+ WHERE u_id = ?          
+
+[2022-05-30 10:16:36.396] DEBUG UserDao.get(UserDao.java:60) - ============================
+[2022-05-30 10:16:36.498] DEBUG UserDao.get(UserDao.java:76) - ============================
+[2022-05-30 10:16:36.498] DEBUG UserDao.get(UserDao.java:77) - outVO : UserVO [uId=p27, name=최유빈27, passwd=4321]
+[2022-05-30 10:16:36.499] DEBUG UserDao.get(UserDao.java:78) - ============================
+[2022-05-30 10:16:36.507] DEBUG UserDaoTest.get(UserDaoTest.java:38) - =========================================
+[2022-05-30 10:16:36.507] DEBUG UserDaoTest.get(UserDaoTest.java:39) - =성공=
+[2022-05-30 10:16:36.507] DEBUG UserDaoTest.get(UserDaoTest.java:40) - =========================================

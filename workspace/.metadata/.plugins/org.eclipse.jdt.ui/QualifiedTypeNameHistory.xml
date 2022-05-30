@@ -10,12 +10,17 @@
 <fullyQualifiedTypeName name="com.pcwk.ehr.ConnectionMaker"/>
 <fullyQualifiedTypeName name="com.pcwk.ehr.NConnectionMaker"/>
 <fullyQualifiedTypeName name="java.util.logging.Logger"/>
-<fullyQualifiedTypeName name="org.apache.logging.log4j.LogManager"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
-<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
 <fullyQualifiedTypeName name="com.pcwk.ehr.UserDao"/>
-<fullyQualifiedTypeName name="org.apache.logging.log4j.Logger"/>
-<fullyQualifiedTypeName name="org.apache.logging.log4j.core.Logger"/>
 <fullyQualifiedTypeName name="org.springframework.context.support.GenericApplicationContext"/>
+<fullyQualifiedTypeName name="com.pcwk.ehr.JUnitLifeCycle02"/>
+<fullyQualifiedTypeName name="org.apache.logging.log4j.core.Logger"/>
+<fullyQualifiedTypeName name="org.apache.logging.log4j.Logger"/>
+<fullyQualifiedTypeName name="org.apache.logging.log4j.LogManager"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
 <fullyQualifiedTypeName name="org.springframework.context.support.GenericXmlApplicationContext"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
+<fullyQualifiedTypeName name="jdk.nashorn.internal.ir.annotations.Ignore"/>
+<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
 </qualifiedTypeNameHistroy>

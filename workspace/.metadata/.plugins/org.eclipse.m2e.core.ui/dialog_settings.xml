@@ -27,15 +27,16 @@
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
 			<item value="com.pcwk.ehr"/>
+			<item value="com.pcwk.ehr.S_SH05_01"/>
 		</list>
 		<list key="groupId">
 			<item value="com.pcwk.ehr"/>
 		</list>
 		<list key="artifactId">
-			<item value="S_SH03_04"/>
-			<item value="S_SH03_03"/>
-			<item value="S_SH03_02"/>
-			<item value="S_SH03_01"/>
+			<item value="S_SH05_02"/>
+			<item value="S_SH05_001"/>
+			<item value="S_SH-5_01"/>
+			<item value="S_SH05_01"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -71,5 +72,7 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
 	</section>
 </section>
