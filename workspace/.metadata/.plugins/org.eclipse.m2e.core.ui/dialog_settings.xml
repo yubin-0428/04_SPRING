@@ -27,16 +27,13 @@
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
 			<item value="com.pcwk.ehr"/>
-			<item value="com.pcwk.ehr.S_SH05_01"/>
 		</list>
 		<list key="groupId">
 			<item value="com.pcwk.ehr"/>
 		</list>
 		<list key="artifactId">
-			<item value="S_SH05_02"/>
-			<item value="S_SH05_001"/>
-			<item value="S_SH-5_01"/>
-			<item value="S_SH05_01"/>
+			<item value="S_SH06_03"/>
+			<item value="S_SH06_02"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
