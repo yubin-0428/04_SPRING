@@ -1,0 +1,512 @@
+[2022-06-03 10:15:18.680] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-06-03 10:15:18.704] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3bf7ca37, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@79079097, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4d1c00d0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4b2bac3f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4e08711f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@bcec361, org.springframework.test.context.event.EventPublishingTestExecutionListener@26794848]
+[2022-06-03 10:15:19.137] DEBUG SonySpeaker.<init>(SonySpeaker.java:12) - SonySpeaker 생성자 호출
+[2022-06-03 10:15:19.146] DEBUG SamsungTV.<init>(SamsungTV.java:13) - 삼성 TV default 생성자 SamsungTV()
+[2022-06-03 10:15:19.206] DEBUG SamsungTV.setPrice(SamsungTV.java:39) - 삼성 TVsetPrice 호출! (price=10000000)
+[2022-06-03 10:15:19.207] DEBUG SamsungTV.setSpeaker(SamsungTV.java:34) - 삼성 TVsetSpeaker 호출!
+[2022-06-03 10:15:19.208] DEBUG SamsungTV.initMethod(SamsungTV.java:44) - 삼성 TV initMethod()
+[2022-06-03 10:15:19.270] DEBUG JCollectionListBeanTest2.setUp(JCollectionListBeanTest2.java:25) - -----------------------
+[2022-06-03 10:15:19.271] DEBUG JCollectionListBeanTest2.setUp(JCollectionListBeanTest2.java:26) - -0 setUp()-
+[2022-06-03 10:15:19.271] DEBUG JCollectionListBeanTest2.setUp(JCollectionListBeanTest2.java:27) - -----------------------
+[2022-06-03 10:15:19.277] DEBUG JCollectionListBeanTest2.setUp(JCollectionListBeanTest2.java:29) - -context-org.springframework.context.support.GenericApplicationContext@1dac5ef, started on Fri Jun 03 10:15:19 KST 2022
+[2022-06-03 10:15:19.279] DEBUG JCollectionListBeanTest2.test(JCollectionListBeanTest2.java:42) - =======================
+[2022-06-03 10:15:19.279] DEBUG JCollectionListBeanTest2.test(JCollectionListBeanTest2.java:43) - =test()=
+[2022-06-03 10:15:19.280] DEBUG JCollectionListBeanTest2.test(JCollectionListBeanTest2.java:44) - =======================
+[2022-06-03 10:15:19.283] DEBUG JCollectionListBeanTest2.tearDown(JCollectionListBeanTest2.java:35) - -----------------------
+[2022-06-03 10:15:19.284] DEBUG JCollectionListBeanTest2.tearDown(JCollectionListBeanTest2.java:36) - -9 tearDown()-
+[2022-06-03 10:15:19.284] DEBUG JCollectionListBeanTest2.tearDown(JCollectionListBeanTest2.java:37) - -----------------------
+[2022-06-03 10:15:19.293] DEBUG SamsungTV.destroyMethod(SamsungTV.java:50) - 삼성 TV destroyMethod()
+[2022-06-03 10:35:09.569] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-06-03 10:35:09.611] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@79079097, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4d1c00d0, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4b2bac3f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4e08711f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@bcec361, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@26794848, org.springframework.test.context.event.EventPublishingTestExecutionListener@302552ec]
+[2022-06-03 10:35:10.205] DEBUG SonySpeaker.<init>(SonySpeaker.java:12) - SonySpeaker 생성자 호출
+[2022-06-03 10:35:10.207] DEBUG SamsungTV.<init>(SamsungTV.java:13) - 삼성 TV default 생성자 SamsungTV()
+[2022-06-03 10:35:10.240] DEBUG SamsungTV.setPrice(SamsungTV.java:39) - 삼성 TVsetPrice 호출! (price=10000000)
+[2022-06-03 10:35:10.241] DEBUG SamsungTV.setSpeaker(SamsungTV.java:34) - 삼성 TVsetSpeaker 호출!
+[2022-06-03 10:35:10.241] DEBUG SamsungTV.initMethod(SamsungTV.java:44) - 삼성 TV initMethod()
+[2022-06-03 10:35:10.271] DEBUG JAnotationTest.setUp(JAnotationTest.java:27) - -----------------------
+[2022-06-03 10:35:10.272] DEBUG JAnotationTest.setUp(JAnotationTest.java:28) - -0 setUp()-
+[2022-06-03 10:35:10.272] DEBUG JAnotationTest.setUp(JAnotationTest.java:29) - -----------------------
+[2022-06-03 10:35:10.275] DEBUG JAnotationTest.setUp(JAnotationTest.java:32) - -context-org.springframework.context.support.GenericApplicationContext@5c90e579, started on Fri Jun 03 10:35:10 KST 2022
+[2022-06-03 10:35:10.275] DEBUG JAnotationTest.setUp(JAnotationTest.java:33) - -tv-com.pcwk.ehr.LgTV@589da3f3
+[2022-06-03 10:35:10.276] DEBUG JAnotationTest.test(JAnotationTest.java:47) - =======================
+[2022-06-03 10:35:10.276] DEBUG JAnotationTest.test(JAnotationTest.java:48) - =test()=
+[2022-06-03 10:35:10.276] DEBUG JAnotationTest.test(JAnotationTest.java:49) - =======================
+[2022-06-03 10:35:10.276] DEBUG LgTV.powerOn(LgTV.java:16) - 엘지Tv 전원을 켠다.
+[2022-06-03 10:35:10.277] DEBUG LgTV.volumeUp(LgTV.java:26) - 엘지Tv 볼륨을 높인다.
+[2022-06-03 10:35:10.277] DEBUG LgTV.volumeDown(LgTV.java:32) - 엘지Tv 볼륨을 내린다.
+[2022-06-03 10:35:10.277] DEBUG LgTV.powerOff(LgTV.java:21) - 엘지Tv 전원을 끈다.
+[2022-06-03 10:35:10.279] DEBUG JAnotationTest.tearDown(JAnotationTest.java:40) - -----------------------
+[2022-06-03 10:35:10.280] DEBUG JAnotationTest.tearDown(JAnotationTest.java:41) - -9 tearDown()-
+[2022-06-03 10:35:10.280] DEBUG JAnotationTest.tearDown(JAnotationTest.java:42) - -----------------------
+[2022-06-03 10:35:10.296] DEBUG SamsungTV.destroyMethod(SamsungTV.java:50) - 삼성 TV destroyMethod()
+[2022-06-03 10:36:27.253] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-06-03 10:36:27.278] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@79079097, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4d1c00d0, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4b2bac3f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4e08711f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@bcec361, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@26794848, org.springframework.test.context.event.EventPublishingTestExecutionListener@302552ec]
+[2022-06-03 10:36:27.957] DEBUG SonySpeaker.<init>(SonySpeaker.java:12) - SonySpeaker 생성자 호출
+[2022-06-03 10:36:27.960] DEBUG SamsungTV.<init>(SamsungTV.java:13) - 삼성 TV default 생성자 SamsungTV()
+[2022-06-03 10:36:28.017] DEBUG SamsungTV.setPrice(SamsungTV.java:39) - 삼성 TVsetPrice 호출! (price=10000000)
+[2022-06-03 10:36:28.017] DEBUG SamsungTV.setSpeaker(SamsungTV.java:34) - 삼성 TVsetSpeaker 호출!
+[2022-06-03 10:36:28.018] DEBUG SamsungTV.initMethod(SamsungTV.java:44) - 삼성 TV initMethod()
+[2022-06-03 10:36:28.052] DEBUG JAnotationTest.setUp(JAnotationTest.java:27) - -----------------------
+[2022-06-03 10:36:28.053] DEBUG JAnotationTest.setUp(JAnotationTest.java:28) - -0 setUp()-
+[2022-06-03 10:36:28.053] DEBUG JAnotationTest.setUp(JAnotationTest.java:29) - -----------------------
+[2022-06-03 10:36:28.056] DEBUG JAnotationTest.setUp(JAnotationTest.java:32) - -context-org.springframework.context.support.GenericApplicationContext@5c90e579, started on Fri Jun 03 10:36:27 KST 2022
+[2022-06-03 10:36:28.057] DEBUG JAnotationTest.setUp(JAnotationTest.java:33) - -tv-com.pcwk.ehr.LgTV@52815fa3
+[2022-06-03 10:36:28.058] DEBUG JAnotationTest.test(JAnotationTest.java:47) - =======================
+[2022-06-03 10:36:28.058] DEBUG JAnotationTest.test(JAnotationTest.java:48) - =test()=
+[2022-06-03 10:36:28.059] DEBUG JAnotationTest.test(JAnotationTest.java:49) - =======================
+[2022-06-03 10:36:28.059] DEBUG LgTV.powerOn(LgTV.java:17) - 엘지Tv 전원을 켠다.
+[2022-06-03 10:36:28.059] DEBUG LgTV.volumeUp(LgTV.java:27) - 엘지Tv 볼륨을 높인다.
+[2022-06-03 10:36:28.059] DEBUG LgTV.volumeDown(LgTV.java:33) - 엘지Tv 볼륨을 내린다.
+[2022-06-03 10:36:28.059] DEBUG LgTV.powerOff(LgTV.java:22) - 엘지Tv 전원을 끈다.
+[2022-06-03 10:36:28.062] DEBUG JAnotationTest.tearDown(JAnotationTest.java:40) - -----------------------
+[2022-06-03 10:36:28.062] DEBUG JAnotationTest.tearDown(JAnotationTest.java:41) - -9 tearDown()-
+[2022-06-03 10:36:28.063] DEBUG JAnotationTest.tearDown(JAnotationTest.java:42) - -----------------------
+[2022-06-03 10:36:28.080] DEBUG SamsungTV.destroyMethod(SamsungTV.java:50) - 삼성 TV destroyMethod()
+[2022-06-03 10:37:31.390] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-06-03 10:37:31.416] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@79079097, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4d1c00d0, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4b2bac3f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4e08711f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@bcec361, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@26794848, org.springframework.test.context.event.EventPublishingTestExecutionListener@302552ec]
+[2022-06-03 10:37:31.973] DEBUG SonySpeaker.<init>(SonySpeaker.java:12) - SonySpeaker 생성자 호출
+[2022-06-03 10:37:31.975] DEBUG SamsungTV.<init>(SamsungTV.java:13) - 삼성 TV default 생성자 SamsungTV()
+[2022-06-03 10:37:32.033] DEBUG SamsungTV.setPrice(SamsungTV.java:39) - 삼성 TVsetPrice 호출! (price=10000000)
+[2022-06-03 10:37:32.034] DEBUG SamsungTV.setSpeaker(SamsungTV.java:34) - 삼성 TVsetSpeaker 호출!
+[2022-06-03 10:37:32.036] DEBUG SamsungTV.initMethod(SamsungTV.java:44) - 삼성 TV initMethod()
+[2022-06-03 10:37:32.079] DEBUG JAnotationTest.setUp(JAnotationTest.java:27) - -----------------------
+[2022-06-03 10:37:32.080] DEBUG JAnotationTest.setUp(JAnotationTest.java:28) - -0 setUp()-
+[2022-06-03 10:37:32.080] DEBUG JAnotationTest.setUp(JAnotationTest.java:29) - -----------------------
+[2022-06-03 10:37:32.083] DEBUG JAnotationTest.setUp(JAnotationTest.java:32) - -context-org.springframework.context.support.GenericApplicationContext@5c90e579, started on Fri Jun 03 10:37:31 KST 2022
+[2022-06-03 10:37:32.083] DEBUG JAnotationTest.setUp(JAnotationTest.java:33) - -tv-com.pcwk.ehr.LgTV@52815fa3
+[2022-06-03 10:37:32.085] DEBUG JAnotationTest.test(JAnotationTest.java:47) - =======================
+[2022-06-03 10:37:32.086] DEBUG JAnotationTest.test(JAnotationTest.java:48) - =test()=
+[2022-06-03 10:37:32.086] DEBUG JAnotationTest.test(JAnotationTest.java:49) - =======================
+[2022-06-03 10:37:32.086] DEBUG LgTV.powerOn(LgTV.java:17) - 엘지Tv 전원을 켠다.
+[2022-06-03 10:37:32.086] DEBUG LgTV.volumeUp(LgTV.java:27) - 엘지Tv 볼륨을 높인다.
+[2022-06-03 10:37:32.086] DEBUG LgTV.volumeDown(LgTV.java:33) - 엘지Tv 볼륨을 내린다.
+[2022-06-03 10:37:32.086] DEBUG LgTV.powerOff(LgTV.java:22) - 엘지Tv 전원을 끈다.
+[2022-06-03 10:37:32.088] DEBUG JAnotationTest.tearDown(JAnotationTest.java:40) - -----------------------
+[2022-06-03 10:37:32.089] DEBUG JAnotationTest.tearDown(JAnotationTest.java:41) - -9 tearDown()-
+[2022-06-03 10:37:32.089] DEBUG JAnotationTest.tearDown(JAnotationTest.java:42) - -----------------------
+[2022-06-03 10:37:32.104] DEBUG SamsungTV.destroyMethod(SamsungTV.java:50) - 삼성 TV destroyMethod()
+[2022-06-03 11:08:57.458] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-06-03 11:08:57.478] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@bcec361, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@26794848, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@302552ec, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3d285d7e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@40005471, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2cd76f31, org.springframework.test.context.event.EventPublishingTestExecutionListener@367ffa75]
+[2022-06-03 11:08:58.313] WARN  AbstractApplicationContext.refresh(AbstractApplicationContext.java:591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'lgTV': Unsatisfied dependency expressed through field 'speaker'; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.pcwk.ehr.Speaker' available: expected single matching bean but found 2: sonySpeaker,appleSpeaker
+[2022-06-03 11:08:58.334] ERROR TestContextManager.prepareTestInstance(TestContextManager.java:252) - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@302552ec] to prepare test instance [com.pcwk.ehr.JAnotationTest@7fd7a283]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.2.jar:4.13.2]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.2.jar:4.13.2]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) ~[.cp/:?]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'lgTV': Unsatisfied dependency expressed through field 'speaker'; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.pcwk.ehr.Speaker' available: expected single matching bean but found 2: sonySpeaker,appleSpeaker
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:127) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.18.jar:5.3.18]
+	... 26 more
+Caused by: org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.pcwk.ehr.Speaker' available: expected single matching bean but found 2: sonySpeaker,appleSpeaker
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveNotUnique(DependencyDescriptor.java:220) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1367) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:127) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.18.jar:5.3.18]
+	... 26 more
+[2022-06-03 11:09:07.429] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-06-03 11:09:07.449] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@bcec361, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@26794848, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@302552ec, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3d285d7e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@40005471, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2cd76f31, org.springframework.test.context.event.EventPublishingTestExecutionListener@367ffa75]
+[2022-06-03 11:09:07.890] WARN  AbstractApplicationContext.refresh(AbstractApplicationContext.java:591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'lgTV': Unsatisfied dependency expressed through field 'speaker'; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.pcwk.ehr.Speaker' available: expected single matching bean but found 2: sonySpeaker,appleSpeaker
+[2022-06-03 11:09:07.896] ERROR TestContextManager.prepareTestInstance(TestContextManager.java:252) - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@302552ec] to prepare test instance [com.pcwk.ehr.JAnotationTest@7fd7a283]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.2.jar:4.13.2]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.2.jar:4.13.2]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) ~[.cp/:?]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'lgTV': Unsatisfied dependency expressed through field 'speaker'; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.pcwk.ehr.Speaker' available: expected single matching bean but found 2: sonySpeaker,appleSpeaker
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:127) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.18.jar:5.3.18]
+	... 26 more
+Caused by: org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.pcwk.ehr.Speaker' available: expected single matching bean but found 2: sonySpeaker,appleSpeaker
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveNotUnique(DependencyDescriptor.java:220) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1367) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:127) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.18.jar:5.3.18]
+	... 26 more
+[2022-06-03 11:09:37.331] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-06-03 11:09:37.364] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@bcec361, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@26794848, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@302552ec, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3d285d7e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@40005471, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2cd76f31, org.springframework.test.context.event.EventPublishingTestExecutionListener@367ffa75]
+[2022-06-03 11:09:37.944] WARN  AbstractApplicationContext.refresh(AbstractApplicationContext.java:591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'lgTV': Unsatisfied dependency expressed through field 'speaker'; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.pcwk.ehr.Speaker' available: expected single matching bean but found 2: sonySpeaker,appleSpeaker
+[2022-06-03 11:09:37.955] ERROR TestContextManager.prepareTestInstance(TestContextManager.java:252) - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@302552ec] to prepare test instance [com.pcwk.ehr.JAnotationTest@7fd7a283]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.2.jar:4.13.2]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.2.jar:4.13.2]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) ~[.cp/:?]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'lgTV': Unsatisfied dependency expressed through field 'speaker'; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.pcwk.ehr.Speaker' available: expected single matching bean but found 2: sonySpeaker,appleSpeaker
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:127) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.18.jar:5.3.18]
+	... 26 more
+Caused by: org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.pcwk.ehr.Speaker' available: expected single matching bean but found 2: sonySpeaker,appleSpeaker
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveNotUnique(DependencyDescriptor.java:220) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1367) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:127) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.18.jar:5.3.18]
+	... 26 more
+[2022-06-03 11:12:01.376] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-06-03 11:12:01.396] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@bcec361, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@26794848, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@302552ec, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3d285d7e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@40005471, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2cd76f31, org.springframework.test.context.event.EventPublishingTestExecutionListener@367ffa75]
+[2022-06-03 11:12:01.884] WARN  AbstractApplicationContext.refresh(AbstractApplicationContext.java:591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'lgTV': Unsatisfied dependency expressed through field 'speaker'; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.pcwk.ehr.Speaker' available: expected single matching bean but found 2: sonySpeaker,appleSpeaker
+[2022-06-03 11:12:01.895] ERROR TestContextManager.prepareTestInstance(TestContextManager.java:252) - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@302552ec] to prepare test instance [com.pcwk.ehr.JAnotationTest@7fd7a283]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.2.jar:4.13.2]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.2.jar:4.13.2]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464) ~[.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) ~[.cp/:?]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'lgTV': Unsatisfied dependency expressed through field 'speaker'; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.pcwk.ehr.Speaker' available: expected single matching bean but found 2: sonySpeaker,appleSpeaker
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:127) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.18.jar:5.3.18]
+	... 26 more
+Caused by: org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.pcwk.ehr.Speaker' available: expected single matching bean but found 2: sonySpeaker,appleSpeaker
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveNotUnique(DependencyDescriptor.java:220) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1367) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:127) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.18.jar:5.3.18]
+	... 26 more
+[2022-06-03 11:15:09.436] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-06-03 11:15:09.479] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@bcec361, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@26794848, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@302552ec, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3d285d7e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@40005471, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2cd76f31, org.springframework.test.context.event.EventPublishingTestExecutionListener@367ffa75]
+[2022-06-03 11:15:09.899] DEBUG SonySpeaker.<init>(SonySpeaker.java:12) - SonySpeaker 생성자 호출
+[2022-06-03 11:15:09.901] DEBUG SamsungTV.<init>(SamsungTV.java:13) - 삼성 TV default 생성자 SamsungTV()
+[2022-06-03 11:15:09.940] DEBUG SamsungTV.setPrice(SamsungTV.java:39) - 삼성 TVsetPrice 호출! (price=10000000)
+[2022-06-03 11:15:09.941] DEBUG SamsungTV.setSpeaker(SamsungTV.java:34) - 삼성 TVsetSpeaker 호출!
+[2022-06-03 11:15:09.941] DEBUG SamsungTV.initMethod(SamsungTV.java:44) - 삼성 TV initMethod()
+[2022-06-03 11:15:09.983] DEBUG JAnotationTest.setUp(JAnotationTest.java:30) - -----------------------
+[2022-06-03 11:15:09.983] DEBUG JAnotationTest.setUp(JAnotationTest.java:31) - -0 setUp()-
+[2022-06-03 11:15:09.983] DEBUG JAnotationTest.setUp(JAnotationTest.java:32) - -----------------------
+[2022-06-03 11:15:09.986] DEBUG JAnotationTest.setUp(JAnotationTest.java:35) - -context-org.springframework.context.support.GenericApplicationContext@63070bab, started on Fri Jun 03 11:15:09 KST 2022
+[2022-06-03 11:15:09.987] DEBUG JAnotationTest.setUp(JAnotationTest.java:36) - -tv-com.pcwk.ehr.LgTV@11d8ae8b
+[2022-06-03 11:15:09.988] DEBUG JAnotationTest.test(JAnotationTest.java:50) - =======================
+[2022-06-03 11:15:09.988] DEBUG JAnotationTest.test(JAnotationTest.java:51) - =test()=
+[2022-06-03 11:15:09.989] DEBUG JAnotationTest.test(JAnotationTest.java:52) - =======================
+[2022-06-03 11:15:09.989] DEBUG LgTV.powerOn(LgTV.java:22) - 엘지Tv 전원을 켠다.
+[2022-06-03 11:15:10.002] DEBUG JAnotationTest.tearDown(JAnotationTest.java:43) - -----------------------
+[2022-06-03 11:15:10.003] DEBUG JAnotationTest.tearDown(JAnotationTest.java:44) - -9 tearDown()-
+[2022-06-03 11:15:10.003] DEBUG JAnotationTest.tearDown(JAnotationTest.java:45) - -----------------------
+[2022-06-03 11:15:10.015] DEBUG SamsungTV.destroyMethod(SamsungTV.java:50) - 삼성 TV destroyMethod()
+[2022-06-03 11:15:25.765] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-06-03 11:15:25.787] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@bcec361, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@26794848, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@302552ec, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3d285d7e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@40005471, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2cd76f31, org.springframework.test.context.event.EventPublishingTestExecutionListener@367ffa75]
+[2022-06-03 11:15:26.301] DEBUG SonySpeaker.<init>(SonySpeaker.java:12) - SonySpeaker 생성자 호출
+[2022-06-03 11:15:26.303] DEBUG SamsungTV.<init>(SamsungTV.java:13) - 삼성 TV default 생성자 SamsungTV()
+[2022-06-03 11:15:26.362] DEBUG SamsungTV.setPrice(SamsungTV.java:39) - 삼성 TVsetPrice 호출! (price=10000000)
+[2022-06-03 11:15:26.363] DEBUG SamsungTV.setSpeaker(SamsungTV.java:34) - 삼성 TVsetSpeaker 호출!
+[2022-06-03 11:15:26.364] DEBUG SamsungTV.initMethod(SamsungTV.java:44) - 삼성 TV initMethod()
+[2022-06-03 11:15:26.423] DEBUG JAnotationTest.setUp(JAnotationTest.java:30) - -----------------------
+[2022-06-03 11:15:26.424] DEBUG JAnotationTest.setUp(JAnotationTest.java:31) - -0 setUp()-
+[2022-06-03 11:15:26.424] DEBUG JAnotationTest.setUp(JAnotationTest.java:32) - -----------------------
+[2022-06-03 11:15:26.429] DEBUG JAnotationTest.setUp(JAnotationTest.java:35) - -context-org.springframework.context.support.GenericApplicationContext@63070bab, started on Fri Jun 03 11:15:26 KST 2022
+[2022-06-03 11:15:26.430] DEBUG JAnotationTest.setUp(JAnotationTest.java:36) - -tv-com.pcwk.ehr.LgTV@11d8ae8b
+[2022-06-03 11:15:26.431] DEBUG JAnotationTest.test(JAnotationTest.java:50) - =======================
+[2022-06-03 11:15:26.432] DEBUG JAnotationTest.test(JAnotationTest.java:51) - =test()=
+[2022-06-03 11:15:26.432] DEBUG JAnotationTest.test(JAnotationTest.java:52) - =======================
+[2022-06-03 11:15:26.432] DEBUG LgTV.powerOn(LgTV.java:22) - 엘지Tv 전원을 켠다.
+[2022-06-03 11:15:26.449] DEBUG JAnotationTest.tearDown(JAnotationTest.java:43) - -----------------------
+[2022-06-03 11:15:26.450] DEBUG JAnotationTest.tearDown(JAnotationTest.java:44) - -9 tearDown()-
+[2022-06-03 11:15:26.450] DEBUG JAnotationTest.tearDown(JAnotationTest.java:45) - -----------------------
+[2022-06-03 11:15:26.470] DEBUG SamsungTV.destroyMethod(SamsungTV.java:50) - 삼성 TV destroyMethod()
+[2022-06-03 11:18:26.981] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-06-03 11:18:26.996] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@bcec361, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@26794848, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@302552ec, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3d285d7e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@40005471, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2cd76f31, org.springframework.test.context.event.EventPublishingTestExecutionListener@367ffa75]
+[2022-06-03 11:18:27.578] DEBUG SonySpeaker.<init>(SonySpeaker.java:12) - SonySpeaker 생성자 호출
+[2022-06-03 11:18:27.578] DEBUG SamsungTV.<init>(SamsungTV.java:13) - 삼성 TV default 생성자 SamsungTV()
+[2022-06-03 11:18:27.611] DEBUG SamsungTV.setPrice(SamsungTV.java:39) - 삼성 TVsetPrice 호출! (price=10000000)
+[2022-06-03 11:18:27.612] DEBUG SamsungTV.setSpeaker(SamsungTV.java:34) - 삼성 TVsetSpeaker 호출!
+[2022-06-03 11:18:27.612] DEBUG SamsungTV.initMethod(SamsungTV.java:44) - 삼성 TV initMethod()
+[2022-06-03 11:18:27.643] DEBUG JAnotationTest.setUp(JAnotationTest.java:30) - -----------------------
+[2022-06-03 11:18:27.644] DEBUG JAnotationTest.setUp(JAnotationTest.java:31) - -0 setUp()-
+[2022-06-03 11:18:27.644] DEBUG JAnotationTest.setUp(JAnotationTest.java:32) - -----------------------
+[2022-06-03 11:18:27.658] DEBUG JAnotationTest.setUp(JAnotationTest.java:35) - -context-org.springframework.context.support.GenericApplicationContext@63070bab, started on Fri Jun 03 11:18:27 KST 2022
+[2022-06-03 11:18:27.659] DEBUG JAnotationTest.setUp(JAnotationTest.java:36) - -tv-com.pcwk.ehr.LgTV@5d99c6b5
+[2022-06-03 11:18:27.660] DEBUG JAnotationTest.test(JAnotationTest.java:50) - =======================
+[2022-06-03 11:18:27.661] DEBUG JAnotationTest.test(JAnotationTest.java:51) - =test()=
+[2022-06-03 11:18:27.662] DEBUG JAnotationTest.test(JAnotationTest.java:52) - =======================
+[2022-06-03 11:18:27.662] DEBUG LgTV.powerOn(LgTV.java:23) - 엘지Tv 전원을 켠다.
+[2022-06-03 11:18:27.662] DEBUG AppleSpeaker.volumeUp(AppleSpeaker.java:15) - Apple SpeakervolumeUp() 호출
+[2022-06-03 11:18:27.663] DEBUG AppleSpeaker.volumeDown(AppleSpeaker.java:21) - Apple SpeakervolumeDown() 호출
+[2022-06-03 11:18:27.663] DEBUG LgTV.powerOff(LgTV.java:28) - 엘지Tv 전원을 끈다.
+[2022-06-03 11:18:27.665] DEBUG JAnotationTest.tearDown(JAnotationTest.java:43) - -----------------------
+[2022-06-03 11:18:27.666] DEBUG JAnotationTest.tearDown(JAnotationTest.java:44) - -9 tearDown()-
+[2022-06-03 11:18:27.666] DEBUG JAnotationTest.tearDown(JAnotationTest.java:45) - -----------------------
+[2022-06-03 11:18:27.673] DEBUG SamsungTV.destroyMethod(SamsungTV.java:50) - 삼성 TV destroyMethod()
+[2022-06-03 11:19:05.219] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-06-03 11:19:05.234] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@bcec361, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@26794848, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@302552ec, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3d285d7e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@40005471, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2cd76f31, org.springframework.test.context.event.EventPublishingTestExecutionListener@367ffa75]
+[2022-06-03 11:19:05.665] DEBUG SonySpeaker.<init>(SonySpeaker.java:12) - SonySpeaker 생성자 호출
+[2022-06-03 11:19:05.667] DEBUG SamsungTV.<init>(SamsungTV.java:13) - 삼성 TV default 생성자 SamsungTV()
+[2022-06-03 11:19:05.722] DEBUG SamsungTV.setPrice(SamsungTV.java:39) - 삼성 TVsetPrice 호출! (price=10000000)
+[2022-06-03 11:19:05.723] DEBUG SamsungTV.setSpeaker(SamsungTV.java:34) - 삼성 TVsetSpeaker 호출!
+[2022-06-03 11:19:05.724] DEBUG SamsungTV.initMethod(SamsungTV.java:44) - 삼성 TV initMethod()
+[2022-06-03 11:19:05.772] DEBUG JAnotationTest.setUp(JAnotationTest.java:29) - -----------------------
+[2022-06-03 11:19:05.773] DEBUG JAnotationTest.setUp(JAnotationTest.java:30) - -0 setUp()-
+[2022-06-03 11:19:05.773] DEBUG JAnotationTest.setUp(JAnotationTest.java:31) - -----------------------
+[2022-06-03 11:19:05.787] DEBUG JAnotationTest.setUp(JAnotationTest.java:34) - -context-org.springframework.context.support.GenericApplicationContext@63070bab, started on Fri Jun 03 11:19:05 KST 2022
+[2022-06-03 11:19:05.787] DEBUG JAnotationTest.setUp(JAnotationTest.java:35) - -tv-com.pcwk.ehr.LgTV@5d99c6b5
+[2022-06-03 11:19:05.789] DEBUG JAnotationTest.test(JAnotationTest.java:49) - =======================
+[2022-06-03 11:19:05.789] DEBUG JAnotationTest.test(JAnotationTest.java:50) - =test()=
+[2022-06-03 11:19:05.789] DEBUG JAnotationTest.test(JAnotationTest.java:51) - =======================
+[2022-06-03 11:19:05.789] DEBUG LgTV.powerOn(LgTV.java:23) - 엘지Tv 전원을 켠다.
+[2022-06-03 11:19:05.790] DEBUG AppleSpeaker.volumeUp(AppleSpeaker.java:15) - Apple SpeakervolumeUp() 호출
+[2022-06-03 11:19:05.790] DEBUG AppleSpeaker.volumeDown(AppleSpeaker.java:21) - Apple SpeakervolumeDown() 호출
+[2022-06-03 11:19:05.791] DEBUG LgTV.powerOff(LgTV.java:28) - 엘지Tv 전원을 끈다.
+[2022-06-03 11:19:05.793] DEBUG JAnotationTest.tearDown(JAnotationTest.java:42) - -----------------------
+[2022-06-03 11:19:05.793] DEBUG JAnotationTest.tearDown(JAnotationTest.java:43) - -9 tearDown()-
+[2022-06-03 11:19:05.794] DEBUG JAnotationTest.tearDown(JAnotationTest.java:44) - -----------------------
+[2022-06-03 11:19:05.799] DEBUG SamsungTV.destroyMethod(SamsungTV.java:50) - 삼성 TV destroyMethod()
+[2022-06-03 11:25:44.780] INFO  AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2022-06-03 11:25:44.831] INFO  AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@bcec361, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@26794848, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@302552ec, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3d285d7e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@40005471, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2cd76f31, org.springframework.test.context.event.EventPublishingTestExecutionListener@367ffa75]
+[2022-06-03 11:25:45.368] DEBUG SonySpeaker.<init>(SonySpeaker.java:12) - SonySpeaker 생성자 호출
+[2022-06-03 11:25:45.369] DEBUG SamsungTV.<init>(SamsungTV.java:13) - 삼성 TV default 생성자 SamsungTV()
+[2022-06-03 11:25:45.399] DEBUG SamsungTV.setPrice(SamsungTV.java:39) - 삼성 TVsetPrice 호출! (price=10000000)
+[2022-06-03 11:25:45.399] DEBUG SamsungTV.setSpeaker(SamsungTV.java:34) - 삼성 TVsetSpeaker 호출!
+[2022-06-03 11:25:45.400] DEBUG SamsungTV.initMethod(SamsungTV.java:44) - 삼성 TV initMethod()
+[2022-06-03 11:25:45.426] DEBUG JAnotationTest.setUp(JAnotationTest.java:29) - -----------------------
+[2022-06-03 11:25:45.426] DEBUG JAnotationTest.setUp(JAnotationTest.java:30) - -0 setUp()-
+[2022-06-03 11:25:45.426] DEBUG JAnotationTest.setUp(JAnotationTest.java:31) - -----------------------
+[2022-06-03 11:25:45.429] DEBUG JAnotationTest.setUp(JAnotationTest.java:34) - -context-org.springframework.context.support.GenericApplicationContext@63070bab, started on Fri Jun 03 11:25:45 KST 2022
+[2022-06-03 11:25:45.429] DEBUG JAnotationTest.setUp(JAnotationTest.java:35) - -tv-com.pcwk.ehr.LgTV@4ef782af
+[2022-06-03 11:25:45.429] DEBUG JAnotationTest.test(JAnotationTest.java:49) - =======================
+[2022-06-03 11:25:45.430] DEBUG JAnotationTest.test(JAnotationTest.java:50) - =test()=
+[2022-06-03 11:25:45.430] DEBUG JAnotationTest.test(JAnotationTest.java:51) - =======================
+[2022-06-03 11:25:45.430] DEBUG LgTV.powerOn(LgTV.java:24) - 엘지Tv 전원을 켠다.
+[2022-06-03 11:25:45.430] DEBUG AppleSpeaker.volumeUp(AppleSpeaker.java:15) - Apple SpeakervolumeUp() 호출
+[2022-06-03 11:25:45.431] DEBUG AppleSpeaker.volumeDown(AppleSpeaker.java:21) - Apple SpeakervolumeDown() 호출
+[2022-06-03 11:25:45.432] DEBUG LgTV.powerOff(LgTV.java:29) - 엘지Tv 전원을 끈다.
+[2022-06-03 11:25:45.441] DEBUG JAnotationTest.tearDown(JAnotationTest.java:42) - -----------------------
+[2022-06-03 11:25:45.441] DEBUG JAnotationTest.tearDown(JAnotationTest.java:43) - -9 tearDown()-
+[2022-06-03 11:25:45.441] DEBUG JAnotationTest.tearDown(JAnotationTest.java:44) - -----------------------
+[2022-06-03 11:25:45.447] DEBUG SamsungTV.destroyMethod(SamsungTV.java:50) - 삼성 TV destroyMethod()

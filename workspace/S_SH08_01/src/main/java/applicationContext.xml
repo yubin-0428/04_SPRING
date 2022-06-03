@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:context="http://www.springframework.org/schema/context"
+   xmlns:p="http://www.springframework.org/schema/p"
+   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+      http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+   <!-- 이 설정이 추가가 되면 스프링 컨테이너는 클래스 패스에 있는 클래스들을 스캔하여 @Component가                                                                                    
+   설정된 클래스들을 자동으로 객체 생성한다.                                                                                 
+                                                                                       
+   base-package속성인데, com.pcwk.ehr 형태로 설정하면 "com.pcwk.ehr"패키지로 시작하는 모든 패키지를                                                                                 
+   스캔대상에 포함한다.                                                                                 
+    -->
+    <context:component-scan base-package="com.pcwk.ehr"></context:component-scan>
+
+    <bean id="tv" class="com.pcwk.ehr.LgTV"></bean>        
+
+   <bean id="sonySpeaker" name="sony99" class="com.pcwk.ehr.SonySpeaker" />
+   <bean id="appleSpeaker" class="com.pcwk.ehr.AppleSpeaker" />
+    
+    
+    
+
+   <!-- lazy-init="true" : bean을 바로 생성하지 않고 호출하는 시점에 생성한다. -->
+   <!-- scope="singleton" : 객체가 한개만 생성됨 (default) -->
+   <!-- scope="prototype" : 객체가 호출될때 마다 새롭게 생성됨 -->
+   
+   <!-- p 네임스페이스를 사용하면 좀 더 효율적으로 의존성을 주입할 수 있다. 
+        p:변수명-ref="참조할 객체이름"
+        p:변수명="설정할 값"
+   -->
+   <bean id="SamsungTV" class="com.pcwk.ehr.SamsungTV" p:speaker-ref="sonySpeaker" p:price="10000000"
+      init-method="initMethod" destroy-method="destroyMethod">
+        
+   </bean>
+</beans>

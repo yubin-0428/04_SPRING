@@ -5,7 +5,56 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2022-06-01T15:00:00Z</updated>
+  <updated>2022-06-02T21:00:00Z</updated>
+  <entry>
+    <title>A Bootiful Podcast: Spring I/O founder, Spring trainer and community legend Sergi Almar</title>
+    <link rel="alternate" href="https://spring.io/blog/2022/06/02/a-bootiful-podcast-spring-i-o-founder-spring-trainer-and-community-legend-sergi-almar" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2022-06-02:4819</id>
+    <updated>2022-06-02T21:00:00Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! At long last, against all odds, Josh Long (@starbuxman) finally gets to talk to Spring I/O founder and more-than-a-decade-long friend Sergi Almar (@sergialmar) about an edition of Spring I/O after 2019! &lt;/p&gt;
+&lt;iframe title="Spring I/O founder, Spring trainer and community legend Sergi Almar " allowtransparency="true" height="150" width="100%" style="border: none; min-width: min(100%, 430px);" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=bbrym-123f361-pb&amp;from=pb6admin&amp;share=1&amp;download=1&amp;rtl=0&amp;fonts=Arial&amp;skin=1&amp;font-color=&amp;logo_link=episode_page&amp;btn-skin=7"&gt;&lt;/iframe&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Tips: Learn Spring for GraphQL (parts 1 and 2 of an ongoing series)</title>
+    <link rel="alternate" href="https://spring.io/blog/2022/06/02/spring-tips-learn-spring-for-graphql-parts-1-and-2-of-an-ongoing-series" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2022-06-02:4818</id>
+    <updated>2022-06-02T18:00:00Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! In thi^^^ these installments, we begin a new series introducing the Spring for GraphQL project. &lt;/p&gt;
+&lt;p&gt;In this first installment, GraphQL Java lead &lt;a href="https://twitter.com/andimarek"&gt;Andi Marek (@andimarek)&lt;/a&gt; and &lt;a href="https://twitter.com/starbuxman"&gt; I (@starbuxman)&lt;/a&gt; look at the basics of using the GraphQL Java engine that underpins Spring for GraphQL. &lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/gvIqFDNGgwU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;In this second installment, Andi and I are joined by Spring for GraphQL lead &lt;a href="https://twitter.com/rstoya05"&gt;Rossen Stoyanchev (@rstoya05)&lt;/a&gt; as we look at using the Spring for GraphQL component model by writing queries. &lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/zltMcbnAxyA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;I know it&amp;rsquo;s been more than a month since we last published a video, so I&amp;rsquo;m going to be releasing every episode of this series very quickly, over the next week or two. I&amp;rsquo;ve already recorded and mostly finished producing eight episodes. I&amp;rsquo;m working on producing a ninth, and that&amp;rsquo;ll be that! A complete introduction to all things Spring for GraphQL. These are of course part of the usual &lt;a href="https://www.youtube.com/watch?v=zltMcbnAxyA&amp;list=PLgGXSWYM2FpPw8rV0tZoMiJYSCiLhPnOc"&gt;&lt;code&gt;Spring Tips&lt;/code&gt;&lt;/a&gt; playlist on YouTube, but also part of the &lt;a href="https://www.youtube.com/watch?v=gvIqFDNGgwU&amp;list=PLgGXSWYM2FpNRPDQnAGfAHxMl3zUG2Run"&gt;&lt;code&gt;Learn Spring for GraphQL with Josh Long&lt;/code&gt;&lt;/a&gt; playlist. Follow that one to be notified of any new episodes! &lt;/p&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Cloud Stream Applications 2021.1.2 GA Release now available</title>
+    <link rel="alternate" href="https://spring.io/blog/2022/06/02/spring-cloud-stream-applications-2021-1-2-ga-release-now-available" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Corneil du Plessis</name>
+    </author>
+    <id>tag:spring.io,2022-06-02:4817</id>
+    <updated>2022-06-02T17:26:00Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I¡¯m happy to announce that Spring Cloud Stream Applications &lt;code&gt;2021.1.2&lt;/code&gt; has been released.&lt;/p&gt;
+&lt;p&gt;This release is based on Spring Boot &lt;code&gt;2.6.8&lt;/code&gt; and Spring Cloud &lt;code&gt;2021.0.3&lt;/code&gt; and contains many improvements and bug fixes - check out the &lt;a href="https://github.com/spring-cloud/stream-applications/releases/tag/v2021.1.2"&gt;release notes&lt;/a&gt; for more information.&lt;/p&gt;&lt;h2&gt;&lt;a href="#future-plans" class="anchor" name="future-plans"&gt;&lt;/a&gt;Future plans&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Switch apps to use Spring Boot 3.x&lt;/li&gt;
+  &lt;li&gt;Move Spring Cloud Stream App Maven plugins to stream-application repository.&lt;/li&gt;
+  &lt;li&gt;Align versioning of Stream Functions and Apps.&lt;/li&gt;
+&lt;/ul&gt;&lt;h2&gt;&lt;a href="#stay-in-touch-hellip" class="anchor" name="stay-in-touch-hellip"&gt;&lt;/a&gt;Stay in touch&amp;hellip;&lt;/h2&gt;
+&lt;p&gt;Please continue to engage with us by creating bug reports and feature requests on &lt;a href="https://github.com/spring-cloud/stream-applications"&gt;Github&lt;/a&gt; and asking questions on StackOverflow using the &lt;a href="https://stackoverflow.com/questions/tagged/spring-cloud-stream"&gt;spring-cloud-stream&lt;/a&gt; or &lt;a href="https://stackoverflow.com/questions/tagged/spring-cloud-dataflow"&gt;spring-cloud-dataflow&lt;/a&gt; tags.&lt;/p&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Spring Security OAuth reaches End-of-Life</title>
     <link rel="alternate" href="https://spring.io/blog/2022/06/01/spring-security-oauth-reaches-end-of-life" />
@@ -842,99 +891,6 @@ Details of commercial support can be found at &lt;a href="https://tanzu.vmware.c
 &lt;p&gt;&lt;code&gt;2.5.x&lt;/code&gt; has now reached the end of its OSS support period and regular releases will no longer be made. If you are still on this version, please consider upgrading at your earliest convenience. If you cannot upgrade at this time, &lt;a href="https://tanzu.vmware.com/spring-runtime"&gt;commercial support is available&lt;/a&gt;.&lt;/p&gt;&lt;h3&gt;&lt;a href="#how-can-you-help" class="anchor" name="how-can-you-help"&gt;&lt;/a&gt;How can you help?&lt;/h3&gt;
 &lt;p&gt;If you&amp;rsquo;re interested in helping out, check out the &lt;a href="https://github.com/spring-projects/spring-boot/labels/status%3A%20ideal-for-contribution"&gt;&amp;ldquo;ideal for contribution&amp;rdquo; tag&lt;/a&gt; in the issue repository. If you have general questions, please ask on &lt;a href="https://stackoverflow.com"&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href="https://stackoverflow.com/tags/spring-boot"&gt;&lt;code&gt;spring-boot&lt;/code&gt; tag&lt;/a&gt; or chat with the community on &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://spring.io/projects/spring-boot/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-boot/docs/2.5.14/reference/html"&gt;Documentation&lt;/a&gt; | &lt;a href="https://stackoverflow.com/questions/tagged/spring-boot"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;&lt;/p&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Session 2021.2 Available</title>
-    <link rel="alternate" href="https://spring.io/blog/2022/05/18/spring-session-2021-2-available" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Rob Winch</name>
-    </author>
-    <id>tag:spring.io,2022-05-19:4804</id>
-    <updated>2022-05-19T01:45:00Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;On behalf of the team, I&amp;#8217;m please to announce the release of Spring Session &lt;code&gt;2021.2&lt;/code&gt;. This release upgrades to &lt;a href="https://spring.io/blog/2022/05/13/spring-data-2021-2-and-2022-0-m4-released"&gt;Spring Data 2021.2&lt;/a&gt; and provides dependency upgrades, minor enhancements, bug fixes, and strategic changes to prepare Spring Session and it&amp;#8217;s users for the next generation of Spring Session built on Spring Framework 6.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;a href="https://spring.io/projects/spring-session"&gt;Project Site&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-session/reference/index.html"&gt;Reference&lt;/a&gt; | &lt;a href="https://stackoverflow.com/questions/tagged/spring-session"&gt;Help&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Security 6.0.0-M5 available now</title>
-    <link rel="alternate" href="https://spring.io/blog/2022/05/18/spring-security-6-0-0-m5-available-now" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Steve Riesenberg</name>
-    </author>
-    <id>tag:spring.io,2022-05-18:4797</id>
-    <updated>2022-05-18T19:00:00Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Security &lt;code&gt;6.0.0-M5&lt;/code&gt; is available now.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;This release includes dependency upgrades, bug fixes, and minor enhancements as well as a fix for a bug where the &lt;code&gt;StrictHttpFirewall&lt;/code&gt; incorrectly rejects valid CJKV characters. The milestone contains a few noteworthy changes:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="ulist"&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Authorization on Every Dispatch Type&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Change the default of shouldFilterAllDispatchTypes to true&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Default to SecurityContextHolderFilter instead of SecurityContextPersistenceFilter&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Remove SAML Deprecations&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;See the release notes &lt;a href="https://github.com/spring-projects/spring-security/releases/tag/6.0.0-M4"&gt;here&lt;/a&gt; and &lt;a href="https://github.com/spring-projects/spring-security/releases/tag/6.0.0-M5"&gt;here&lt;/a&gt; for more details.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;a href="http://projects.spring.io/spring-security/"&gt;Project Site&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-security/reference/"&gt;Reference&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-security"&gt;Help&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Batch 4.3.6 and 5.0.0-M3 available now</title>
-    <link rel="alternate" href="https://spring.io/blog/2022/05/18/spring-batch-4-3-6-and-5-0-0-m3-available-now" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Mahmoud Ben Hassine</name>
-    </author>
-    <id>tag:spring.io,2022-05-19:4801</id>
-    <updated>2022-05-18T18:18:00Z</updated>
-    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Batch 4.3.6 has been released to Maven Central and that Spring Batch 5.0.0-M3 is now available from our &lt;a href="https://repo.spring.io/milestone"&gt;milestone repository&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Spring Batch 4.3.6 is a patch release that comes with a number of bug fixes, enhancements, and dependency updates. For more details about the changes, see the &lt;a href="https://github.com/spring-projects/spring-batch/releases/tag/4.3.6"&gt;change log&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;This blog post is more about 5.0.0-M3, which comes with three major features:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Native support improvements&lt;/li&gt;
-  &lt;li&gt;UTF-8 by default&lt;/li&gt;
-  &lt;li&gt;New Maven Bill of Materials&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Moreover, this milestone release comes with a number of enhancements, bug fixes, and dependency updates. See the &lt;a href="https://github.com/spring-projects/spring-batch/releases/tag/5.0.0-M3"&gt;change log&lt;/a&gt; for more details about the content of this milestone.&lt;/p&gt;&lt;h2&gt;&lt;a href="#native-support-improvements" class="anchor" name="native-support-improvements"&gt;&lt;/a&gt;Native support improvements&lt;/h2&gt;
-&lt;p&gt;Our effort towards providing support to compile Spring Batch applications as native executables by using the GraalVM native-image compiler started in v4.2 and was shipped as experimental in v4.3.&lt;/p&gt;
-&lt;p&gt;In this milestone release, the native support has been significantly improved, and we want to share with you some of the benchmarks we have been working on in that area. The following benchmarks are based on the &lt;a href="https://github.com/spring-projects-experimental/spring-native/tree/main/samples/batch-io"&gt;batch-io&lt;/a&gt; sample from the &lt;a href="https://github.com/spring-projects-experimental/spring-native"&gt;Spring Native&lt;/a&gt; project. These benchmarks show a comparison of the startup time and total execution time of the same batch application executed with a regular JVM and as a native executable:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://raw.githubusercontent.com/benas/spring-batch-lab/main/issues/native203/perf-native.png" alt="perf-native" /&gt;&lt;/p&gt;
-&lt;p&gt;The values shown here are the average of 10 executions of the sample using the following software and hardware setup:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;JVM: OpenJDK version &amp;ldquo;17&amp;rdquo; 2021-09-14&lt;/li&gt;
-  &lt;li&gt;GraalVM: OpenJDK Runtime Environment GraalVM CE 22.0.0.2&lt;/li&gt;
-  &lt;li&gt;MacOS BigSur v11.6.2 (CPU: 2,4 GHz 8-Core Intel Core i9, Memory: 32 GB 2667 MHz DDR4)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;As these benchmarks show, a native Spring Batch application is two times faster at startup and almost ten times faster at runtime! This really is a game changer for cloud native batch workloads!&lt;/p&gt;
-&lt;p&gt;Our plan is to continue to improve the native support for Spring Batch in the upcoming milestones and ship it as stable in v5.0 GA. If you want to help us in this mission, we encourage you to try to compile your existing applications as native executables and report any issue or share any benchmark that might help to the Spring Batch and Spring Native teams.&lt;/p&gt;&lt;h2&gt;&lt;a href="#utf-8-by-default" class="anchor" name="utf-8-by-default"&gt;&lt;/a&gt;UTF-8 by default&lt;/h2&gt;
-&lt;p&gt;Several issues related to character encoding have been reported over the years in different areas of the framework, such as inconsistent default encoding between file-based item readers and writers, serialization/deserialization issues when dealing with multi-byte characters in the execution context, and others.&lt;/p&gt;
-&lt;p&gt;In the same spirit as &lt;a href="https://openjdk.java.net/jeps/400"&gt;JEP 400&lt;/a&gt; and following the &lt;a href="http://utf8everywhere.org"&gt;UTF-8 manifesto&lt;/a&gt;, we have changed the default encoding to &lt;code&gt;UTF-8&lt;/code&gt; in all areas of the framework and made this default configurable where appropriate.&lt;/p&gt;&lt;h2&gt;&lt;a href="#new-maven-bill-of-materials" class="anchor" name="new-maven-bill-of-materials"&gt;&lt;/a&gt;New Maven Bill of Materials&lt;/h2&gt;
-&lt;p&gt;This feature has been requested several times and is finally shipped in this milestone release. It is now possible to use the newly added Maven BOM to import Spring Batch modules with a consistent version number.&lt;/p&gt;&lt;h2&gt;&lt;a href="#feedback" class="anchor" name="feedback"&gt;&lt;/a&gt;Feedback&lt;/h2&gt;
-&lt;p&gt;I would like to thank all contributors who had a role in this milestone release! As we continue our work on Spring Batch 5, we look forward to your feedback on &lt;a href="https://github.com/spring-projects/spring-batch/issues"&gt;Github&lt;/a&gt;, &lt;a href="https://twitter.com/springbatch"&gt;Twitter&lt;/a&gt;, and &lt;a href=""&gt;StackOverflow&lt;/a&gt;.&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;a href="https://spring.io/projects/spring-batch"&gt;Spring Batch Home&lt;/a&gt;|&lt;a href="https://github.com/spring-projects/spring-batch"&gt;Source on Github&lt;/a&gt;|&lt;a href="https://docs.spring.io/spring-batch/docs/5.0.0-M2/reference/html/index-single.html"&gt;Reference documentation&lt;/a&gt;&lt;/p&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>
