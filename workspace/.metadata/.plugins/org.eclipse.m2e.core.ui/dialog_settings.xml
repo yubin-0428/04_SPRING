@@ -32,8 +32,8 @@
 			<item value="com.pcwk.ehr"/>
 		</list>
 		<list key="artifactId">
-			<item value="S_SH06_03"/>
-			<item value="S_SH06_02"/>
+			<item value="S_SH08_03"/>
+			<item value="S_SH08_02"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -71,5 +71,20 @@
 	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
 	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\Uvin\Desktop\S_SH07_06"/>
+			<item value="C:\DCOM_20220127\04_SPRING\workspace\S_SH07_05"/>
+			<item value="C:\DCOM_20220127\04_SPRING\workspace\S_SH07_04"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
 	</section>
 </section>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+    <!-- DataSource를 구현한 SimpleDriverDataSource  -->
+    <bean id="datasource" class="org.springframework.jdbc.datasource.SimpleDriverDataSource">
+        <!-- jdbc 드라이버 -->
+        <property name="driverClass" value="oracle.jdbc.driver.OracleDriver"/>
+        <!-- jdbc url -->
+        <property name="url" value="jdbc:oracle:thin:@192.168.3.101:1521:xe"/>
+        <!-- username -->
+        <property name="username" value="SPRING"/>
+        <!-- 비밀번호 -->
+        <property name="password" value="pcwk_spring"/>
+    </bean>
+    
+    <bean id="userDao" class="com.pcwk.ehr.UserDaoImpl">
+        <!-- setter통한 의존관계 주입 -->
+        <property name="dataSource" ref="datasource"/>
+    </bean>
+    
+
+</beans>
