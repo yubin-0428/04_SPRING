@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:aop="http://www.springframework.org/schema/aop"
+   xmlns:context="http://www.springframework.org/schema/context"
+   xmlns:p="http://www.springframework.org/schema/p"
+   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+      http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
+      http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+    <!-- Target -->
+    <bean id="memberImpl" class="com.pcwk.ehr.aspectj.MemberImpl" />
+    
+    <!-- Advice 부가기능(Logging) -->
+    <bean id="loggingAop" class="com.pcwk.ehr.aspectj.LoggingAop"></bean>
+    
+   <!-- AOP Config -->
+    <!-- 
+        pointcut : 필터링
+        * com.pcwk.ehr.aspectj..*Impl.do*(..)
+        
+                     ★★★ 설 명 ★★★
+        * : return
+        com.pcwk.ehr.aspectj : 패키지
+        .. : 이 패키지 안에 있는 모든것
+        *Impl : Impl로 끝나는 모든 클래스 
+        do* : 메서드가 do로 시작하는
+        (..) : 메서드의 (모든)파람     
+        
+                     ★★★★★★★★★★★★★★★★★★★★★
+        aop : after : target 이 실행된 이후 advice 수행
+     -->
+     
+    <aop:config>
+        <aop:aspect ref="loggingAop">
+            <aop:after method="logging" pointcut="execution(* com.pcwk.ehr.aspectj..*Impl.do*(..))"/>
+        </aop:aspect>
+        
+    </aop:config>
+    
+</beans>

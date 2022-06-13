@@ -32,8 +32,8 @@
 			<item value="com.pcwk.ehr"/>
 		</list>
 		<list key="artifactId">
-			<item value="S_SH08_03"/>
-			<item value="S_SH08_02"/>
+			<item value="S_SH13_02"/>
+			<item value="S_SH13_01"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -74,6 +74,10 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\Uvin\Desktop\S_SH11_01"/>
+			<item value="C:\Users\Uvin\Desktop\S_SH11_02"/>
+			<item value="C:\Users\Uvin\Desktop\S_SH09_01"/>
+			<item value="C:\DCOM_20220127\04_SPRING\workspace\S_SH06_03"/>
 			<item value="C:\Users\Uvin\Desktop\S_SH07_06"/>
 			<item value="C:\DCOM_20220127\04_SPRING\workspace\S_SH07_05"/>
 			<item value="C:\DCOM_20220127\04_SPRING\workspace\S_SH07_04"/>

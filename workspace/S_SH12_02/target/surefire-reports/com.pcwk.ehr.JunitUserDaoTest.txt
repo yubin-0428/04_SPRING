@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.pcwk.ehr.JunitUserDaoTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 1, Time elapsed: 3.81 s <<< FAILURE! - in com.pcwk.ehr.JunitUserDaoTest
+getAll(com.pcwk.ehr.JunitUserDaoTest)  Time elapsed: 1.228 s  <<< FAILURE!
+java.lang.AssertionError: expected:<0> but was:<2>
+	at com.pcwk.ehr.JunitUserDaoTest.getAll(JunitUserDaoTest.java:114)
+
+addAndGet(com.pcwk.ehr.JunitUserDaoTest)  Time elapsed: 0.438 s  <<< FAILURE!
+java.lang.AssertionError: expected:<0> but was:<2>
+	at com.pcwk.ehr.JunitUserDaoTest.addAndGet(JunitUserDaoTest.java:146)
+
+doUpdate(com.pcwk.ehr.JunitUserDaoTest)  Time elapsed: 0.917 s  <<< FAILURE!
+java.lang.AssertionError: expected:<0> but was:<2>
+	at com.pcwk.ehr.JunitUserDaoTest.doUpdate(JunitUserDaoTest.java:69)
+
