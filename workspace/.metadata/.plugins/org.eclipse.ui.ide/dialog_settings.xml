@@ -108,7 +108,7 @@
 	</list>
 	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
 		<item key="ShowStatusLine" value="true"/>
-		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/S_SH12_01/src/test/java/com/pcwk/ehr/JunitUserServiceTest.java&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/SW_SH14_03/src/main/webapp/WEB-INF/spring/root-context.xml&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;"/>
 		<item key="ShowDerived" value="false"/>
 		<item key="FilterByLocation" value="false"/>
 		<item key="WorkingSet" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;"/>
@@ -124,8 +124,9 @@
 		<item key="ResourceViewer.STORE_SORT_TYPE" value="1"/>
 	</section>
 	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="com.springsource.sts.wizard.template"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.m2e.core.wizards.Maven2ProjectWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.m2e"/>
 			<item value="org.springframework.ide.eclipse.beans.ui.wizards.category"/>
 			<item value="org.springsource.ide.eclipse.boot.wizards.category"/>
 		</list>

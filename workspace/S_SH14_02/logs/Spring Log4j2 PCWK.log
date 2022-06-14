@@ -1,0 +1,687 @@
+[2022-06-14 11:45:40.988] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'dummyMailSender'
+[2022-06-14 11:45:41.028] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2022-06-14 11:45:41.268] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'mailSenderImpl'
+[2022-06-14 11:45:41.296] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'transactionManager'
+[2022-06-14 11:45:41.309] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'dataSource'
+[2022-06-14 11:45:41.386] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'txAdvice'
+[2022-06-14 11:45:41.402] DEBUG NameMatchTransactionAttributeSource.addTransactionalMethod(NameMatchTransactionAttributeSource.java:102) - Adding transactional method [do*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly]
+[2022-06-14 11:45:41.402] DEBUG NameMatchTransactionAttributeSource.addTransactionalMethod(NameMatchTransactionAttributeSource.java:102) - Adding transactional method [up*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[2022-06-14 11:45:41.407] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'userService'
+[2022-06-14 11:45:41.408] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'userDao'
+[2022-06-14 11:45:41.447] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:126) - Storing ApplicationContext [1433666880] in cache under key [[MergedContextConfiguration@7494f96a testClass = JunitUserServiceTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-06-14 11:45:41.448] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@4b41e4dd size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1]
+[2022-06-14 11:45:41.462] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1433666880] from cache with key [[MergedContextConfiguration@7494f96a testClass = JunitUserServiceTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-06-14 11:45:41.462] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@4b41e4dd size = 1, maxSize = 32, parentContextCount = 0, hitCount = 1, missCount = 1]
+[2022-06-14 11:45:41.467] DEBUG AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestMethod(AbstractDirtiesContextTestExecutionListener.java:108) - Before test method: context [DefaultTestContext@26b3fd41 testClass = JunitUserServiceTest, testInstance = com.pcwk.ehr.JunitUserServiceTest@58ea606c, testMethod = upgradeLevels@JunitUserServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7494f96a testClass = JunitUserServiceTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+[2022-06-14 11:45:41.473] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1433666880] from cache with key [[MergedContextConfiguration@7494f96a testClass = JunitUserServiceTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-06-14 11:45:41.474] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@4b41e4dd size = 1, maxSize = 32, parentContextCount = 0, hitCount = 2, missCount = 1]
+[2022-06-14 11:45:41.474] DEBUG JunitUserServiceTest.setUp(JunitUserServiceTest.java:68) - ===========================
+[2022-06-14 11:45:41.475] DEBUG JunitUserServiceTest.setUp(JunitUserServiceTest.java:69) - =0.setUp()=
+[2022-06-14 11:45:41.475] DEBUG JunitUserServiceTest.setUp(JunitUserServiceTest.java:70) - ===========================
+[2022-06-14 11:45:41.478] DEBUG JunitUserServiceTest.setUp(JunitUserServiceTest.java:88) - context:org.springframework.context.support.GenericApplicationContext@55740540, started on Tue Jun 14 11:45:40 KST 2022
+[2022-06-14 11:45:41.481] DEBUG JunitUserServiceTest.setUp(JunitUserServiceTest.java:89) - userService:com.pcwk.ehr.user.service.UserServiceImpl@5b068087
+[2022-06-14 11:45:41.481] DEBUG JunitUserServiceTest.setUp(JunitUserServiceTest.java:90) - dao:com.pcwk.ehr.user.dao.UserDaoImpl@6f152006
+[2022-06-14 11:45:41.481] DEBUG JunitUserServiceTest.setUp(JunitUserServiceTest.java:91) - dataSource:org.apache.commons.dbcp.BasicDataSource@3a393455
+[2022-06-14 11:45:41.482] DEBUG JunitUserServiceTest.setUp(JunitUserServiceTest.java:92) - transactionManager:org.springframework.jdbc.datasource.DataSourceTransactionManager@13518f37
+[2022-06-14 11:45:41.482] DEBUG JunitUserServiceTest.setUp(JunitUserServiceTest.java:93) - mailSender:com.pcwk.ehr.DummyMailSender@7cbc3762
+[2022-06-14 11:45:41.483] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1433666880] from cache with key [[MergedContextConfiguration@7494f96a testClass = JunitUserServiceTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-06-14 11:45:41.484] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@4b41e4dd size = 1, maxSize = 32, parentContextCount = 0, hitCount = 3, missCount = 1]
+[2022-06-14 11:45:41.484] DEBUG JunitUserServiceTest.upgradeLevels(JunitUserServiceTest.java:205) - ===========================
+[2022-06-14 11:45:41.484] DEBUG JunitUserServiceTest.upgradeLevels(JunitUserServiceTest.java:206) - =1.upgradeLevels()=
+[2022-06-14 11:45:41.484] DEBUG JunitUserServiceTest.upgradeLevels(JunitUserServiceTest.java:207) - ===========================
+[2022-06-14 11:45:41.484] DEBUG UserDaoImpl.doDelete(UserDaoImpl.java:279) - ==============================
+[2022-06-14 11:45:41.485] DEBUG UserDaoImpl.doDelete(UserDaoImpl.java:280) - param:UserVO [uId=p27, name=최유빈27, passwd=4321, level=BASIC, login=49, recommend=0, email=euloja5@naver.com, regDt=날짜_사용안함, toString()=com.pcwk.ehr.user.domain.UserVO@8692d67]
+[2022-06-14 11:45:41.485] DEBUG UserDaoImpl.doDelete(UserDaoImpl.java:281) - sql:
+ DELETE FROM hr_member         
+ WHERE u_id = ?                
+
+[2022-06-14 11:45:41.485] DEBUG UserDaoImpl.doDelete(UserDaoImpl.java:282) - ==============================
+[2022-06-14 11:45:41.485] DEBUG UserDaoImpl.doDelete(UserDaoImpl.java:286) - Object param:p27
+[2022-06-14 11:45:41.486] DEBUG JdbcTemplate.update(JdbcTemplate.java:958) - Executing prepared SQL update
+[2022-06-14 11:45:41.488] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [ DELETE FROM hr_member         
+ WHERE u_id = ?                
+]
+[2022-06-14 11:45:41.491] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-06-14 11:45:46.744] DEBUG UserDaoImpl.doDelete(UserDaoImpl.java:290) - flag:1
+[2022-06-14 11:45:46.744] DEBUG UserDaoImpl.doDelete(UserDaoImpl.java:279) - ==============================
+[2022-06-14 11:45:46.744] DEBUG UserDaoImpl.doDelete(UserDaoImpl.java:280) - param:UserVO [uId=p270, name=최유빈270, passwd=4321, level=BASIC, login=50, recommend=10, email=euloja5@naver.com, regDt=날짜_사용안함, toString()=com.pcwk.ehr.user.domain.UserVO@6c451c9c]
+[2022-06-14 11:45:46.745] DEBUG UserDaoImpl.doDelete(UserDaoImpl.java:281) - sql:
+ DELETE FROM hr_member         
+ WHERE u_id = ?                
+
+[2022-06-14 11:45:46.745] DEBUG UserDaoImpl.doDelete(UserDaoImpl.java:282) - ==============================
+[2022-06-14 11:45:46.745] DEBUG UserDaoImpl.doDelete(UserDaoImpl.java:286) - Object param:p270
+[2022-06-14 11:45:46.745] DEBUG JdbcTemplate.update(JdbcTemplate.java:958) - Executing prepared SQL update
+[2022-06-14 11:45:46.745] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [ DELETE FROM hr_member         
+ WHERE u_id = ?                
+]
+[2022-06-14 11:45:46.745] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-06-14 11:45:46.749] DEBUG UserDaoImpl.doDelete(UserDaoImpl.java:290) - flag:1
+[2022-06-14 11:45:46.749] DEBUG UserDaoImpl.doDelete(UserDaoImpl.java:279) - ==============================
+[2022-06-14 11:45:46.750] DEBUG UserDaoImpl.doDelete(UserDaoImpl.java:280) - param:UserVO [uId=p2700, name=최유빈2700, passwd=4321, level=SILVER, login=51, recommend=29, email=euloja5@naver.com, regDt=날짜_사용안함, toString()=com.pcwk.ehr.user.domain.UserVO@31c269fd]
+[2022-06-14 11:45:46.750] DEBUG UserDaoImpl.doDelete(UserDaoImpl.java:281) - sql:
+ DELETE FROM hr_member         
+ WHERE u_id = ?                
+
+[2022-06-14 11:45:46.750] DEBUG UserDaoImpl.doDelete(UserDaoImpl.java:282) - ==============================
+[2022-06-14 11:45:46.750] DEBUG UserDaoImpl.doDelete(UserDaoImpl.java:286) - Object param:p2700
+[2022-06-14 11:45:46.750] DEBUG JdbcTemplate.update(JdbcTemplate.java:958) - Executing prepared SQL update
+[2022-06-14 11:45:46.750] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [ DELETE FROM hr_member         
+ WHERE u_id = ?                
+]
+[2022-06-14 11:45:46.751] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-06-14 11:45:46.759] DEBUG UserDaoImpl.doDelete(UserDaoImpl.java:290) - flag:1
+[2022-06-14 11:45:46.760] DEBUG UserDaoImpl.doDelete(UserDaoImpl.java:279) - ==============================
+[2022-06-14 11:45:46.760] DEBUG UserDaoImpl.doDelete(UserDaoImpl.java:280) - param:UserVO [uId=p27000, name=최유빈27000, passwd=4321, level=SILVER, login=51, recommend=30, email=euloja5@naver.com, regDt=날짜_사용안함, toString()=com.pcwk.ehr.user.domain.UserVO@372b0d86]
+[2022-06-14 11:45:46.760] DEBUG UserDaoImpl.doDelete(UserDaoImpl.java:281) - sql:
+ DELETE FROM hr_member         
+ WHERE u_id = ?                
+
+[2022-06-14 11:45:46.760] DEBUG UserDaoImpl.doDelete(UserDaoImpl.java:282) - ==============================
+[2022-06-14 11:45:46.760] DEBUG UserDaoImpl.doDelete(UserDaoImpl.java:286) - Object param:p27000
+[2022-06-14 11:45:46.760] DEBUG JdbcTemplate.update(JdbcTemplate.java:958) - Executing prepared SQL update
+[2022-06-14 11:45:46.760] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [ DELETE FROM hr_member         
+ WHERE u_id = ?                
+]
+[2022-06-14 11:45:46.760] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-06-14 11:45:46.986] DEBUG UserDaoImpl.doDelete(UserDaoImpl.java:290) - flag:1
+[2022-06-14 11:45:46.987] DEBUG UserDaoImpl.doDelete(UserDaoImpl.java:279) - ==============================
+[2022-06-14 11:45:46.987] DEBUG UserDaoImpl.doDelete(UserDaoImpl.java:280) - param:UserVO [uId=p270000, name=최유빈270000, passwd=4321, level=GOLD, login=52, recommend=31, email=euloja5@naver.com, regDt=날짜_사용안함, toString()=com.pcwk.ehr.user.domain.UserVO@47747fb9]
+[2022-06-14 11:45:46.987] DEBUG UserDaoImpl.doDelete(UserDaoImpl.java:281) - sql:
+ DELETE FROM hr_member         
+ WHERE u_id = ?                
+
+[2022-06-14 11:45:46.987] DEBUG UserDaoImpl.doDelete(UserDaoImpl.java:282) - ==============================
+[2022-06-14 11:45:46.987] DEBUG UserDaoImpl.doDelete(UserDaoImpl.java:286) - Object param:p270000
+[2022-06-14 11:45:46.988] DEBUG JdbcTemplate.update(JdbcTemplate.java:958) - Executing prepared SQL update
+[2022-06-14 11:45:46.988] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [ DELETE FROM hr_member         
+ WHERE u_id = ?                
+]
+[2022-06-14 11:45:46.988] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-06-14 11:45:46.996] DEBUG UserDaoImpl.doDelete(UserDaoImpl.java:290) - flag:1
+[2022-06-14 11:45:46.996] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:189) - ==============================
+[2022-06-14 11:45:46.996] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:190) - param:UserVO [uId=p27, name=최유빈27, passwd=4321, level=BASIC, login=49, recommend=0, email=euloja5@naver.com, regDt=날짜_사용안함, toString()=com.pcwk.ehr.user.domain.UserVO@8692d67]
+[2022-06-14 11:45:46.996] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:191) - sql:
+ INSERT INTO hr_member ( 
+         u_id,           
+         name,           
+         passwd,         
+         u_level,        
+         login,	        
+         recommend,	    
+         email,		    
+         reg_dt		    
+ ) VALUES (              
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     SYSDATE             
+ )                       
+
+[2022-06-14 11:45:46.996] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:192) - ==============================
+[2022-06-14 11:45:46.996] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:p27
+[2022-06-14 11:45:46.997] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:최유빈27
+[2022-06-14 11:45:46.997] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:4321
+[2022-06-14 11:45:46.997] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:1
+[2022-06-14 11:45:46.997] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:49
+[2022-06-14 11:45:46.998] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:0
+[2022-06-14 11:45:46.998] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:euloja5@naver.com
+[2022-06-14 11:45:46.998] DEBUG JdbcTemplate.update(JdbcTemplate.java:958) - Executing prepared SQL update
+[2022-06-14 11:45:46.998] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [ INSERT INTO hr_member ( 
+         u_id,           
+         name,           
+         passwd,         
+         u_level,        
+         login,	        
+         recommend,	    
+         email,		    
+         reg_dt		    
+ ) VALUES (              
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     SYSDATE             
+ )                       
+]
+[2022-06-14 11:45:46.998] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-06-14 11:45:47.009] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:201) - flag:1
+[2022-06-14 11:45:47.010] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:189) - ==============================
+[2022-06-14 11:45:47.010] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:190) - param:UserVO [uId=p270, name=최유빈270, passwd=4321, level=BASIC, login=50, recommend=10, email=euloja5@naver.com, regDt=날짜_사용안함, toString()=com.pcwk.ehr.user.domain.UserVO@6c451c9c]
+[2022-06-14 11:45:47.010] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:191) - sql:
+ INSERT INTO hr_member ( 
+         u_id,           
+         name,           
+         passwd,         
+         u_level,        
+         login,	        
+         recommend,	    
+         email,		    
+         reg_dt		    
+ ) VALUES (              
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     SYSDATE             
+ )                       
+
+[2022-06-14 11:45:47.011] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:192) - ==============================
+[2022-06-14 11:45:47.011] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:p270
+[2022-06-14 11:45:47.011] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:최유빈270
+[2022-06-14 11:45:47.011] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:4321
+[2022-06-14 11:45:47.011] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:1
+[2022-06-14 11:45:47.012] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:50
+[2022-06-14 11:45:47.012] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:10
+[2022-06-14 11:45:47.012] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:euloja5@naver.com
+[2022-06-14 11:45:47.012] DEBUG JdbcTemplate.update(JdbcTemplate.java:958) - Executing prepared SQL update
+[2022-06-14 11:45:47.012] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [ INSERT INTO hr_member ( 
+         u_id,           
+         name,           
+         passwd,         
+         u_level,        
+         login,	        
+         recommend,	    
+         email,		    
+         reg_dt		    
+ ) VALUES (              
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     SYSDATE             
+ )                       
+]
+[2022-06-14 11:45:47.013] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-06-14 11:45:47.027] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:201) - flag:1
+[2022-06-14 11:45:47.027] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:189) - ==============================
+[2022-06-14 11:45:47.028] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:190) - param:UserVO [uId=p2700, name=최유빈2700, passwd=4321, level=SILVER, login=51, recommend=29, email=euloja5@naver.com, regDt=날짜_사용안함, toString()=com.pcwk.ehr.user.domain.UserVO@31c269fd]
+[2022-06-14 11:45:47.028] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:191) - sql:
+ INSERT INTO hr_member ( 
+         u_id,           
+         name,           
+         passwd,         
+         u_level,        
+         login,	        
+         recommend,	    
+         email,		    
+         reg_dt		    
+ ) VALUES (              
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     SYSDATE             
+ )                       
+
+[2022-06-14 11:45:47.028] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:192) - ==============================
+[2022-06-14 11:45:47.028] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:p2700
+[2022-06-14 11:45:47.028] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:최유빈2700
+[2022-06-14 11:45:47.028] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:4321
+[2022-06-14 11:45:47.028] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:2
+[2022-06-14 11:45:47.028] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:51
+[2022-06-14 11:45:47.029] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:29
+[2022-06-14 11:45:47.029] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:euloja5@naver.com
+[2022-06-14 11:45:47.029] DEBUG JdbcTemplate.update(JdbcTemplate.java:958) - Executing prepared SQL update
+[2022-06-14 11:45:47.029] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [ INSERT INTO hr_member ( 
+         u_id,           
+         name,           
+         passwd,         
+         u_level,        
+         login,	        
+         recommend,	    
+         email,		    
+         reg_dt		    
+ ) VALUES (              
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     SYSDATE             
+ )                       
+]
+[2022-06-14 11:45:47.029] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-06-14 11:45:47.041] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:201) - flag:1
+[2022-06-14 11:45:47.041] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:189) - ==============================
+[2022-06-14 11:45:47.041] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:190) - param:UserVO [uId=p27000, name=최유빈27000, passwd=4321, level=SILVER, login=51, recommend=30, email=euloja5@naver.com, regDt=날짜_사용안함, toString()=com.pcwk.ehr.user.domain.UserVO@372b0d86]
+[2022-06-14 11:45:47.041] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:191) - sql:
+ INSERT INTO hr_member ( 
+         u_id,           
+         name,           
+         passwd,         
+         u_level,        
+         login,	        
+         recommend,	    
+         email,		    
+         reg_dt		    
+ ) VALUES (              
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     SYSDATE             
+ )                       
+
+[2022-06-14 11:45:47.041] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:192) - ==============================
+[2022-06-14 11:45:47.041] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:p27000
+[2022-06-14 11:45:47.042] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:최유빈27000
+[2022-06-14 11:45:47.042] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:4321
+[2022-06-14 11:45:47.042] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:2
+[2022-06-14 11:45:47.042] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:51
+[2022-06-14 11:45:47.042] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:30
+[2022-06-14 11:45:47.042] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:euloja5@naver.com
+[2022-06-14 11:45:47.042] DEBUG JdbcTemplate.update(JdbcTemplate.java:958) - Executing prepared SQL update
+[2022-06-14 11:45:47.042] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [ INSERT INTO hr_member ( 
+         u_id,           
+         name,           
+         passwd,         
+         u_level,        
+         login,	        
+         recommend,	    
+         email,		    
+         reg_dt		    
+ ) VALUES (              
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     SYSDATE             
+ )                       
+]
+[2022-06-14 11:45:47.042] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-06-14 11:45:47.048] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:201) - flag:1
+[2022-06-14 11:45:47.048] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:189) - ==============================
+[2022-06-14 11:45:47.048] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:190) - param:UserVO [uId=p270000, name=최유빈270000, passwd=4321, level=GOLD, login=52, recommend=31, email=euloja5@naver.com, regDt=날짜_사용안함, toString()=com.pcwk.ehr.user.domain.UserVO@47747fb9]
+[2022-06-14 11:45:47.048] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:191) - sql:
+ INSERT INTO hr_member ( 
+         u_id,           
+         name,           
+         passwd,         
+         u_level,        
+         login,	        
+         recommend,	    
+         email,		    
+         reg_dt		    
+ ) VALUES (              
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     SYSDATE             
+ )                       
+
+[2022-06-14 11:45:47.049] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:192) - ==============================
+[2022-06-14 11:45:47.049] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:p270000
+[2022-06-14 11:45:47.049] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:최유빈270000
+[2022-06-14 11:45:47.049] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:4321
+[2022-06-14 11:45:47.049] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:3
+[2022-06-14 11:45:47.049] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:52
+[2022-06-14 11:45:47.050] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:31
+[2022-06-14 11:45:47.050] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:197) - Object param:euloja5@naver.com
+[2022-06-14 11:45:47.050] DEBUG JdbcTemplate.update(JdbcTemplate.java:958) - Executing prepared SQL update
+[2022-06-14 11:45:47.051] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [ INSERT INTO hr_member ( 
+         u_id,           
+         name,           
+         passwd,         
+         u_level,        
+         login,	        
+         recommend,	    
+         email,		    
+         reg_dt		    
+ ) VALUES (              
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     ?,                  
+     SYSDATE             
+ )                       
+]
+[2022-06-14 11:45:47.051] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-06-14 11:45:47.095] DEBUG UserDaoImpl.doInsert(UserDaoImpl.java:201) - flag:1
+[2022-06-14 11:45:47.096] DEBUG UserDaoImpl.getCount(UserDaoImpl.java:138) - ==============================
+[2022-06-14 11:45:47.096] DEBUG UserDaoImpl.getCount(UserDaoImpl.java:139) - param:UserVO [uId=p27, name=최유빈27, passwd=4321, level=BASIC, login=49, recommend=0, email=euloja5@naver.com, regDt=날짜_사용안함, toString()=com.pcwk.ehr.user.domain.UserVO@8692d67]
+[2022-06-14 11:45:47.096] DEBUG UserDaoImpl.getCount(UserDaoImpl.java:140) - sql:
+ SELECT COUNT(*) AS cnt      
+ FROM  hr_member             
+ WHERE u_id LIKE ?	||'%'   
+
+[2022-06-14 11:45:47.096] DEBUG UserDaoImpl.getCount(UserDaoImpl.java:141) - ==============================
+[2022-06-14 11:45:47.096] DEBUG UserDaoImpl.getCount(UserDaoImpl.java:143) - Object param:p27
+[2022-06-14 11:45:47.123] DEBUG JdbcTemplate.query(JdbcTemplate.java:711) - Executing prepared SQL query
+[2022-06-14 11:45:47.123] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [ SELECT COUNT(*) AS cnt      
+ FROM  hr_member             
+ WHERE u_id LIKE ?	||'%'   
+]
+[2022-06-14 11:45:47.124] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-06-14 11:45:47.249] DEBUG UserDaoImpl.getCount(UserDaoImpl.java:147) - ==============================
+[2022-06-14 11:45:47.249] DEBUG UserDaoImpl.getCount(UserDaoImpl.java:148) - count=5
+[2022-06-14 11:45:47.250] DEBUG UserDaoImpl.getCount(UserDaoImpl.java:149) - ==============================
+[2022-06-14 11:45:47.254] DEBUG AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:370) - Creating new transaction with name [com.pcwk.ehr.user.service.UserServiceImpl.upgradeLevels]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2022-06-14 11:45:47.255] DEBUG DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:267) - Acquired Connection [jdbc:oracle:thin:@192.168.3.101:1521:xe, UserName=SPRING, Oracle JDBC driver] for JDBC transaction
+[2022-06-14 11:45:47.256] DEBUG DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:285) - Switching JDBC Connection [jdbc:oracle:thin:@192.168.3.101:1521:xe, UserName=SPRING, Oracle JDBC driver] to manual commit
+[2022-06-14 11:45:47.257] DEBUG UserDaoImpl.getAll(UserDaoImpl.java:113) - ==============================
+[2022-06-14 11:45:47.257] DEBUG UserDaoImpl.getAll(UserDaoImpl.java:114) - param:UserVO [uId=p27, name=최유빈27, passwd=4321, level=BASIC, login=49, recommend=0, email=euloja5@naver.com, regDt=날짜_사용안함, toString()=com.pcwk.ehr.user.domain.UserVO@8692d67]
+[2022-06-14 11:45:47.257] DEBUG UserDaoImpl.getAll(UserDaoImpl.java:115) - sql:
+ SELECT u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,	    
+        recommend,	
+        email,		
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') AS reg_dt		
+ FROM hr_member  
+ WHERE u_id LIKE ?	||'%'   
+ ORDER BY u_id   
+
+[2022-06-14 11:45:47.257] DEBUG UserDaoImpl.getAll(UserDaoImpl.java:117) - ==============================
+[2022-06-14 11:45:47.257] DEBUG JdbcTemplate.query(JdbcTemplate.java:711) - Executing prepared SQL query
+[2022-06-14 11:45:47.257] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [ SELECT u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,	    
+        recommend,	
+        email,		
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') AS reg_dt		
+ FROM hr_member  
+ WHERE u_id LIKE ?	||'%'   
+ ORDER BY u_id   
+]
+[2022-06-14 11:45:47.274] DEBUG UserDaoImpl.getAll(UserDaoImpl.java:123) - vo:UserVO [uId=p27, name=최유빈27, passwd=4321, level=BASIC, login=49, recommend=0, email=euloja5@naver.com, regDt=2022-06-14 11:45:46, toString()=com.pcwk.ehr.user.domain.UserVO@4c9e9fb8]
+[2022-06-14 11:45:47.275] DEBUG UserDaoImpl.getAll(UserDaoImpl.java:123) - vo:UserVO [uId=p270, name=최유빈270, passwd=4321, level=BASIC, login=50, recommend=10, email=euloja5@naver.com, regDt=2022-06-14 11:45:46, toString()=com.pcwk.ehr.user.domain.UserVO@9ec531]
+[2022-06-14 11:45:47.275] DEBUG UserDaoImpl.getAll(UserDaoImpl.java:123) - vo:UserVO [uId=p2700, name=최유빈2700, passwd=4321, level=SILVER, login=51, recommend=29, email=euloja5@naver.com, regDt=2022-06-14 11:45:46, toString()=com.pcwk.ehr.user.domain.UserVO@40147317]
+[2022-06-14 11:45:47.275] DEBUG UserDaoImpl.getAll(UserDaoImpl.java:123) - vo:UserVO [uId=p27000, name=최유빈27000, passwd=4321, level=SILVER, login=51, recommend=30, email=euloja5@naver.com, regDt=2022-06-14 11:45:46, toString()=com.pcwk.ehr.user.domain.UserVO@210f0cc1]
+[2022-06-14 11:45:47.275] DEBUG UserDaoImpl.getAll(UserDaoImpl.java:123) - vo:UserVO [uId=p270000, name=최유빈270000, passwd=4321, level=GOLD, login=52, recommend=31, email=euloja5@naver.com, regDt=2022-06-14 11:45:46, toString()=com.pcwk.ehr.user.domain.UserVO@19542407]
+[2022-06-14 11:45:47.275] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:75) - ==============================
+[2022-06-14 11:45:47.276] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:76) - param:UserVO [uId=p270, name=최유빈270, passwd=4321, level=SILVER, login=50, recommend=10, email=euloja5@naver.com, regDt=2022-06-14 11:45:46, toString()=com.pcwk.ehr.user.domain.UserVO@9ec531]
+[2022-06-14 11:45:47.276] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:77) - sql:
+ UPDATE hr_member         
+ SET name      = ?,       
+     passwd    = ?,       
+     u_level   = ?,       
+     login     = ?,       
+     recommend = ?,       
+     email     = ?,       
+     reg_dt    = SYSDATE  
+ WHERE u_id = ?           
+
+[2022-06-14 11:45:47.276] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:78) - ==============================
+[2022-06-14 11:45:47.276] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:85) - Object param:최유빈270
+[2022-06-14 11:45:47.276] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:85) - Object param:4321
+[2022-06-14 11:45:47.276] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:85) - Object param:2
+[2022-06-14 11:45:47.277] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:85) - Object param:50
+[2022-06-14 11:45:47.277] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:85) - Object param:10
+[2022-06-14 11:45:47.277] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:85) - Object param:euloja5@naver.com
+[2022-06-14 11:45:47.277] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:85) - Object param:p270
+[2022-06-14 11:45:47.277] DEBUG JdbcTemplate.update(JdbcTemplate.java:958) - Executing prepared SQL update
+[2022-06-14 11:45:47.277] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [ UPDATE hr_member         
+ SET name      = ?,       
+     passwd    = ?,       
+     u_level   = ?,       
+     login     = ?,       
+     recommend = ?,       
+     email     = ?,       
+     reg_dt    = SYSDATE  
+ WHERE u_id = ?           
+]
+[2022-06-14 11:45:47.284] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:89) - flag:1
+[2022-06-14 11:45:47.285] DEBUG DummyMailSender.send(DummyMailSender.java:14) - ================================
+[2022-06-14 11:45:47.285] DEBUG DummyMailSender.send(DummyMailSender.java:15) - *개발에서는 메일이 발송되지 않습니다.^^*
+[2022-06-14 11:45:47.285] DEBUG DummyMailSender.send(DummyMailSender.java:16) - ================================
+[2022-06-14 11:45:47.285] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:75) - ==============================
+[2022-06-14 11:45:47.285] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:76) - param:UserVO [uId=p27000, name=최유빈27000, passwd=4321, level=GOLD, login=51, recommend=30, email=euloja5@naver.com, regDt=2022-06-14 11:45:46, toString()=com.pcwk.ehr.user.domain.UserVO@210f0cc1]
+[2022-06-14 11:45:47.286] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:77) - sql:
+ UPDATE hr_member         
+ SET name      = ?,       
+     passwd    = ?,       
+     u_level   = ?,       
+     login     = ?,       
+     recommend = ?,       
+     email     = ?,       
+     reg_dt    = SYSDATE  
+ WHERE u_id = ?           
+
+[2022-06-14 11:45:47.286] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:78) - ==============================
+[2022-06-14 11:45:47.286] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:85) - Object param:최유빈27000
+[2022-06-14 11:45:47.286] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:85) - Object param:4321
+[2022-06-14 11:45:47.286] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:85) - Object param:3
+[2022-06-14 11:45:47.286] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:85) - Object param:51
+[2022-06-14 11:45:47.286] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:85) - Object param:30
+[2022-06-14 11:45:47.286] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:85) - Object param:euloja5@naver.com
+[2022-06-14 11:45:47.287] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:85) - Object param:p27000
+[2022-06-14 11:45:47.287] DEBUG JdbcTemplate.update(JdbcTemplate.java:958) - Executing prepared SQL update
+[2022-06-14 11:45:47.287] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [ UPDATE hr_member         
+ SET name      = ?,       
+     passwd    = ?,       
+     u_level   = ?,       
+     login     = ?,       
+     recommend = ?,       
+     email     = ?,       
+     reg_dt    = SYSDATE  
+ WHERE u_id = ?           
+]
+[2022-06-14 11:45:47.302] DEBUG UserDaoImpl.doUpdate(UserDaoImpl.java:89) - flag:1
+[2022-06-14 11:45:47.302] DEBUG DummyMailSender.send(DummyMailSender.java:14) - ================================
+[2022-06-14 11:45:47.303] DEBUG DummyMailSender.send(DummyMailSender.java:15) - *개발에서는 메일이 발송되지 않습니다.^^*
+[2022-06-14 11:45:47.303] DEBUG DummyMailSender.send(DummyMailSender.java:16) - ================================
+[2022-06-14 11:45:47.304] DEBUG AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:740) - Initiating transaction commit
+[2022-06-14 11:45:47.304] DEBUG DataSourceTransactionManager.doCommit(DataSourceTransactionManager.java:330) - Committing JDBC transaction on Connection [jdbc:oracle:thin:@192.168.3.101:1521:xe, UserName=SPRING, Oracle JDBC driver]
+[2022-06-14 11:45:47.312] DEBUG DataSourceTransactionManager.doCleanupAfterCompletion(DataSourceTransactionManager.java:389) - Releasing JDBC Connection [jdbc:oracle:thin:@192.168.3.101:1521:xe, UserName=SPRING, Oracle JDBC driver] after transaction
+[2022-06-14 11:45:47.313] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:244) - ==============================
+[2022-06-14 11:45:47.313] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:245) - param:UserVO [uId=p27, name=최유빈27, passwd=4321, level=BASIC, login=49, recommend=0, email=euloja5@naver.com, regDt=날짜_사용안함, toString()=com.pcwk.ehr.user.domain.UserVO@8692d67]
+[2022-06-14 11:45:47.314] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:246) - sql:
+ SELECT u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,	    
+        recommend,	
+        email,		
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') AS reg_dt		
+ FROM  hr_member  
+ WHERE u_id = ?   
+
+[2022-06-14 11:45:47.314] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:247) - ==============================
+[2022-06-14 11:45:47.314] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:250) - Object param:p27
+[2022-06-14 11:45:47.314] DEBUG JdbcTemplate.query(JdbcTemplate.java:711) - Executing prepared SQL query
+[2022-06-14 11:45:47.315] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [ SELECT u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,	    
+        recommend,	
+        email,		
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') AS reg_dt		
+ FROM  hr_member  
+ WHERE u_id = ?   
+]
+[2022-06-14 11:45:47.315] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-06-14 11:45:47.323] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:253) - ==============================
+[2022-06-14 11:45:47.324] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:254) - outVO=UserVO [uId=p27, name=최유빈27, passwd=4321, level=BASIC, login=49, recommend=0, email=euloja5@naver.com, regDt=2022-06-14 11:45:46, toString()=com.pcwk.ehr.user.domain.UserVO@74a195a4]
+[2022-06-14 11:45:47.324] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:255) - ==============================
+[2022-06-14 11:45:47.324] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:263) - ==============================
+[2022-06-14 11:45:47.324] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:264) - outVO=UserVO [uId=p27, name=최유빈27, passwd=4321, level=BASIC, login=49, recommend=0, email=euloja5@naver.com, regDt=2022-06-14 11:45:46, toString()=com.pcwk.ehr.user.domain.UserVO@74a195a4]
+[2022-06-14 11:45:47.325] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:265) - ==============================
+[2022-06-14 11:45:47.325] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:244) - ==============================
+[2022-06-14 11:45:47.325] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:245) - param:UserVO [uId=p270, name=최유빈270, passwd=4321, level=BASIC, login=50, recommend=10, email=euloja5@naver.com, regDt=날짜_사용안함, toString()=com.pcwk.ehr.user.domain.UserVO@6c451c9c]
+[2022-06-14 11:45:47.326] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:246) - sql:
+ SELECT u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,	    
+        recommend,	
+        email,		
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') AS reg_dt		
+ FROM  hr_member  
+ WHERE u_id = ?   
+
+[2022-06-14 11:45:47.326] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:247) - ==============================
+[2022-06-14 11:45:47.326] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:250) - Object param:p270
+[2022-06-14 11:45:47.326] DEBUG JdbcTemplate.query(JdbcTemplate.java:711) - Executing prepared SQL query
+[2022-06-14 11:45:47.326] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [ SELECT u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,	    
+        recommend,	
+        email,		
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') AS reg_dt		
+ FROM  hr_member  
+ WHERE u_id = ?   
+]
+[2022-06-14 11:45:47.327] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-06-14 11:45:47.339] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:253) - ==============================
+[2022-06-14 11:45:47.339] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:254) - outVO=UserVO [uId=p270, name=최유빈270, passwd=4321, level=SILVER, login=50, recommend=10, email=euloja5@naver.com, regDt=2022-06-14 11:45:46, toString()=com.pcwk.ehr.user.domain.UserVO@76304b46]
+[2022-06-14 11:45:47.340] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:255) - ==============================
+[2022-06-14 11:45:47.340] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:263) - ==============================
+[2022-06-14 11:45:47.340] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:264) - outVO=UserVO [uId=p270, name=최유빈270, passwd=4321, level=SILVER, login=50, recommend=10, email=euloja5@naver.com, regDt=2022-06-14 11:45:46, toString()=com.pcwk.ehr.user.domain.UserVO@76304b46]
+[2022-06-14 11:45:47.340] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:265) - ==============================
+[2022-06-14 11:45:47.340] DEBUG JunitUserServiceTest.checkLevel(JunitUserServiceTest.java:248) - SILVER===SILVER
+[2022-06-14 11:45:47.340] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:244) - ==============================
+[2022-06-14 11:45:47.341] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:245) - param:UserVO [uId=p2700, name=최유빈2700, passwd=4321, level=SILVER, login=51, recommend=29, email=euloja5@naver.com, regDt=날짜_사용안함, toString()=com.pcwk.ehr.user.domain.UserVO@31c269fd]
+[2022-06-14 11:45:47.342] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:246) - sql:
+ SELECT u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,	    
+        recommend,	
+        email,		
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') AS reg_dt		
+ FROM  hr_member  
+ WHERE u_id = ?   
+
+[2022-06-14 11:45:47.342] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:247) - ==============================
+[2022-06-14 11:45:47.342] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:250) - Object param:p2700
+[2022-06-14 11:45:47.343] DEBUG JdbcTemplate.query(JdbcTemplate.java:711) - Executing prepared SQL query
+[2022-06-14 11:45:47.343] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [ SELECT u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,	    
+        recommend,	
+        email,		
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') AS reg_dt		
+ FROM  hr_member  
+ WHERE u_id = ?   
+]
+[2022-06-14 11:45:47.343] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-06-14 11:45:47.355] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:253) - ==============================
+[2022-06-14 11:45:47.355] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:254) - outVO=UserVO [uId=p2700, name=최유빈2700, passwd=4321, level=SILVER, login=51, recommend=29, email=euloja5@naver.com, regDt=2022-06-14 11:45:46, toString()=com.pcwk.ehr.user.domain.UserVO@2fa3be26]
+[2022-06-14 11:45:47.357] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:255) - ==============================
+[2022-06-14 11:45:47.357] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:263) - ==============================
+[2022-06-14 11:45:47.357] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:264) - outVO=UserVO [uId=p2700, name=최유빈2700, passwd=4321, level=SILVER, login=51, recommend=29, email=euloja5@naver.com, regDt=2022-06-14 11:45:46, toString()=com.pcwk.ehr.user.domain.UserVO@2fa3be26]
+[2022-06-14 11:45:47.358] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:265) - ==============================
+[2022-06-14 11:45:47.358] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:244) - ==============================
+[2022-06-14 11:45:47.358] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:245) - param:UserVO [uId=p27000, name=최유빈27000, passwd=4321, level=SILVER, login=51, recommend=30, email=euloja5@naver.com, regDt=날짜_사용안함, toString()=com.pcwk.ehr.user.domain.UserVO@372b0d86]
+[2022-06-14 11:45:47.358] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:246) - sql:
+ SELECT u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,	    
+        recommend,	
+        email,		
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') AS reg_dt		
+ FROM  hr_member  
+ WHERE u_id = ?   
+
+[2022-06-14 11:45:47.359] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:247) - ==============================
+[2022-06-14 11:45:47.359] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:250) - Object param:p27000
+[2022-06-14 11:45:47.359] DEBUG JdbcTemplate.query(JdbcTemplate.java:711) - Executing prepared SQL query
+[2022-06-14 11:45:47.360] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [ SELECT u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,	    
+        recommend,	
+        email,		
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') AS reg_dt		
+ FROM  hr_member  
+ WHERE u_id = ?   
+]
+[2022-06-14 11:45:47.360] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-06-14 11:45:47.369] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:253) - ==============================
+[2022-06-14 11:45:47.370] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:254) - outVO=UserVO [uId=p27000, name=최유빈27000, passwd=4321, level=GOLD, login=51, recommend=30, email=euloja5@naver.com, regDt=2022-06-14 11:45:46, toString()=com.pcwk.ehr.user.domain.UserVO@4287d447]
+[2022-06-14 11:45:47.370] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:255) - ==============================
+[2022-06-14 11:45:47.371] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:263) - ==============================
+[2022-06-14 11:45:47.371] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:264) - outVO=UserVO [uId=p27000, name=최유빈27000, passwd=4321, level=GOLD, login=51, recommend=30, email=euloja5@naver.com, regDt=2022-06-14 11:45:46, toString()=com.pcwk.ehr.user.domain.UserVO@4287d447]
+[2022-06-14 11:45:47.371] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:265) - ==============================
+[2022-06-14 11:45:47.372] DEBUG JunitUserServiceTest.checkLevel(JunitUserServiceTest.java:248) - GOLD===GOLD
+[2022-06-14 11:45:47.372] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:244) - ==============================
+[2022-06-14 11:45:47.372] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:245) - param:UserVO [uId=p270000, name=최유빈270000, passwd=4321, level=GOLD, login=52, recommend=31, email=euloja5@naver.com, regDt=날짜_사용안함, toString()=com.pcwk.ehr.user.domain.UserVO@47747fb9]
+[2022-06-14 11:45:47.373] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:246) - sql:
+ SELECT u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,	    
+        recommend,	
+        email,		
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') AS reg_dt		
+ FROM  hr_member  
+ WHERE u_id = ?   
+
+[2022-06-14 11:45:47.373] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:247) - ==============================
+[2022-06-14 11:45:47.374] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:250) - Object param:p270000
+[2022-06-14 11:45:47.374] DEBUG JdbcTemplate.query(JdbcTemplate.java:711) - Executing prepared SQL query
+[2022-06-14 11:45:47.375] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [ SELECT u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,	    
+        recommend,	
+        email,		
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') AS reg_dt		
+ FROM  hr_member  
+ WHERE u_id = ?   
+]
+[2022-06-14 11:45:47.375] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-06-14 11:45:47.384] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:253) - ==============================
+[2022-06-14 11:45:47.385] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:254) - outVO=UserVO [uId=p270000, name=최유빈270000, passwd=4321, level=GOLD, login=52, recommend=31, email=euloja5@naver.com, regDt=2022-06-14 11:45:46, toString()=com.pcwk.ehr.user.domain.UserVO@3af37506]
+[2022-06-14 11:45:47.385] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:255) - ==============================
+[2022-06-14 11:45:47.386] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:263) - ==============================
+[2022-06-14 11:45:47.386] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:264) - outVO=UserVO [uId=p270000, name=최유빈270000, passwd=4321, level=GOLD, login=52, recommend=31, email=euloja5@naver.com, regDt=2022-06-14 11:45:46, toString()=com.pcwk.ehr.user.domain.UserVO@3af37506]
+[2022-06-14 11:45:47.386] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:265) - ==============================
+[2022-06-14 11:45:47.389] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1433666880] from cache with key [[MergedContextConfiguration@7494f96a testClass = JunitUserServiceTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-06-14 11:45:47.390] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@4b41e4dd size = 1, maxSize = 32, parentContextCount = 0, hitCount = 4, missCount = 1]
+[2022-06-14 11:45:47.396] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1433666880] from cache with key [[MergedContextConfiguration@7494f96a testClass = JunitUserServiceTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-06-14 11:45:47.396] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@4b41e4dd size = 1, maxSize = 32, parentContextCount = 0, hitCount = 5, missCount = 1]
+[2022-06-14 11:45:47.398] DEBUG AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestMethod(AbstractDirtiesContextTestExecutionListener.java:108) - After test method: context [DefaultTestContext@26b3fd41 testClass = JunitUserServiceTest, testInstance = com.pcwk.ehr.JunitUserServiceTest@58ea606c, testMethod = upgradeLevels@JunitUserServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7494f96a testClass = JunitUserServiceTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+[2022-06-14 11:45:47.402] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [1433666880] from cache with key [[MergedContextConfiguration@7494f96a testClass = JunitUserServiceTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-06-14 11:45:47.402] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@4b41e4dd size = 1, maxSize = 32, parentContextCount = 0, hitCount = 6, missCount = 1]
+[2022-06-14 11:45:47.403] DEBUG AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestClass(AbstractDirtiesContextTestExecutionListener.java:143) - After test class: context [DefaultTestContext@26b3fd41 testClass = JunitUserServiceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7494f96a testClass = JunitUserServiceTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null].
+[2022-06-14 11:45:47.409] DEBUG AbstractApplicationContext.doClose(AbstractApplicationContext.java:1049) - Closing org.springframework.context.support.GenericApplicationContext@55740540, started on Tue Jun 14 11:45:40 KST 2022

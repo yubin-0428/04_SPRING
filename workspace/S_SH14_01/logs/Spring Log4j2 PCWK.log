@@ -1,0 +1,45 @@
+[2022-06-14 10:47:42.175] DEBUG JunitUserServiceTest.upgradeLevels(JunitUserServiceTest.java:232) - ==========================
+[2022-06-14 10:47:42.227] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:244) - ==============================
+[2022-06-14 10:47:42.228] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:245) - param:UserVO [uId=p270, name=최유빈270, passwd=4321, level=BASIC, login=50, recommend=10, email=euloja5@naver.com, regDt=날짜_사용안함, toString()=com.pcwk.ehr.user.domain.UserVO@5be82d43]
+[2022-06-14 10:47:42.229] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:246) - sql:
+ SELECT u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,	    
+        recommend,	
+        email,		
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') AS reg_dt		
+ FROM  hr_member  
+ WHERE u_id = ?   
+
+[2022-06-14 10:47:42.239] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:247) - ==============================
+[2022-06-14 10:47:42.240] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:250) - Object param:p270
+[2022-06-14 10:47:42.240] DEBUG JdbcTemplate.query(JdbcTemplate.java:711) - Executing prepared SQL query
+[2022-06-14 10:47:42.241] DEBUG JdbcTemplate.execute(JdbcTemplate.java:643) - Executing prepared SQL statement [ SELECT u_id,        
+        name,        
+        passwd,      
+        u_level,     
+        login,	    
+        recommend,	
+        email,		
+        TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') AS reg_dt		
+ FROM  hr_member  
+ WHERE u_id = ?   
+]
+[2022-06-14 10:47:42.241] DEBUG DataSourceUtils.doGetConnection(DataSourceUtils.java:116) - Fetching JDBC Connection from DataSource
+[2022-06-14 10:47:42.361] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:253) - ==============================
+[2022-06-14 10:47:42.362] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:254) - outVO=UserVO [uId=p270, name=최유빈270, passwd=4321, level=BASIC, login=50, recommend=10, email=euloja5@naver.com, regDt=2022-06-14 10:47:41, toString()=com.pcwk.ehr.user.domain.UserVO@5e8a459]
+[2022-06-14 10:47:42.362] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:255) - ==============================
+[2022-06-14 10:47:42.362] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:263) - ==============================
+[2022-06-14 10:47:42.362] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:264) - outVO=UserVO [uId=p270, name=최유빈270, passwd=4321, level=BASIC, login=50, recommend=10, email=euloja5@naver.com, regDt=2022-06-14 10:47:41, toString()=com.pcwk.ehr.user.domain.UserVO@5e8a459]
+[2022-06-14 10:47:42.362] DEBUG UserDaoImpl.doSelectOne(UserDaoImpl.java:265) - ==============================
+[2022-06-14 10:47:42.365] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [2089016471] from cache with key [[MergedContextConfiguration@1f59a598 testClass = JunitUserServiceTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-06-14 10:47:42.365] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@7b84fcf8 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 4, missCount = 1]
+[2022-06-14 10:47:42.370] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [2089016471] from cache with key [[MergedContextConfiguration@1f59a598 testClass = JunitUserServiceTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-06-14 10:47:42.371] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@7b84fcf8 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 5, missCount = 1]
+[2022-06-14 10:47:42.372] DEBUG AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestMethod(AbstractDirtiesContextTestExecutionListener.java:108) - After test method: context [DefaultTestContext@7ee8290b testClass = JunitUserServiceTest, testInstance = com.pcwk.ehr.JunitUserServiceTest@4e3958e7, testMethod = upgradeLevels@JunitUserServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1f59a598 testClass = JunitUserServiceTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+[2022-06-14 10:47:42.375] DEBUG DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) - Retrieved ApplicationContext [2089016471] from cache with key [[MergedContextConfiguration@1f59a598 testClass = JunitUserServiceTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+[2022-06-14 10:47:42.375] DEBUG DefaultContextCache.logStatistics(DefaultContextCache.java:290) - Spring test ApplicationContext cache statistics: [DefaultContextCache@7b84fcf8 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 6, missCount = 1]
+[2022-06-14 10:47:42.376] DEBUG AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestClass(AbstractDirtiesContextTestExecutionListener.java:143) - After test class: context [DefaultTestContext@7ee8290b testClass = JunitUserServiceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1f59a598 testClass = JunitUserServiceTest, locations = '{classpath:/applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null].
+[2022-06-14 10:47:42.381] DEBUG AbstractApplicationContext.doClose(AbstractApplicationContext.java:1049) - Closing org.springframework.context.support.GenericApplicationContext@7c83dc97, started on Tue Jun 14 10:47:38 KST 2022

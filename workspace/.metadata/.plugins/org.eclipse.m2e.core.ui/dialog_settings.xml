@@ -27,11 +27,16 @@
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
 			<item value="com.pcwk.ehr"/>
+			<item value="com.pcwk.ehr.S_SH14_01"/>
 		</list>
 		<list key="groupId">
 			<item value="com.pcwk.ehr"/>
 		</list>
 		<list key="artifactId">
+			<item value="S_SH14_02"/>
+			<item value="S_SH_14_02"/>
+			<item value="S_SH14_01"/>
+			<item value="S_SH14_001"/>
 			<item value="S_SH13_02"/>
 			<item value="S_SH13_01"/>
 		</list>
@@ -74,6 +79,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\DCOM_20220127\04_SPRING\workspace\SW_SH14_03"/>
+			<item value="C:\Users\Uvin\Downloads\SW_SH14_03"/>
 			<item value="C:\Users\Uvin\Desktop\S_SH11_01"/>
 			<item value="C:\Users\Uvin\Desktop\S_SH11_02"/>
 			<item value="C:\Users\Uvin\Desktop\S_SH09_01"/>
