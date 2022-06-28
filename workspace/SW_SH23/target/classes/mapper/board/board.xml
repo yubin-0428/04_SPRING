@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pcwk.ehr.board">
+    <!-- div 10(공지사항),20(자유게시판)
+    null처리 -->
+    <sql id="boardDiv">
+       <choose>
+         <when test=" null != div and !div.equals('')">
+          AND  div = #{div}
+         </when>         
+       </choose>
+    </sql>  
+    
+    <!-- 검색조건 : 10(제목),20(내용),30(등록자)-->
+    <sql id="searchCondition">
+       <choose>
+          <when test=" '10' == searchDiv  and !searchWord.equals('') ">
+           AND  title LIKE #{searchWord} || '%'
+          </when>
+          <when test=" '20' == searchDiv  and !searchWord.equals('') ">
+           AND contents LIKE #{searchWord} || '%'
+          </when>       
+          <when test=" '30' == searchDiv  and !searchWord.equals('') ">
+           AND reg_id LIKE #{searchWord} || '%'
+          </when>            
+       </choose>
+    </sql>
+    
+    
+    <!-- 목록조회 -->
+    <select id="doRetrieve" parameterType="SearchVO" resultType="BoardVO">
+		SELECT A.*,B.*
+		FROM (
+		    SELECT TT1.rnum AS num,
+		           TT1.seq,
+		           TT1.title,
+		           TT1.read_cnt as "readCnt",
+		           TT1.div,
+		           TT1.mod_id   as "modId",
+		           DECODE(TO_CHAR(SYSDATE, 'YYYYMMDD'),TO_CHAR(TT1.mod_dt,'YYYYMMDD')
+		                  ,TO_CHAR(TT1.mod_dt,'HH24:MI')
+		                  ,TO_CHAR(TT1.mod_dt,'YYYY-MM-DD')) AS "modDt"
+		    FROM(
+		        SELECT ROWNUM AS rnum, T1.*
+		        FROM
+		        (
+		            SELECT *
+		            FROM pc_board
+		            --검색조건
+		            WHERE seq > 0
+		            <include refid="boardDiv"/>
+		            <include refid="searchCondition"/>
+		            ORDER BY mod_dt DESC
+		        ) T1
+		        <![CDATA[ WHERE ROWNUM    <= #{pageSize} * (#{pageNum} - 1) + #{pageSize} ]]>
+		    )TT1
+		    <![CDATA[  WHERE rnum >= ( #{pageSize} * ( #{pageNum} - 1) +1)  ]]>
+		) A CROSS JOIN
+		(SELECT COUNT(*) AS totalCnt
+		  FROM pc_board
+		  --검색조건
+		  WHERE seq > 0
+		  <include refid="boardDiv"/>
+		  <include refid="searchCondition"></include>
+		) B    
+    
+    </select>
+    <!-- 조회 건수 증가 -->
+    <update id="updateReadCnt" parameterType="BoardVO">
+		UPDATE pc_board
+		   SET read_cnt = NVL(read_cnt,0) + 1
+		 WHERE seq = #{seq}    
+    </update>
+    
+    
+    <!-- 수정 -->
+    <update id="doUpdate" parameterType="BoardVO">
+		UPDATE pc_board
+		SET title = #{title}
+		    ,contents = #{contents}
+		    ,div = #{div}
+		    ,mod_dt = SYSDATE
+		    ,mod_id = #{modId}
+		WHERE seq = #{seq}
+    </update>
+            
+            
+    <select id="getCount" parameterType="BoardVO" resultType="int">
+		SELECT COUNT(*) cnt
+		FROM pc_board
+		WHERE seq LIKE #{seq} || '%'    
+    </select>
+
+    <!-- 단건조회 -->
+    <select id="doSelectOne" parameterType="BoardVO" resultType="BoardVO">
+      SELECT seq,
+             title,
+             contents,
+             read_cnt as "readCnt",
+             div,
+             TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss')   AS "regDt",
+             reg_id   AS "regId",
+             TO_CHAR(mod_dt, 'yyyy-mm-dd hh24:mi:ss')  AS "modDt",
+             mod_id   AS "modId"
+        FROM pc_board
+		WHERE seq = #{seq}  
+    </select>
+    <!-- 삭제 -->
+    <delete id="doDelete" parameterType="BoardVO">
+		DELETE FROM pc_board
+		WHERE   seq = #{seq}
+    </delete>
+
+    <!-- 등록 -->
+    <insert id="doInsert" parameterType="BoardVO">
+		INSERT INTO pc_board (
+		    title,
+		    contents,
+		    read_cnt,
+		    div,
+		    reg_id,
+		    mod_id
+		) VALUES (
+		    #{title},
+		    #{contents},
+		    0,
+		    #{div},
+		    #{regId},
+		    #{modId}
+		)        
+    </insert>
+
+</mapper>

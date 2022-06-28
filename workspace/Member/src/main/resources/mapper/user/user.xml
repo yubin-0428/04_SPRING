@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pcwk.ehr.user">
+    
+    <resultMap type="com.pcwk.ehr.member.domain.MemberVO" id="userResultMap">
+        <id property="memId" column="memid"/>
+        <result property="memPw" column="mempw"/>
+        <result property="memMail" column="memmail"/>
+        <result property="memPhone1" column="memphone1"/>
+        <result property="memPhone2" column="memphone2"/>
+        <result property="memPhone3" column="memphone3"/>
+        
+    </resultMap>
+   
+    <!-- namespace+id = com.pcwk.ehr.user.doSelectOne -->
+    <select id="doRetrieve" parameterType="com.pcwk.ehr.member.domain.MemberVO" resultMap="userResultMap">
+       <![CDATA[ 
+        SELECT memid,      
+               mempw,      
+               memmail,    
+               memphone1,           
+               memphone2,             
+               memphone3,         
+        FROM member
+        WHERE memid = #{memid}
+        ]]>
+    </select>
+
+</mapper>

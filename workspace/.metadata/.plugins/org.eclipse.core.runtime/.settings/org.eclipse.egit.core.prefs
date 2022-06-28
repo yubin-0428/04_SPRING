@@ -1,4 +1,5 @@
-GitRepositoriesView.GitDirectories=C\:\\DCOM_20220127\\04_SPRING\\.git;C\:\\DCOM_20220127\\.git;
-GitRepositoriesView.GitDirectories.relative=C\:\\DCOM_20220127\\04_SPRING\\.git;C\:\\DCOM_20220127\\.git;
+GitRepositoriesView.GitDirectories=C\:\\DCOM_20220127\\04_SPRING\\workspace\\CTRL\\.git;C\:\\DCOM_20220127\\04_SPRING\\.git;C\:\\DCOM_20220127\\.git;
+GitRepositoriesView.GitDirectories.relative=CTRL\\.git;C\:\\DCOM_20220127\\04_SPRING\\.git;C\:\\DCOM_20220127\\.git;
+RepositoryGroups.uuids=
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

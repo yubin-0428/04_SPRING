@@ -1,0 +1,251 @@
+@charset "UTF-8";
+* 메인페이지 헤더 및 푸터 영역 css 시작 */
+@font-face {
+    font-family: 'Vitro_core'; /* 로고, 소제목 */
+    src:
+        url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Vitro_core.woff')
+        format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vitro_pride'; /* 나머지 글꼴, font-weight: bolder 적용! */
+    src:
+        url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Vitro_pride.woff')
+        format('woff');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-width: 1680px; /* 최소 폭 */
+    font-family: Vitro_pride;
+}
+
+#header, #top {
+    width: 100%;
+    max-width: 1800px; /* 최대 폭, 값 없으면 화면 축소시 가운데로 x */
+    margin: 0 auto 0;
+    display: flex;
+    position: relative;
+}
+
+#top {
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+a, a:active {
+    text-decoration: none;
+    color: black;
+}
+
+#logo img {
+    display: inline-block;
+    max-height: 140px;
+}
+
+#logo a {
+    display: inline-block;
+}
+
+.menu_left {
+    float: left;
+    flex-grow: 1;
+    margin: 1% 0 0 1%;
+}
+
+.menu_right {
+    display: flex;
+    float: right;
+    margin: 1% 1.5% 0 0;
+}
+
+.menu_left>ul, .menu_right>ul {
+    list-style: none;
+}
+
+.menu_left li, .menu_right li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#search>input {
+    width: 100px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#search>button {
+    background: none;
+    border: none;
+}
+/* 메인페이지 헤더 및 푸터 영역 css 끝 */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼ 사각형 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.my_box{
+    width: 30%;
+    height: 500px;
+    background: rgba(243, 156, 18, 0.48);
+    position : relative;
+  top:50px;
+  left:130px;
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+
+
+ul{
+  list-style:none;
+   }
+   
+.my{
+  font-size : 50px;
+  position : relative;
+  top:50px;
+  left:100px;
+  font-family:'Vitro_core';
+}
+
+.info{
+  font-size : 40px;
+    position : relative;
+  top:120px;
+  left:150px;
+}
+
+.order{
+  font-size : 40px;
+    position : relative;
+  top:200px;
+  left:150px;
+  
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body{
+    min-width: 1480px;
+    font-family: 'Vitro_pride';
+}
+
+a:link {
+  color : black;
+}
+a:visited {
+  color : black;
+}
+a:hover {
+  color : black;
+}
+a:active {
+  color : black;
+}
+
+.form-control{
+    position: relative;
+  left: 700px;
+  bottom : 387px;
+}
+
+label{
+    position: relative;
+  left: 700px;
+  bottom: 387px;
+}
+
+.square{
+    position: relative;
+    bottom:10px;
+    right:70px;
+    width:100%;
+    max-width: 1800px;
+    margin: 0 auto 0;
+}
+
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲ 사각형 끝  ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼ 회원정보 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+
+.blueone {
+  border-collapse: collapse;
+  position:relative;
+  left:872px;
+  bottom:660px;
+  font-size:20px;
+  
+}  
+.blueone th {
+  padding: 8px;
+  color: #424242;
+  border-bottom: 3px solid rgba(243, 156, 18, 0.48);
+  text-align: left;
+}
+.blueone td {
+  color: #669;
+  padding: 11px;
+  border-bottom: 1px solid #ddd;
+}
+.blueone tr:hover td {
+  color: #004;
+}
+
+
+.blueone2 {
+  border-collapse: collapse;
+  position: relative;
+  bottom: 644px;
+  left: 663px;
+  width:47%;
+  font-size:20px;
+}  
+.blueone2 th {
+  padding: 7px;
+  color: #424242;
+  border-bottom: 3px solid rgba(243, 156, 18, 0.48);
+  text-align: left;
+}
+.blueone2 td {
+  color: #669;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.blueone2 tr:hover td {
+  color: #004;
+}
+.ryan{
+    position: relative;
+    bottom:450px;
+    left:658px;
+}
+
+.name{
+    position: relative;
+    bottom:450px;
+    left:700px;
+}
+
+.all{
+    position: relative;
+    left:100px;
+    width:100%;
+    max-width: 1800px; /* 최대 폭, 값 없으면 화면 축소시 가운데로 x */
+  margin: 0 auto 0;
+    
+}
+
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲ 회원정보 끝 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */

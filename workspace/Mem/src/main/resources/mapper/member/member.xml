@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pcwk.ehr.member">
+    <select id="memberList" resultType="MemberVO">
+         SELECT m_num AS "mNum",
+         m_id AS "mId",
+         m_pw AS "mPw",
+         m_mail AS "mMail",
+         m_phone AS "mPhone"
+         FROM "member"
+         WHERE m_num = #{mNum}
+    </select>
+</mapper>

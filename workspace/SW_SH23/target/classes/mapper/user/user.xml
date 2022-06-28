@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pcwk.ehr.user">
+
+
+  
+
+  <!-- 10:uId, 20:name,30:email -->
+  <sql id="searchCondition">
+   <where>
+	   <choose>
+	    <when test=" '10' == searchDiv  and '' != searchWord ">
+	       u_id LIKE #{searchWord} || '%'
+	    </when>
+	    <when test=" '20' == searchDiv  and '' != searchWord ">
+	       name LIKE #{searchWord} || '%'
+	    </when>
+	    <when test=" '30' == searchDiv  and '' != searchWord ">
+	       email LIKE #{searchWord} || '%'
+	    </when>
+	   </choose>
+   </where>        
+   
+  </sql>
+  
+  
+  <!-- 비번확인 :passCheck(1 id/비번 일치, 0 id/비번 불일치 -->
+  <select id="passCheck" parameterType="UserVO" resultType="int">
+		SELECT COUNT(*) cnt
+		FROM hr_member
+		WHERE u_id = #{uId} 
+		AND   passwd = #{passwd}
+  </select>
+  
+  
+  <!-- id중복 check -->
+  <select id="idCheck" parameterType="UserVO" resultType="int">
+	  SELECT COUNT(*) cnt
+	  FROM hr_member
+	  WHERE u_id = #{uId}   
+  </select>
+  
+  <!-- pageSizem, pageNum, 검색구분, 검색어 -->
+  <select id="doRetrieve" parameterType="SearchVO"  resultType="UserVO">
+	SELECT A.*,B.*
+	FROM(
+	    SELECT TT1.rnum AS  num,
+	           TT1.u_id AS "uId",
+	           TT1.name,
+	           TT1.passwd ,
+	           TT1.u_level AS intLevel,
+	           TT1.recommend,
+	           TT1.email,
+	           --reg_dt가 금일 이면 ?YYYY-MM-DD:HH24:MI
+	           DECODE( TO_CHAR(SYSDATE,'YYYYMMDD'),TO_CHAR(TT1.reg_dt,'YYYYMMDD')
+	                  ,TO_CHAR(TT1.reg_dt,'HH24:MI')
+	                  ,TO_CHAR(TT1.reg_dt,'YYYY-MM-DD')
+	                  ) regDt
+	    FROM(
+	        SELECT ROWNUM AS RNUM,T1.*
+	        FROM(
+	            SELECT *
+	            FROM hr_member
+	            --검색조건
+	            <include refid="searchCondition"/>
+	            ORDER BY reg_dt DESC
+	        )T1                               
+	        WHERE ROWNUM  <![CDATA[  <= #{pageSize} * (#{pageNum} - 1) + #{pageSize} ]]>
+	    )TT1                       
+	   <![CDATA[  WHERE rnum >=( #{pageSize} * ( #{pageNum} - 1) +1)  ]]>
+	)A
+	CROSS JOIN
+	(
+	    SELECT COUNT(*) AS totalCnt
+	    FROM hr_member
+	    --검색조건
+	    <include refid="searchCondition"/>
+	)B
+  </select>
+  
+  
+  <update id="doUpdate" parameterType="UserVO">
+	 UPDATE hr_member       
+	 SET name      = #{name},     
+	     passwd    = #{passwd},     
+	     u_level   = #{intLevel},     
+	     login     = #{login},     
+	     recommend = #{recommend},     
+	     email     = #{email},     
+	     reg_dt    = SYSDATE
+	 WHERE u_id = #{uId}   
+  </update>
+
+
+
+  <delete id="deleteAll">
+     DELETE FROM hr_member
+  </delete>
+
+
+  <select id="getAll" parameterType="UserVO" resultType="UserVO">
+	  SELECT u_id as "uId",                                            
+	         name,                                            
+	         passwd,                                          
+	         u_level as intLevel,                                         
+	         login,                                          
+	         recommend,                                      
+	         email,                                          
+	         TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') AS regDt
+	 FROM hr_member                                          
+	 WHERE u_id LIKE #{uId}  ||'%'                               
+	 ORDER BY u_id           
+  </select>
+
+
+  <select id="getCount" parameterType="UserVO" resultType="int">
+	SELECT COUNT(*) AS cnt    
+	FROM  hr_member           
+	WHERE u_id LIKE #{uId} ||'%' 
+  </select>
+  
+  
+  <resultMap type="UserVO" id="userResultMap">
+   <id      property="uId"          column="u_id"/>
+   <result  property="name"         column="name"/>
+   <result  property="passwd"       column="passwd"/>
+   <result  property="intLevel"     column="u_level"/>
+   <result  property="login"        column="login"/>
+   <result  property="recommend"    column="recommend"/>
+   <result  property="email"        column="email"/>
+   <result  property="regDt"        column="reg_dt"/>
+  </resultMap>
+  <!-- namespace+id = com.pcwk.ehr.user.doSelectOne-->
+ 
+  <select id="doSelectOne" parameterType="UserVO" resultMap="userResultMap">
+       <![CDATA[ 
+		SELECT u_id,                                            
+		       name,                                            
+		       passwd,                                          
+		       u_level,                                         
+		       login,                                           
+		       recommend,                                       
+		       email,                                           
+		       TO_CHAR(reg_dt,'yyyy-mm-dd hh24:mi:ss') reg_dt
+		FROM  hr_member                                         
+		WHERE u_id = #{uId}
+		]]>
+  </select>
+  
+  
+  <delete id="doDelete" parameterType="UserVO">
+	DELETE FROM hr_member  
+	WHERE u_id = #{uId}           
+  </delete>
+
+  <insert id="doInsert" parameterType="UserVO">
+	 INSERT INTO hr_member ( 
+	         u_id,           
+	         name,           
+	         passwd,         
+	         u_level,        
+	         login,         
+	         recommend,     
+	         email,         
+	         reg_dt         
+	 ) VALUES (              
+	     #{uId},                  
+	     #{name},                  
+	     #{passwd},                  
+	     #{intLevel},                  
+	     #{login},                  
+	     #{recommend},                  
+	     #{email},                  
+	     SYSDATE             
+	 )      
+  </insert>
+
+</mapper>

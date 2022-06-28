@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+/* 폰트 및 전체 css */
+@font-face {
+  font-family: 'Vitro_core'; /* 로고, 소제목 */
+  src:
+    url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Vitro_core.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Vitro_pride'; /* 나머지 글꼴, font-weight: bolder 적용! */
+  src:
+    url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Vitro_pride.woff')
+    format('woff');
+  font-weight: bolder;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Vitro_pride;
+}
+
+body, .container {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body{
+  min-width: 200px; /* 최소 폭 */  
+  height: 100vh;
+}
+
+/* 리뷰 팝업 css 시작 */
+.container {
+  max-width: 1800px; /* 최대 폭, 값 없으면 화면 축소시 가운데로 x */
+  width: 91%;
+  border: 3px solid rgba(243, 156, 18, 0.48);
+}
+
+p {
+  text-align: center;
+  margin: 3% 0%;
+  font-size: 160%;
+  font-weight: bolder;
+}
+
+#reviewFrm {
+  width: 70%;
+}
+
+#reviewFrm > input {
+    display: none;
+}
+
+#reviewFrm>ul {
+  list-style-type: none;
+}
+
+#reviewFrm>ul>li:nth-child(odd) {
+  font-weight: bolder;
+  font-size: 130%;
+}
+
+#reviewFrm>ul>li:nth-child(even) {
+  margin: 1% 0% 4% 0%;
+}
+
+#o_name, #contents {
+  outline: none;
+  width: 100%;
+  font-size: 110%;
+}
+
+#o_name {
+  border: none;
+  height: 50px;
+  background-color: #cccccc59;
+}
+
+#contents {
+  border: 2px solid #424242;
+  height: 233px;
+  resize: none;
+  box-sizing: border-box;
+}
+
+.border_bottom {
+  border-bottom: 2px solid #424242;
+}
+
+/* 버튼 css */
+.button  {
+  width: 130px;
+  height: 40px;
+  padding: 10px 25px;
+  border: 2px solid #000;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  border-radius: 20px;
+  margin: 0% 40% 4%;
+}
+.btn-1 {
+  background: #424242;
+  color: #fff;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.btn-1:hover {
+  background: transparent;
+  color: #424242;
+   box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
+}
+.btn-1:before,
+.btn-1:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #424242;
+  transition:400ms ease all;
+}
+.btn-1:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.btn-1:hover:before,
+.btn-1:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}

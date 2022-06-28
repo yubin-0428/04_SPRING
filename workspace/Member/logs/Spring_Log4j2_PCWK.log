@@ -1,0 +1,425 @@
+[DEBUG], 2022-06-22 16:04:43 debug:372 - log4jdbc-logj2 properties initialization...
+[DEBUG], 2022-06-22 16:04:43 debug:372 - Using logger: null
+[DEBUG], 2022-06-22 16:04:43 debug:372 - x log4jdbc.debug.stack.prefix is not defined
+[DEBUG], 2022-06-22 16:04:43 debug:372 - x log4jdbc.sqltiming.warn.threshold is not defined
+[DEBUG], 2022-06-22 16:04:43 debug:372 - x log4jdbc.sqltiming.error.threshold is not defined
+[DEBUG], 2022-06-22 16:04:43 debug:372 - x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[DEBUG], 2022-06-22 16:04:43 debug:372 - x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[DEBUG], 2022-06-22 16:04:43 debug:372 - x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[DEBUG], 2022-06-22 16:04:43 debug:372 - x log4jdbc.statement.warn is not defined (using default value false)
+[DEBUG], 2022-06-22 16:04:43 debug:372 - x log4jdbc.dump.sql.select is not defined (using default value true)
+[DEBUG], 2022-06-22 16:04:43 debug:372 - x log4jdbc.dump.sql.insert is not defined (using default value true)
+[DEBUG], 2022-06-22 16:04:43 debug:372 - x log4jdbc.dump.sql.update is not defined (using default value true)
+[DEBUG], 2022-06-22 16:04:43 debug:372 - x log4jdbc.dump.sql.delete is not defined (using default value true)
+[DEBUG], 2022-06-22 16:04:43 debug:372 - x log4jdbc.dump.sql.create is not defined (using default value true)
+[DEBUG], 2022-06-22 16:04:43 debug:372 - x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[DEBUG], 2022-06-22 16:04:43 debug:372 - x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[DEBUG], 2022-06-22 16:04:43 debug:372 - x log4jdbc.drivers is not defined
+[DEBUG], 2022-06-22 16:04:43 debug:372 - x log4jdbc.trim.sql is not defined (using default value true)
+[DEBUG], 2022-06-22 16:04:43 debug:372 - x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[DEBUG], 2022-06-22 16:04:43 debug:372 - x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[DEBUG], 2022-06-22 16:04:43 debug:372 - log4jdbc-logj2 properties initialization done.
+[DEBUG], 2022-06-22 16:04:43 debug:372 - DriverSpy intialization...
+[DEBUG], 2022-06-22 16:04:43 debug:372 -   FOUND DRIVER oracle.jdbc.OracleDriver
+[DEBUG], 2022-06-22 16:04:43 debug:372 -   FOUND DRIVER oracle.jdbc.driver.OracleDriver
+[DEBUG], 2022-06-22 16:04:43 debug:372 - DriverSpy intialization done.
+[DEBUG], 2022-06-22 16:05:22 debug:372 - log4jdbc-logj2 properties initialization...
+[DEBUG], 2022-06-22 16:05:22 debug:372 - Using logger: null
+[DEBUG], 2022-06-22 16:05:22 debug:372 - x log4jdbc.debug.stack.prefix is not defined
+[DEBUG], 2022-06-22 16:05:22 debug:372 - x log4jdbc.sqltiming.warn.threshold is not defined
+[DEBUG], 2022-06-22 16:05:22 debug:372 - x log4jdbc.sqltiming.error.threshold is not defined
+[DEBUG], 2022-06-22 16:05:22 debug:372 - x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[DEBUG], 2022-06-22 16:05:22 debug:372 - x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[DEBUG], 2022-06-22 16:05:22 debug:372 - x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[DEBUG], 2022-06-22 16:05:22 debug:372 - x log4jdbc.statement.warn is not defined (using default value false)
+[DEBUG], 2022-06-22 16:05:22 debug:372 - x log4jdbc.dump.sql.select is not defined (using default value true)
+[DEBUG], 2022-06-22 16:05:22 debug:372 - x log4jdbc.dump.sql.insert is not defined (using default value true)
+[DEBUG], 2022-06-22 16:05:22 debug:372 - x log4jdbc.dump.sql.update is not defined (using default value true)
+[DEBUG], 2022-06-22 16:05:22 debug:372 - x log4jdbc.dump.sql.delete is not defined (using default value true)
+[DEBUG], 2022-06-22 16:05:22 debug:372 - x log4jdbc.dump.sql.create is not defined (using default value true)
+[DEBUG], 2022-06-22 16:05:22 debug:372 - x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[DEBUG], 2022-06-22 16:05:22 debug:372 - x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[DEBUG], 2022-06-22 16:05:22 debug:372 - x log4jdbc.drivers is not defined
+[DEBUG], 2022-06-22 16:05:22 debug:372 - x log4jdbc.trim.sql is not defined (using default value true)
+[DEBUG], 2022-06-22 16:05:22 debug:372 - x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[DEBUG], 2022-06-22 16:05:22 debug:372 - x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[DEBUG], 2022-06-22 16:05:22 debug:372 - log4jdbc-logj2 properties initialization done.
+[DEBUG], 2022-06-22 16:05:22 debug:372 - DriverSpy intialization...
+[DEBUG], 2022-06-22 16:05:22 debug:372 -   FOUND DRIVER oracle.jdbc.OracleDriver
+[DEBUG], 2022-06-22 16:05:22 debug:372 -   FOUND DRIVER oracle.jdbc.driver.OracleDriver
+[DEBUG], 2022-06-22 16:05:22 debug:372 - DriverSpy intialization done.
+[DEBUG], 2022-06-22 16:11:01 debug:372 - log4jdbc-logj2 properties initialization...
+[DEBUG], 2022-06-22 16:11:01 debug:372 - Using logger: null
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.debug.stack.prefix is not defined
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.sqltiming.warn.threshold is not defined
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.sqltiming.error.threshold is not defined
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.statement.warn is not defined (using default value false)
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.dump.sql.select is not defined (using default value true)
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.dump.sql.insert is not defined (using default value true)
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.dump.sql.update is not defined (using default value true)
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.dump.sql.delete is not defined (using default value true)
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.dump.sql.create is not defined (using default value true)
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.drivers is not defined
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.trim.sql is not defined (using default value true)
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[DEBUG], 2022-06-22 16:11:01 debug:372 - log4jdbc-logj2 properties initialization done.
+[DEBUG], 2022-06-22 16:11:01 debug:372 - DriverSpy intialization...
+[DEBUG], 2022-06-22 16:11:01 debug:372 -   FOUND DRIVER oracle.jdbc.OracleDriver
+[DEBUG], 2022-06-22 16:11:01 debug:372 -   FOUND DRIVER oracle.jdbc.driver.OracleDriver
+[DEBUG], 2022-06-22 16:11:01 debug:372 - DriverSpy intialization done.
+[DEBUG], 2022-06-22 16:11:01 debug:372 - log4jdbc-logj2 properties initialization...
+[DEBUG], 2022-06-22 16:11:01 debug:372 - Using logger: null
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.debug.stack.prefix is not defined
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.sqltiming.warn.threshold is not defined
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.sqltiming.error.threshold is not defined
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.statement.warn is not defined (using default value false)
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.dump.sql.select is not defined (using default value true)
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.dump.sql.insert is not defined (using default value true)
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.dump.sql.update is not defined (using default value true)
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.dump.sql.delete is not defined (using default value true)
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.dump.sql.create is not defined (using default value true)
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.drivers is not defined
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.trim.sql is not defined (using default value true)
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[DEBUG], 2022-06-22 16:11:01 debug:372 - x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[DEBUG], 2022-06-22 16:11:01 debug:372 - log4jdbc-logj2 properties initialization done.
+[DEBUG], 2022-06-22 16:11:01 debug:372 - DriverSpy intialization...
+[DEBUG], 2022-06-22 16:11:01 debug:372 -   FOUND DRIVER oracle.jdbc.OracleDriver
+[DEBUG], 2022-06-22 16:11:01 debug:372 -   FOUND DRIVER oracle.jdbc.driver.OracleDriver
+[DEBUG], 2022-06-22 16:11:01 debug:372 - DriverSpy intialization done.
+[DEBUG], 2022-06-22 16:12:08 debug:372 - log4jdbc-logj2 properties initialization...
+[DEBUG], 2022-06-22 16:12:08 debug:372 - Using logger: null
+[DEBUG], 2022-06-22 16:12:08 debug:372 - x log4jdbc.debug.stack.prefix is not defined
+[DEBUG], 2022-06-22 16:12:08 debug:372 - x log4jdbc.sqltiming.warn.threshold is not defined
+[DEBUG], 2022-06-22 16:12:08 debug:372 - x log4jdbc.sqltiming.error.threshold is not defined
+[DEBUG], 2022-06-22 16:12:08 debug:372 - x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[DEBUG], 2022-06-22 16:12:08 debug:372 - x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[DEBUG], 2022-06-22 16:12:08 debug:372 - x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[DEBUG], 2022-06-22 16:12:08 debug:372 - x log4jdbc.statement.warn is not defined (using default value false)
+[DEBUG], 2022-06-22 16:12:08 debug:372 - x log4jdbc.dump.sql.select is not defined (using default value true)
+[DEBUG], 2022-06-22 16:12:08 debug:372 - x log4jdbc.dump.sql.insert is not defined (using default value true)
+[DEBUG], 2022-06-22 16:12:08 debug:372 - x log4jdbc.dump.sql.update is not defined (using default value true)
+[DEBUG], 2022-06-22 16:12:08 debug:372 - x log4jdbc.dump.sql.delete is not defined (using default value true)
+[DEBUG], 2022-06-22 16:12:08 debug:372 - x log4jdbc.dump.sql.create is not defined (using default value true)
+[DEBUG], 2022-06-22 16:12:08 debug:372 - x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[DEBUG], 2022-06-22 16:12:08 debug:372 - x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[DEBUG], 2022-06-22 16:12:08 debug:372 - x log4jdbc.drivers is not defined
+[DEBUG], 2022-06-22 16:12:08 debug:372 - x log4jdbc.trim.sql is not defined (using default value true)
+[DEBUG], 2022-06-22 16:12:08 debug:372 - x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[DEBUG], 2022-06-22 16:12:08 debug:372 - x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[DEBUG], 2022-06-22 16:12:08 debug:372 - log4jdbc-logj2 properties initialization done.
+[DEBUG], 2022-06-22 16:12:08 debug:372 - DriverSpy intialization...
+[DEBUG], 2022-06-22 16:12:08 debug:372 -   FOUND DRIVER oracle.jdbc.OracleDriver
+[DEBUG], 2022-06-22 16:12:08 debug:372 -   FOUND DRIVER oracle.jdbc.driver.OracleDriver
+[DEBUG], 2022-06-22 16:12:08 debug:372 - DriverSpy intialization done.
+[DEBUG], 2022-06-22 16:38:27 debug:372 - log4jdbc-logj2 properties initialization...
+[DEBUG], 2022-06-22 16:38:27 debug:372 - Using logger: null
+[DEBUG], 2022-06-22 16:38:27 debug:372 - x log4jdbc.debug.stack.prefix is not defined
+[DEBUG], 2022-06-22 16:38:27 debug:372 - x log4jdbc.sqltiming.warn.threshold is not defined
+[DEBUG], 2022-06-22 16:38:27 debug:372 - x log4jdbc.sqltiming.error.threshold is not defined
+[DEBUG], 2022-06-22 16:38:27 debug:372 - x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[DEBUG], 2022-06-22 16:38:27 debug:372 - x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[DEBUG], 2022-06-22 16:38:27 debug:372 - x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[DEBUG], 2022-06-22 16:38:27 debug:372 - x log4jdbc.statement.warn is not defined (using default value false)
+[DEBUG], 2022-06-22 16:38:27 debug:372 - x log4jdbc.dump.sql.select is not defined (using default value true)
+[DEBUG], 2022-06-22 16:38:27 debug:372 - x log4jdbc.dump.sql.insert is not defined (using default value true)
+[DEBUG], 2022-06-22 16:38:27 debug:372 - x log4jdbc.dump.sql.update is not defined (using default value true)
+[DEBUG], 2022-06-22 16:38:27 debug:372 - x log4jdbc.dump.sql.delete is not defined (using default value true)
+[DEBUG], 2022-06-22 16:38:27 debug:372 - x log4jdbc.dump.sql.create is not defined (using default value true)
+[DEBUG], 2022-06-22 16:38:27 debug:372 - x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[DEBUG], 2022-06-22 16:38:27 debug:372 - x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[DEBUG], 2022-06-22 16:38:27 debug:372 - x log4jdbc.drivers is not defined
+[DEBUG], 2022-06-22 16:38:27 debug:372 - x log4jdbc.trim.sql is not defined (using default value true)
+[DEBUG], 2022-06-22 16:38:27 debug:372 - x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[DEBUG], 2022-06-22 16:38:27 debug:372 - x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[DEBUG], 2022-06-22 16:38:27 debug:372 - log4jdbc-logj2 properties initialization done.
+[DEBUG], 2022-06-22 16:38:27 debug:372 - DriverSpy intialization...
+[DEBUG], 2022-06-22 16:38:27 debug:372 -   FOUND DRIVER oracle.jdbc.OracleDriver
+[DEBUG], 2022-06-22 16:38:27 debug:372 -   FOUND DRIVER oracle.jdbc.driver.OracleDriver
+[DEBUG], 2022-06-22 16:38:27 debug:372 - DriverSpy intialization done.
+[DEBUG], 2022-06-22 16:38:46 debug:372 - log4jdbc-logj2 properties initialization...
+[DEBUG], 2022-06-22 16:38:46 debug:372 - Using logger: null
+[DEBUG], 2022-06-22 16:38:46 debug:372 - x log4jdbc.debug.stack.prefix is not defined
+[DEBUG], 2022-06-22 16:38:46 debug:372 - x log4jdbc.sqltiming.warn.threshold is not defined
+[DEBUG], 2022-06-22 16:38:46 debug:372 - x log4jdbc.sqltiming.error.threshold is not defined
+[DEBUG], 2022-06-22 16:38:46 debug:372 - x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[DEBUG], 2022-06-22 16:38:46 debug:372 - x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[DEBUG], 2022-06-22 16:38:46 debug:372 - x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[DEBUG], 2022-06-22 16:38:46 debug:372 - x log4jdbc.statement.warn is not defined (using default value false)
+[DEBUG], 2022-06-22 16:38:46 debug:372 - x log4jdbc.dump.sql.select is not defined (using default value true)
+[DEBUG], 2022-06-22 16:38:46 debug:372 - x log4jdbc.dump.sql.insert is not defined (using default value true)
+[DEBUG], 2022-06-22 16:38:46 debug:372 - x log4jdbc.dump.sql.update is not defined (using default value true)
+[DEBUG], 2022-06-22 16:38:46 debug:372 - x log4jdbc.dump.sql.delete is not defined (using default value true)
+[DEBUG], 2022-06-22 16:38:46 debug:372 - x log4jdbc.dump.sql.create is not defined (using default value true)
+[DEBUG], 2022-06-22 16:38:46 debug:372 - x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[DEBUG], 2022-06-22 16:38:46 debug:372 - x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[DEBUG], 2022-06-22 16:38:46 debug:372 - x log4jdbc.drivers is not defined
+[DEBUG], 2022-06-22 16:38:46 debug:372 - x log4jdbc.trim.sql is not defined (using default value true)
+[DEBUG], 2022-06-22 16:38:46 debug:372 - x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[DEBUG], 2022-06-22 16:38:46 debug:372 - x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[DEBUG], 2022-06-22 16:38:46 debug:372 - log4jdbc-logj2 properties initialization done.
+[DEBUG], 2022-06-22 16:38:46 debug:372 - DriverSpy intialization...
+[DEBUG], 2022-06-22 16:38:46 debug:372 -   FOUND DRIVER oracle.jdbc.OracleDriver
+[DEBUG], 2022-06-22 16:38:46 debug:372 -   FOUND DRIVER oracle.jdbc.driver.OracleDriver
+[DEBUG], 2022-06-22 16:38:46 debug:372 - DriverSpy intialization done.
+[DEBUG], 2022-06-22 16:39:02 debug:372 - log4jdbc-logj2 properties initialization...
+[DEBUG], 2022-06-22 16:39:02 debug:372 - Using logger: null
+[DEBUG], 2022-06-22 16:39:02 debug:372 - x log4jdbc.debug.stack.prefix is not defined
+[DEBUG], 2022-06-22 16:39:02 debug:372 - x log4jdbc.sqltiming.warn.threshold is not defined
+[DEBUG], 2022-06-22 16:39:02 debug:372 - x log4jdbc.sqltiming.error.threshold is not defined
+[DEBUG], 2022-06-22 16:39:02 debug:372 - x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[DEBUG], 2022-06-22 16:39:02 debug:372 - x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[DEBUG], 2022-06-22 16:39:02 debug:372 - x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[DEBUG], 2022-06-22 16:39:02 debug:372 - x log4jdbc.statement.warn is not defined (using default value false)
+[DEBUG], 2022-06-22 16:39:02 debug:372 - x log4jdbc.dump.sql.select is not defined (using default value true)
+[DEBUG], 2022-06-22 16:39:02 debug:372 - x log4jdbc.dump.sql.insert is not defined (using default value true)
+[DEBUG], 2022-06-22 16:39:02 debug:372 - x log4jdbc.dump.sql.update is not defined (using default value true)
+[DEBUG], 2022-06-22 16:39:02 debug:372 - x log4jdbc.dump.sql.delete is not defined (using default value true)
+[DEBUG], 2022-06-22 16:39:02 debug:372 - x log4jdbc.dump.sql.create is not defined (using default value true)
+[DEBUG], 2022-06-22 16:39:02 debug:372 - x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[DEBUG], 2022-06-22 16:39:02 debug:372 - x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[DEBUG], 2022-06-22 16:39:02 debug:372 - x log4jdbc.drivers is not defined
+[DEBUG], 2022-06-22 16:39:02 debug:372 - x log4jdbc.trim.sql is not defined (using default value true)
+[DEBUG], 2022-06-22 16:39:02 debug:372 - x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[DEBUG], 2022-06-22 16:39:02 debug:372 - x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[DEBUG], 2022-06-22 16:39:02 debug:372 - log4jdbc-logj2 properties initialization done.
+[DEBUG], 2022-06-22 16:39:02 debug:372 - DriverSpy intialization...
+[DEBUG], 2022-06-22 16:39:02 debug:372 -   FOUND DRIVER oracle.jdbc.OracleDriver
+[DEBUG], 2022-06-22 16:39:02 debug:372 -   FOUND DRIVER oracle.jdbc.driver.OracleDriver
+[DEBUG], 2022-06-22 16:39:02 debug:372 - DriverSpy intialization done.
+[DEBUG], 2022-06-22 16:39:48 debug:372 - log4jdbc-logj2 properties initialization...
+[DEBUG], 2022-06-22 16:39:48 debug:372 - Using logger: null
+[DEBUG], 2022-06-22 16:39:48 debug:372 - x log4jdbc.debug.stack.prefix is not defined
+[DEBUG], 2022-06-22 16:39:48 debug:372 - x log4jdbc.sqltiming.warn.threshold is not defined
+[DEBUG], 2022-06-22 16:39:48 debug:372 - x log4jdbc.sqltiming.error.threshold is not defined
+[DEBUG], 2022-06-22 16:39:48 debug:372 - x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[DEBUG], 2022-06-22 16:39:48 debug:372 - x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[DEBUG], 2022-06-22 16:39:48 debug:372 - x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[DEBUG], 2022-06-22 16:39:48 debug:372 - x log4jdbc.statement.warn is not defined (using default value false)
+[DEBUG], 2022-06-22 16:39:48 debug:372 - x log4jdbc.dump.sql.select is not defined (using default value true)
+[DEBUG], 2022-06-22 16:39:48 debug:372 - x log4jdbc.dump.sql.insert is not defined (using default value true)
+[DEBUG], 2022-06-22 16:39:48 debug:372 - x log4jdbc.dump.sql.update is not defined (using default value true)
+[DEBUG], 2022-06-22 16:39:48 debug:372 - x log4jdbc.dump.sql.delete is not defined (using default value true)
+[DEBUG], 2022-06-22 16:39:48 debug:372 - x log4jdbc.dump.sql.create is not defined (using default value true)
+[DEBUG], 2022-06-22 16:39:48 debug:372 - x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[DEBUG], 2022-06-22 16:39:48 debug:372 - x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[DEBUG], 2022-06-22 16:39:48 debug:372 - x log4jdbc.drivers is not defined
+[DEBUG], 2022-06-22 16:39:48 debug:372 - x log4jdbc.trim.sql is not defined (using default value true)
+[DEBUG], 2022-06-22 16:39:48 debug:372 - x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[DEBUG], 2022-06-22 16:39:48 debug:372 - x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[DEBUG], 2022-06-22 16:39:48 debug:372 - log4jdbc-logj2 properties initialization done.
+[DEBUG], 2022-06-22 16:39:48 debug:372 - DriverSpy intialization...
+[DEBUG], 2022-06-22 16:39:48 debug:372 -   FOUND DRIVER oracle.jdbc.OracleDriver
+[DEBUG], 2022-06-22 16:39:48 debug:372 -   FOUND DRIVER oracle.jdbc.driver.OracleDriver
+[DEBUG], 2022-06-22 16:39:48 debug:372 - DriverSpy intialization done.
+[DEBUG], 2022-06-22 16:40:10 debug:372 - log4jdbc-logj2 properties initialization...
+[DEBUG], 2022-06-22 16:40:10 debug:372 - Using logger: null
+[DEBUG], 2022-06-22 16:40:10 debug:372 - x log4jdbc.debug.stack.prefix is not defined
+[DEBUG], 2022-06-22 16:40:10 debug:372 - x log4jdbc.sqltiming.warn.threshold is not defined
+[DEBUG], 2022-06-22 16:40:10 debug:372 - x log4jdbc.sqltiming.error.threshold is not defined
+[DEBUG], 2022-06-22 16:40:10 debug:372 - x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[DEBUG], 2022-06-22 16:40:10 debug:372 - x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[DEBUG], 2022-06-22 16:40:10 debug:372 - x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[DEBUG], 2022-06-22 16:40:10 debug:372 - x log4jdbc.statement.warn is not defined (using default value false)
+[DEBUG], 2022-06-22 16:40:10 debug:372 - x log4jdbc.dump.sql.select is not defined (using default value true)
+[DEBUG], 2022-06-22 16:40:10 debug:372 - x log4jdbc.dump.sql.insert is not defined (using default value true)
+[DEBUG], 2022-06-22 16:40:10 debug:372 - x log4jdbc.dump.sql.update is not defined (using default value true)
+[DEBUG], 2022-06-22 16:40:10 debug:372 - x log4jdbc.dump.sql.delete is not defined (using default value true)
+[DEBUG], 2022-06-22 16:40:10 debug:372 - x log4jdbc.dump.sql.create is not defined (using default value true)
+[DEBUG], 2022-06-22 16:40:10 debug:372 - x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[DEBUG], 2022-06-22 16:40:10 debug:372 - x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[DEBUG], 2022-06-22 16:40:10 debug:372 - x log4jdbc.drivers is not defined
+[DEBUG], 2022-06-22 16:40:10 debug:372 - x log4jdbc.trim.sql is not defined (using default value true)
+[DEBUG], 2022-06-22 16:40:10 debug:372 - x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[DEBUG], 2022-06-22 16:40:10 debug:372 - x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[DEBUG], 2022-06-22 16:40:10 debug:372 - log4jdbc-logj2 properties initialization done.
+[DEBUG], 2022-06-22 16:40:10 debug:372 - DriverSpy intialization...
+[DEBUG], 2022-06-22 16:40:10 debug:372 -   FOUND DRIVER oracle.jdbc.OracleDriver
+[DEBUG], 2022-06-22 16:40:10 debug:372 -   FOUND DRIVER oracle.jdbc.driver.OracleDriver
+[DEBUG], 2022-06-22 16:40:10 debug:372 - DriverSpy intialization done.
+[DEBUG], 2022-06-22 16:40:37 debug:372 - log4jdbc-logj2 properties initialization...
+[DEBUG], 2022-06-22 16:40:37 debug:372 - Using logger: null
+[DEBUG], 2022-06-22 16:40:37 debug:372 - x log4jdbc.debug.stack.prefix is not defined
+[DEBUG], 2022-06-22 16:40:37 debug:372 - x log4jdbc.sqltiming.warn.threshold is not defined
+[DEBUG], 2022-06-22 16:40:37 debug:372 - x log4jdbc.sqltiming.error.threshold is not defined
+[DEBUG], 2022-06-22 16:40:37 debug:372 - x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[DEBUG], 2022-06-22 16:40:37 debug:372 - x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[DEBUG], 2022-06-22 16:40:37 debug:372 - x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[DEBUG], 2022-06-22 16:40:37 debug:372 - x log4jdbc.statement.warn is not defined (using default value false)
+[DEBUG], 2022-06-22 16:40:37 debug:372 - x log4jdbc.dump.sql.select is not defined (using default value true)
+[DEBUG], 2022-06-22 16:40:37 debug:372 - x log4jdbc.dump.sql.insert is not defined (using default value true)
+[DEBUG], 2022-06-22 16:40:37 debug:372 - x log4jdbc.dump.sql.update is not defined (using default value true)
+[DEBUG], 2022-06-22 16:40:37 debug:372 - x log4jdbc.dump.sql.delete is not defined (using default value true)
+[DEBUG], 2022-06-22 16:40:37 debug:372 - x log4jdbc.dump.sql.create is not defined (using default value true)
+[DEBUG], 2022-06-22 16:40:37 debug:372 - x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[DEBUG], 2022-06-22 16:40:37 debug:372 - x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[DEBUG], 2022-06-22 16:40:37 debug:372 - x log4jdbc.drivers is not defined
+[DEBUG], 2022-06-22 16:40:37 debug:372 - x log4jdbc.trim.sql is not defined (using default value true)
+[DEBUG], 2022-06-22 16:40:37 debug:372 - x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[DEBUG], 2022-06-22 16:40:37 debug:372 - x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[DEBUG], 2022-06-22 16:40:37 debug:372 - log4jdbc-logj2 properties initialization done.
+[DEBUG], 2022-06-22 16:40:37 debug:372 - DriverSpy intialization...
+[DEBUG], 2022-06-22 16:40:37 debug:372 -   FOUND DRIVER oracle.jdbc.OracleDriver
+[DEBUG], 2022-06-22 16:40:37 debug:372 -   FOUND DRIVER oracle.jdbc.driver.OracleDriver
+[DEBUG], 2022-06-22 16:40:37 debug:372 - DriverSpy intialization done.
+[DEBUG], 2022-06-22 16:42:41 debug:372 - log4jdbc-logj2 properties initialization...
+[DEBUG], 2022-06-22 16:42:41 debug:372 - Using logger: null
+[DEBUG], 2022-06-22 16:42:41 debug:372 - x log4jdbc.debug.stack.prefix is not defined
+[DEBUG], 2022-06-22 16:42:41 debug:372 - x log4jdbc.sqltiming.warn.threshold is not defined
+[DEBUG], 2022-06-22 16:42:41 debug:372 - x log4jdbc.sqltiming.error.threshold is not defined
+[DEBUG], 2022-06-22 16:42:41 debug:372 - x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[DEBUG], 2022-06-22 16:42:41 debug:372 - x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[DEBUG], 2022-06-22 16:42:41 debug:372 - x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[DEBUG], 2022-06-22 16:42:41 debug:372 - x log4jdbc.statement.warn is not defined (using default value false)
+[DEBUG], 2022-06-22 16:42:41 debug:372 - x log4jdbc.dump.sql.select is not defined (using default value true)
+[DEBUG], 2022-06-22 16:42:41 debug:372 - x log4jdbc.dump.sql.insert is not defined (using default value true)
+[DEBUG], 2022-06-22 16:42:41 debug:372 - x log4jdbc.dump.sql.update is not defined (using default value true)
+[DEBUG], 2022-06-22 16:42:41 debug:372 - x log4jdbc.dump.sql.delete is not defined (using default value true)
+[DEBUG], 2022-06-22 16:42:41 debug:372 - x log4jdbc.dump.sql.create is not defined (using default value true)
+[DEBUG], 2022-06-22 16:42:41 debug:372 - x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[DEBUG], 2022-06-22 16:42:41 debug:372 - x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[DEBUG], 2022-06-22 16:42:41 debug:372 - x log4jdbc.drivers is not defined
+[DEBUG], 2022-06-22 16:42:41 debug:372 - x log4jdbc.trim.sql is not defined (using default value true)
+[DEBUG], 2022-06-22 16:42:41 debug:372 - x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[DEBUG], 2022-06-22 16:42:41 debug:372 - x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[DEBUG], 2022-06-22 16:42:41 debug:372 - log4jdbc-logj2 properties initialization done.
+[DEBUG], 2022-06-22 16:42:41 debug:372 - DriverSpy intialization...
+[DEBUG], 2022-06-22 16:42:41 debug:372 -   FOUND DRIVER oracle.jdbc.OracleDriver
+[DEBUG], 2022-06-22 16:42:41 debug:372 -   FOUND DRIVER oracle.jdbc.driver.OracleDriver
+[DEBUG], 2022-06-22 16:42:41 debug:372 - DriverSpy intialization done.
+[DEBUG], 2022-06-22 16:43:07 debug:372 - log4jdbc-logj2 properties initialization...
+[DEBUG], 2022-06-22 16:43:07 debug:372 - Using logger: null
+[DEBUG], 2022-06-22 16:43:07 debug:372 - x log4jdbc.debug.stack.prefix is not defined
+[DEBUG], 2022-06-22 16:43:07 debug:372 - x log4jdbc.sqltiming.warn.threshold is not defined
+[DEBUG], 2022-06-22 16:43:07 debug:372 - x log4jdbc.sqltiming.error.threshold is not defined
+[DEBUG], 2022-06-22 16:43:07 debug:372 - x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[DEBUG], 2022-06-22 16:43:07 debug:372 - x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[DEBUG], 2022-06-22 16:43:07 debug:372 - x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[DEBUG], 2022-06-22 16:43:07 debug:372 - x log4jdbc.statement.warn is not defined (using default value false)
+[DEBUG], 2022-06-22 16:43:07 debug:372 - x log4jdbc.dump.sql.select is not defined (using default value true)
+[DEBUG], 2022-06-22 16:43:07 debug:372 - x log4jdbc.dump.sql.insert is not defined (using default value true)
+[DEBUG], 2022-06-22 16:43:07 debug:372 - x log4jdbc.dump.sql.update is not defined (using default value true)
+[DEBUG], 2022-06-22 16:43:07 debug:372 - x log4jdbc.dump.sql.delete is not defined (using default value true)
+[DEBUG], 2022-06-22 16:43:07 debug:372 - x log4jdbc.dump.sql.create is not defined (using default value true)
+[DEBUG], 2022-06-22 16:43:07 debug:372 - x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[DEBUG], 2022-06-22 16:43:07 debug:372 - x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[DEBUG], 2022-06-22 16:43:07 debug:372 - x log4jdbc.drivers is not defined
+[DEBUG], 2022-06-22 16:43:07 debug:372 - x log4jdbc.trim.sql is not defined (using default value true)
+[DEBUG], 2022-06-22 16:43:07 debug:372 - x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[DEBUG], 2022-06-22 16:43:07 debug:372 - x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[DEBUG], 2022-06-22 16:43:07 debug:372 - log4jdbc-logj2 properties initialization done.
+[DEBUG], 2022-06-22 16:43:07 debug:372 - DriverSpy intialization...
+[DEBUG], 2022-06-22 16:43:07 debug:372 -   FOUND DRIVER oracle.jdbc.OracleDriver
+[DEBUG], 2022-06-22 16:43:07 debug:372 -   FOUND DRIVER oracle.jdbc.driver.OracleDriver
+[DEBUG], 2022-06-22 16:43:07 debug:372 - DriverSpy intialization done.
+[DEBUG], 2022-06-22 16:54:10 debug:372 - log4jdbc-logj2 properties initialization...
+[DEBUG], 2022-06-22 16:54:10 debug:372 - Using logger: null
+[DEBUG], 2022-06-22 16:54:10 debug:372 - x log4jdbc.debug.stack.prefix is not defined
+[DEBUG], 2022-06-22 16:54:10 debug:372 - x log4jdbc.sqltiming.warn.threshold is not defined
+[DEBUG], 2022-06-22 16:54:10 debug:372 - x log4jdbc.sqltiming.error.threshold is not defined
+[DEBUG], 2022-06-22 16:54:10 debug:372 - x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[DEBUG], 2022-06-22 16:54:10 debug:372 - x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[DEBUG], 2022-06-22 16:54:10 debug:372 - x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[DEBUG], 2022-06-22 16:54:10 debug:372 - x log4jdbc.statement.warn is not defined (using default value false)
+[DEBUG], 2022-06-22 16:54:10 debug:372 - x log4jdbc.dump.sql.select is not defined (using default value true)
+[DEBUG], 2022-06-22 16:54:10 debug:372 - x log4jdbc.dump.sql.insert is not defined (using default value true)
+[DEBUG], 2022-06-22 16:54:10 debug:372 - x log4jdbc.dump.sql.update is not defined (using default value true)
+[DEBUG], 2022-06-22 16:54:10 debug:372 - x log4jdbc.dump.sql.delete is not defined (using default value true)
+[DEBUG], 2022-06-22 16:54:10 debug:372 - x log4jdbc.dump.sql.create is not defined (using default value true)
+[DEBUG], 2022-06-22 16:54:10 debug:372 - x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[DEBUG], 2022-06-22 16:54:10 debug:372 - x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[DEBUG], 2022-06-22 16:54:10 debug:372 - x log4jdbc.drivers is not defined
+[DEBUG], 2022-06-22 16:54:10 debug:372 - x log4jdbc.trim.sql is not defined (using default value true)
+[DEBUG], 2022-06-22 16:54:10 debug:372 - x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[DEBUG], 2022-06-22 16:54:10 debug:372 - x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[DEBUG], 2022-06-22 16:54:10 debug:372 - log4jdbc-logj2 properties initialization done.
+[DEBUG], 2022-06-22 16:54:10 debug:372 - DriverSpy intialization...
+[DEBUG], 2022-06-22 16:54:10 debug:372 -   FOUND DRIVER oracle.jdbc.OracleDriver
+[DEBUG], 2022-06-22 16:54:10 debug:372 -   FOUND DRIVER oracle.jdbc.driver.OracleDriver
+[DEBUG], 2022-06-22 16:54:10 debug:372 - DriverSpy intialization done.
+[DEBUG], 2022-06-22 16:54:49 debug:372 - log4jdbc-logj2 properties initialization...
+[DEBUG], 2022-06-22 16:54:49 debug:372 - Using logger: null
+[DEBUG], 2022-06-22 16:54:49 debug:372 - x log4jdbc.debug.stack.prefix is not defined
+[DEBUG], 2022-06-22 16:54:49 debug:372 - x log4jdbc.sqltiming.warn.threshold is not defined
+[DEBUG], 2022-06-22 16:54:49 debug:372 - x log4jdbc.sqltiming.error.threshold is not defined
+[DEBUG], 2022-06-22 16:54:49 debug:372 - x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[DEBUG], 2022-06-22 16:54:49 debug:372 - x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[DEBUG], 2022-06-22 16:54:49 debug:372 - x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[DEBUG], 2022-06-22 16:54:49 debug:372 - x log4jdbc.statement.warn is not defined (using default value false)
+[DEBUG], 2022-06-22 16:54:49 debug:372 - x log4jdbc.dump.sql.select is not defined (using default value true)
+[DEBUG], 2022-06-22 16:54:49 debug:372 - x log4jdbc.dump.sql.insert is not defined (using default value true)
+[DEBUG], 2022-06-22 16:54:49 debug:372 - x log4jdbc.dump.sql.update is not defined (using default value true)
+[DEBUG], 2022-06-22 16:54:49 debug:372 - x log4jdbc.dump.sql.delete is not defined (using default value true)
+[DEBUG], 2022-06-22 16:54:49 debug:372 - x log4jdbc.dump.sql.create is not defined (using default value true)
+[DEBUG], 2022-06-22 16:54:49 debug:372 - x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[DEBUG], 2022-06-22 16:54:49 debug:372 - x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[DEBUG], 2022-06-22 16:54:49 debug:372 - x log4jdbc.drivers is not defined
+[DEBUG], 2022-06-22 16:54:49 debug:372 - x log4jdbc.trim.sql is not defined (using default value true)
+[DEBUG], 2022-06-22 16:54:49 debug:372 - x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[DEBUG], 2022-06-22 16:54:49 debug:372 - x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[DEBUG], 2022-06-22 16:54:49 debug:372 - log4jdbc-logj2 properties initialization done.
+[DEBUG], 2022-06-22 16:54:49 debug:372 - DriverSpy intialization...
+[DEBUG], 2022-06-22 16:54:49 debug:372 -   FOUND DRIVER oracle.jdbc.OracleDriver
+[DEBUG], 2022-06-22 16:54:49 debug:372 -   FOUND DRIVER oracle.jdbc.driver.OracleDriver
+[DEBUG], 2022-06-22 16:54:50 debug:372 - DriverSpy intialization done.
+[DEBUG], 2022-06-22 16:57:38 debug:372 - log4jdbc-logj2 properties initialization...
+[DEBUG], 2022-06-22 16:57:39 debug:372 - Using logger: null
+[DEBUG], 2022-06-22 16:57:39 debug:372 - x log4jdbc.debug.stack.prefix is not defined
+[DEBUG], 2022-06-22 16:57:39 debug:372 - x log4jdbc.sqltiming.warn.threshold is not defined
+[DEBUG], 2022-06-22 16:57:39 debug:372 - x log4jdbc.sqltiming.error.threshold is not defined
+[DEBUG], 2022-06-22 16:57:39 debug:372 - x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[DEBUG], 2022-06-22 16:57:39 debug:372 - x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[DEBUG], 2022-06-22 16:57:39 debug:372 - x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[DEBUG], 2022-06-22 16:57:39 debug:372 - x log4jdbc.statement.warn is not defined (using default value false)
+[DEBUG], 2022-06-22 16:57:39 debug:372 - x log4jdbc.dump.sql.select is not defined (using default value true)
+[DEBUG], 2022-06-22 16:57:39 debug:372 - x log4jdbc.dump.sql.insert is not defined (using default value true)
+[DEBUG], 2022-06-22 16:57:39 debug:372 - x log4jdbc.dump.sql.update is not defined (using default value true)
+[DEBUG], 2022-06-22 16:57:39 debug:372 - x log4jdbc.dump.sql.delete is not defined (using default value true)
+[DEBUG], 2022-06-22 16:57:39 debug:372 - x log4jdbc.dump.sql.create is not defined (using default value true)
+[DEBUG], 2022-06-22 16:57:39 debug:372 - x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[DEBUG], 2022-06-22 16:57:39 debug:372 - x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[DEBUG], 2022-06-22 16:57:39 debug:372 - x log4jdbc.drivers is not defined
+[DEBUG], 2022-06-22 16:57:39 debug:372 - x log4jdbc.trim.sql is not defined (using default value true)
+[DEBUG], 2022-06-22 16:57:39 debug:372 - x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[DEBUG], 2022-06-22 16:57:39 debug:372 - x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[DEBUG], 2022-06-22 16:57:39 debug:372 - log4jdbc-logj2 properties initialization done.
+[DEBUG], 2022-06-22 16:57:39 debug:372 - DriverSpy intialization...
+[DEBUG], 2022-06-22 16:57:39 debug:372 -   FOUND DRIVER oracle.jdbc.OracleDriver
+[DEBUG], 2022-06-22 16:57:39 debug:372 -   FOUND DRIVER oracle.jdbc.driver.OracleDriver
+[DEBUG], 2022-06-22 16:57:39 debug:372 - DriverSpy intialization done.
+[DEBUG], 2022-06-22 16:58:45 debug:372 - log4jdbc-logj2 properties initialization...
+[DEBUG], 2022-06-22 16:58:45 debug:372 - Using logger: null
+[DEBUG], 2022-06-22 16:58:45 debug:372 - x log4jdbc.debug.stack.prefix is not defined
+[DEBUG], 2022-06-22 16:58:45 debug:372 - x log4jdbc.sqltiming.warn.threshold is not defined
+[DEBUG], 2022-06-22 16:58:45 debug:372 - x log4jdbc.sqltiming.error.threshold is not defined
+[DEBUG], 2022-06-22 16:58:45 debug:372 - x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+[DEBUG], 2022-06-22 16:58:45 debug:372 - x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+[DEBUG], 2022-06-22 16:58:45 debug:372 - x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+[DEBUG], 2022-06-22 16:58:45 debug:372 - x log4jdbc.statement.warn is not defined (using default value false)
+[DEBUG], 2022-06-22 16:58:45 debug:372 - x log4jdbc.dump.sql.select is not defined (using default value true)
+[DEBUG], 2022-06-22 16:58:45 debug:372 - x log4jdbc.dump.sql.insert is not defined (using default value true)
+[DEBUG], 2022-06-22 16:58:45 debug:372 - x log4jdbc.dump.sql.update is not defined (using default value true)
+[DEBUG], 2022-06-22 16:58:45 debug:372 - x log4jdbc.dump.sql.delete is not defined (using default value true)
+[DEBUG], 2022-06-22 16:58:45 debug:372 - x log4jdbc.dump.sql.create is not defined (using default value true)
+[DEBUG], 2022-06-22 16:58:45 debug:372 - x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+[DEBUG], 2022-06-22 16:58:45 debug:372 - x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+[DEBUG], 2022-06-22 16:58:45 debug:372 - x log4jdbc.drivers is not defined
+[DEBUG], 2022-06-22 16:58:45 debug:372 - x log4jdbc.trim.sql is not defined (using default value true)
+[DEBUG], 2022-06-22 16:58:45 debug:372 - x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+[DEBUG], 2022-06-22 16:58:45 debug:372 - x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+[DEBUG], 2022-06-22 16:58:45 debug:372 - log4jdbc-logj2 properties initialization done.
+[DEBUG], 2022-06-22 16:58:45 debug:372 - DriverSpy intialization...
+[DEBUG], 2022-06-22 16:58:45 debug:372 -   FOUND DRIVER oracle.jdbc.OracleDriver
+[DEBUG], 2022-06-22 16:58:45 debug:372 -   FOUND DRIVER oracle.jdbc.driver.OracleDriver
+[DEBUG], 2022-06-22 16:58:45 debug:372 - DriverSpy intialization done.

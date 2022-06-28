@@ -79,6 +79,14 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\Uvin\Desktop\222222"/>
+			<item value="C:\Users\Uvin\Desktop\SW_SH22"/>
+			<item value="C:\Users\Uvin\Downloads\SW_SH21"/>
+			<item value="C:\Users\Uvin\Desktop\SW_SH21\SW_SH21"/>
+			<item value="C:\Users\Uvin\Downloads\CTRL-main"/>
+			<item value="C:\Users\Uvin\Downloads\CTRL-main\CTRL-main"/>
+			<item value="C:\Users\Uvin\Desktop\SW_SH18_01\SW_SH18_01"/>
+			<item value="C:\DCOM_20220127\04_SPRING\workspace\SW_SH15_01"/>
 			<item value="C:\DCOM_20220127\04_SPRING\workspace\SW_SH14_03"/>
 			<item value="C:\Users\Uvin\Downloads\SW_SH14_03"/>
 			<item value="C:\Users\Uvin\Desktop\S_SH11_01"/>
@@ -86,8 +94,6 @@
 			<item value="C:\Users\Uvin\Desktop\S_SH09_01"/>
 			<item value="C:\DCOM_20220127\04_SPRING\workspace\S_SH06_03"/>
 			<item value="C:\Users\Uvin\Desktop\S_SH07_06"/>
-			<item value="C:\DCOM_20220127\04_SPRING\workspace\S_SH07_05"/>
-			<item value="C:\DCOM_20220127\04_SPRING\workspace\S_SH07_04"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
