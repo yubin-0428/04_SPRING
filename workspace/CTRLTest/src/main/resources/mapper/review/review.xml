@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pcwk.ctrl.review">
+
+     <!-- 관리자 댓글 수정 -->
+     <update id="rdUpdate" parameterType="ReviewVO">
+		UPDATE rd
+		SET rd_con = #{rdCon}
+		WHERE r_num = #{rNum}
+     </update>     
+     
+     <!-- 회원 댓글 수정 -->
+     <update id="reviewUpdate" parameterType="ReviewVO">
+		UPDATE review
+		SET r_content = #{rContent}
+		WHERE r_num = #{rNum}
+     </update>
+
+	<!-- 회원 테이블 조회 -->
+	<select id="doMemberSelect" parameterType="MemberVO" resultType="MemberVO">
+		SELECT m_num,
+		       m_name,
+		       m_email,
+		       m_tel,
+		       m_addr,
+		       m_grade
+		FROM member
+		WHERE m_num = #{mNum}
+	</select>     
+     
+     <!-- 관리자 댓글 입력 -->
+     <insert id="doRdInsert" parameterType="RdVO">
+		INSERT INTO rd (
+		    r_num,
+		    rd_con,
+		    rd_reg,
+		    rd_name,
+		    m_num
+		) VALUES (
+		    REVIEW_S.currval,
+		    #{rdCon},
+		    SYSDATE,
+		    #{rdName},
+		    #{mNum}
+		)    
+     </insert>
+     
+     <!-- 리뷰 테이블 전체 개수 조회 -->
+     <select id="getCountAll" parameterType="ReviewVO" resultType="int">
+        SELECT COUNT(*) AS cnt    
+        FROM review            
+    </select>     
+    
+     <resultMap type="ReviewRdVO" id="reviewRdResultMap">
+        <result property="rNum" column="r_num" />
+        <result property="rContent" column="r_content" jdbcType="CLOB" javaType="java.lang.String"/>
+        <result property="rdCon" column="rd_con" jdbcType="CLOB" javaType="java.lang.String"/>
+        <result property="rdName" column="rd_name"/>
+        <result property="pNum" column="p_num"/>
+        <result property="mNum" column="o_name"/>
+        <result property="oNum" column="o_num"/>
+        <result property="dNum" column="d_num"/>
+    </resultMap>    
+    
+    <!-- 리뷰와 관리자 댓글 조회 -->  
+    <select id="doReviewsRetrieve" parameterType="HashMap" resultMap="reviewRdResultMap" >
+        SELECT ttt1.r_num,
+               ttt1.r_content,
+               ttt1.rd_con,
+               ttt1.rd_name,
+               ttt1.p_num,
+               ttt1.o_name,
+               ttt1.m_num,
+               ttt1.o_num,
+               ttt1.d_num
+        FROM (
+            SELECT ROWNUM AS rown, tt1.*
+            FROM (
+                SELECT t2.r_num,
+                       t2.r_content,
+                       t1.rd_con,
+                       t1.rd_name,
+                       t3.p_num,
+                       t4.o_name,
+                       t4.m_num,
+                       t3.o_num,
+                       t3.d_num
+                FROM rd t1 RIGHT OUTER JOIN review t2
+                ON t1.r_num = t2.r_num
+                JOIN detail t3
+                ON t2.o_num=t3.o_num
+                AND t2.d_num = t3.d_num
+                JOIN order_t t4
+                ON t3.o_num = t4.o_num
+                JOIN product t5
+                ON t3.p_num = t5.p_num
+                WHERE t5.p_num = #{pNum}
+                ORDER BY t2.r_dt
+             ) tt1
+             WHERE ROWNUM  <![CDATA[  <= #{pageSize} * (#{pageNum} - 1) + #{pageSize} ]]>
+        ) ttt1
+        <![CDATA[  WHERE rown >=( #{pageSize} * ( #{pageNum} - 1) +1)  ]]>
+     </select>
+    
+    <!-- 리뷰 테이블에 값 입력 -->
+    <insert id="doReviewInsert" parameterType="ReviewVO">
+        INSERT INTO review (  
+                    r_num,    
+                    d_num,    
+                    o_num,    
+                    r_content,
+                    o_name,   
+                    r_dt      
+        ) VALUES (            
+            REVIEW_S.NEXTVAL, 
+            #{dNum},                
+            #{oNum},                
+            #{rContent},                
+            #{oName},                
+            SYSDATE           
+        )                     
+       
+    </insert>
+    
+    <!-- 관리자가 작성한 리뷰 갯수 세기 -->
+    <select id="getRdCount" parameterType="RdVO" resultType="int">
+        SELECT COUNT(*) AS cnt    
+        FROM rd            
+        WHERE r_num = #{rNum} 
+    </select>   
+    
+    <!-- 회원이 작성한 리뷰 갯수 세기 -->
+    <select id="getCount" parameterType="ReviewVO" resultType="int">
+        SELECT COUNT(*) AS cnt    
+        FROM review            
+        WHERE r_num = #{rNum} 
+    </select>   
+    
+    <resultMap type="ReviewVO" id="reviewResultMap">
+        <id property="rNum" column="r_num"/>
+        <result property="dNum" column="d_num"/>
+        <result property="oNum" column="o_num"/>
+        <result property="rContent" column="r_content"/>
+        <result property="oName" column="o_name"/>
+        <result property="rDt" column="r_dt"/>
+    </resultMap>    
+    
+    <!-- 관리자가 작성한 리뷰 셀렉 -->
+    <select id="doRdSelectOne" parameterType="RdVO" resultType="RdVO">
+       <![CDATA[ 
+		SELECT r_num as rNum,
+		       rd_con as rdCon,
+		       rd_reg as rdReg,
+		       rd_name as rdName,
+		       m_num as mNum
+		FROM rd
+		WHERE r_num = #{rNum}
+        ]]>
+    </select>      
+    
+    <!-- 해당 회원이 작성한 리뷰 셀렉 -->
+    <select id="doSelectOne" parameterType="ReviewVO" resultMap="reviewResultMap">
+       <![CDATA[ 
+        SELECT  r_num,    
+                d_num,    
+                o_num,    
+                r_content,
+                o_name,   
+                r_dt   
+        FROM review 
+        WHERE r_num = #{rNum}
+        ]]>
+    </select>      
+</mapper>

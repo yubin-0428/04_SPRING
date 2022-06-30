@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pcwk.ctrl.menu">
+    
+     <select id="menuList" resultType="ProductVO">
+        SELECT P_NUM AS pNum,
+        P_CATEGORY AS pCategory,
+        P_NAME AS pName,
+        P_PRICE AS pPrice,
+        P_SIZE AS pSize
+        FROM product
+        ORDER BY pNum
+    </select>
+   
+</mapper>

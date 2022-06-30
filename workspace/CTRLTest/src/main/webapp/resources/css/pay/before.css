@@ -1,0 +1,261 @@
+/* 메인페이지 헤더 및 푸터 영역 css 시작 */
+@font-face {
+	font-family: 'Vitro_core'; /* 로고, 소제목 */
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Vitro_core.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Vitro_pride'; /* 나머지 글꼴, font-weight: bolder 적용! */
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Vitro_pride.woff')
+		format('woff');
+	font-weight: bolder;
+	font-style: normal;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	min-width: 1680px; /* 최소 폭 */
+	min-height: 1280px;
+	font-family: Vitro_pride;
+}
+
+#header, #top {
+	width: 100%;
+	max-width: 1800px; /*최대 폭, 값 없으면 화면 축소시 가운데로 x */
+	max-height: 1480px;
+	margin: 0 auto 0;
+	display: flex;
+	position: relative;
+}
+
+#top {
+	font-size: 120%;
+	font-weight: bolder;
+}
+
+a, a:active {
+	text-decoration: none;
+	color: black;
+}
+
+#logo img {
+	display: inline-block;
+	max-height: 120px;
+    
+}
+
+#logo a {
+	display: inline-block;
+}
+
+.menu_left {
+	float: left;
+	flex-grow: 1;
+	margin: 1% 0 0 1%;
+}
+
+.menu_right {
+	display: flex;
+	float: right;
+	margin: 1% 1.5% 0 0;
+}
+
+.menu_left>ul, .menu_right>ul {
+	list-style: none;
+}
+
+.menu_left li, .menu_right li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+#search>input {
+	width: 100px;
+	border: none;
+	border-bottom: 1px solid black;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+#search>button {
+	background: none;
+	border: none;
+}
+/* 메인페이지 헤더 및 푸터 영역 css 끝 */
+
+/* 결제페이지 */
+
+.change{
+	width: 130px;
+	height: 40px;
+	padding: 10px 25px;
+	border: 2px solid #000;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	font-size: 50%;
+	background: transparent;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	position: relative;
+	display: inline-block;
+	border-radius: 20px;
+}
+
+.change {
+	background: #424242;
+	color: #fff;
+	line-height: 42px;
+	padding: 0;
+	border: none;
+	margin-left: 5%;
+}
+
+.change:hover {
+	background: transparent;
+	color: #424242;
+	box-shadow:
+	-7px -7px 20px 0px #fff9,
+	-4px -4px 5px 0px #fff9,
+	7px 7px 20px 0px #0002,
+	4px 4px 5px 0px #0001;
+}
+
+  .change:before,
+  .change:after{
+	content:'';
+	position:absolute;
+	top:0;
+	right:0;
+	height:2px;
+	width:0;
+	background: #424242;
+	transition:400ms ease all;
+  }
+
+  .change:after{
+	right:inherit;
+	top:inherit;
+	left:0;
+	bottom:0;
+  }
+
+  .change:hover:before,
+  .change:hover:after{
+	width:100%;
+	transition:800ms ease all;
+  }
+
+
+
+div.address{
+	float: left;
+	margin: 1% 0 3% 5%;
+	position: relative;
+	max-width: 1680px;
+}
+
+.address{
+	min-width: 750px;
+	height: 800px;
+	font-size: 200%;
+	text-align: left;
+}
+
+.title{
+	font-size: 160%;
+	margin-top: 3%;
+}
+
+.Home{
+	width: 75%;
+	font-size: 100%;
+	margin: 5% 0 2% 10%;
+}
+
+.name{
+	width: 60%;
+	font-size: 100%;
+	margin: 2% 0 2% 10%;
+}
+
+.orderer{
+	width: 20%;
+	font-size: 80%;
+	margin-left: 3%;
+	text-align: center;
+	font-weight: bolder;
+}
+
+.tel{
+	width: 50%;
+	font-size: 80%;
+	margin-left: 3%;
+	text-align: center;
+	font-weight: bolder;
+}
+
+.img{
+	width: 20%;
+	height: 20%;
+	margin: 2% 3% 0 10%;
+}
+
+.img1{
+	margin-top: 7%;
+}
+
+div.payment{
+	background-color: rgba(243, 156, 18, 0.48);
+	float: left;
+	display: inline-block;
+	position: absolute;
+}
+
+.payment{
+	min-width: 950px;
+	min-height: 880px;
+	background-color: rgba(243, 156, 18, 0.48);
+	font-size: 200%;
+	margin: 1% 0 3% 1%;
+}
+
+.pay1{
+	font-size: 150%;
+	margin: 5% 0 3% 5%;
+
+}
+
+.pay2{
+	margin: 2% 0 0 35%;
+	font-size: 150%;
+
+}
+
+.check{
+	margin: 5% 0 0 30%;
+	zoom: 1.5;
+}
+
+.pay3{
+	font-size: 80%;
+	width: 800px;
+	height: 100px;
+	border: 2px solid black;
+	margin: 2% 0 0 8%;
+	overflow-y: scroll;
+}
+
+.payment>.change{
+	min-width: 200px;
+	display: flex;
+	justify-content: center;
+	margin: 5% 0 0 40%;
+}

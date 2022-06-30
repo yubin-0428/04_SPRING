@@ -1,0 +1,253 @@
+@charset "UTF-8";
+
+#contents {
+	max-width: 1430px;	
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin: 30px auto 0;
+}
+
+.product_contents {
+	display: flex;
+ 	justify-content: space-around;  
+	width: 100%;
+	padding: 20px 0px;
+	margin: 0 auto;
+	
+	border-top: 2px dotted rgba(243, 156, 18, 0.48);
+	border-left: 2px dotted rgba(243, 156, 18, 0.48);
+	border-right: 2px dotted rgba(243, 156, 18, 0.48);	
+}
+
+.product_contents > img {
+	width: 52%;
+	height: 800px;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 30%;
+}
+
+.info > form {
+	height: 450px;
+}
+
+/* 상품 이름 */
+.product_name {
+	display: inline-block;
+	font-size: 180%;
+	margin-bottom: 10px;	
+}
+
+
+/* 가격 */
+.product_price {
+	clear: right;
+	font-size: 130%;
+	margin: 27px 0px 22px 0px;
+	color: red;
+}
+
+/* 수량 버튼 */ 
+#amount {
+	display: flex;
+	height: 60px;
+	justify-content: flex-end;
+	margin: 0px 0px 33px 0px;
+}
+
+#buy_number,
+input[type="button"] {
+	text-align: center;
+	font-size: 130%;
+	margin-bottom: 40px;
+	box-sizing: border-box;
+}
+
+#buy_number {
+	width: 17%;
+	height: 60px;	
+	line-height: 60px;
+	border: 1px solid black;
+}
+
+.number_buttons{
+	display: flex;
+	flex-direction: column;
+	width: 10%;
+	height: 60px;
+}
+
+input[type="button"] {
+	width: 100%;
+	height: 30px;
+	margin: 0;
+	background-color: #424242;
+	color: #fff;
+	border: none;
+}
+
+/* 총 금액 */
+.total_price,
+#total_num {
+	display: inline-block;
+	font-size: 130%;
+	font-weight: bolder;
+	margin-bottom: 83px;
+}
+
+/*  cart, buy 버튼  */
+.submit_buttons {
+	text-align: center;
+}
+
+.button  {
+  width: 197px;
+  height: 83px;
+  padding: 10px 25px;
+  border: 2px solid #000;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  border-radius: 20px;
+  font-size: 140%;
+}
+.btn-1 {
+  background: #424242;
+  color: #fff;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.btn-1:hover {
+  background: transparent;
+  color: #424242;
+   box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
+}
+.btn-1:before,
+.btn-1:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #424242;
+  transition:400ms ease all;
+}
+.btn-1:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.btn-1:hover:before,
+.btn-1:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+.btn-2 {
+  background: rgba(243, 156, 18, 0.48);
+  color: #fff;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  margin-right: 15px;
+}
+.btn-2:hover {
+  background: transparent;
+  color: rgba(243, 156, 18, 0.48);
+   box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
+}
+.btn-2:before,
+.btn-2:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #424242;
+  transition:400ms ease all;
+}
+.btn-2:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.btn-2:hover:before,
+.btn-2:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+/* 상세 설명, 리뷰 */
+#Accord_container{
+	float: left;
+	width: 54%;
+	margin-top: 50px;
+}
+
+.accord_title,
+.contents {
+  box-sizing: border-box;
+}
+  
+.accord_title:first-child{
+  border-top: 2px solid #424242;
+}    
+ 
+.accord_title{
+  position: relative;
+  padding: 27px 0;
+  cursor: pointer;
+  font-size: 130%;
+  border-bottom: 1px solid #dddddd;
+  
+}
+  
+/* 아코디언이 닫혀 있을 때 화살표 */
+.accord_title:after{
+  background-image: url("/ctrl/resources/img/down_button.svg");
+  background-size: 18px 18px;
+  width: 18px; 
+  height: 18px;
+  content:"";
+  float: right;
+}
+.accord_title.on>span{
+  font-weight: bolder;
+  color: rgba(243, 156, 18, 0.48); 
+}
+
+/* 아코디언이 열려 있을 때 화살표 */
+.accord_title.on:after {
+  background-image: url("/ctrl/resources/img/up_button.svg");
+  content:"";
+}
+  
+.contents {
+  display: none;
+  overflow: hidden;
+  font-size: 130%;
+  background-color: #f4f4f2;
+  padding: 27px 0;
+}

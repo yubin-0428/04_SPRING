@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+#contents {
+    max-width: 1430px;  
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto 0;
+}
+
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼ 사각형 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+/* 마이페이지 사각형 크기 */
+.my_box{
+    width: 27%;
+    height: 550px; 
+    background: rgba(243, 156, 18, 0.48);
+    position : relative;
+    top:25px;
+    left:15px;
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+
+ul{
+  list-style:none;
+   }
+
+/* 마이페이지 글자 위치 조정 */   
+.my{
+  font-size : 55px;
+  position : relative;
+  top:83px;
+  left:80px;
+}
+
+/* 회원정보 글자 위치 조정 */   
+.info{
+  font-size : 42px;
+    position : relative;
+  top:160px;
+  left:120px;
+}
+
+/* 주문조회 글자 위치 조정 */   
+.order{
+  font-size : 42px;
+  position : relative;
+  top:245px;
+  left:120px;
+  
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body{
+    min-width: 1480px;
+    font-family: 'Vitro_pride'; 
+}
+
+a:link {
+  color : black;
+}
+a:visited {
+  color : black;
+}
+a:hover {
+  color : black;
+}
+a:active {
+  color : black;
+}
+
+.form-control{
+    position: relative;
+  left: 700px;
+  bottom : 387px;
+}
+
+label{
+  position: relative;
+  left: 700px;
+  bottom: 387px;
+}
+
+
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲ 사각형 끝  ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼ 주문조회 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+
+
+/* 상품 탑 테이블 */
+.order2{
+    position: relative;
+    left: 401px;
+    bottom: 525px;
+    border-bottom: 3px solid rgba(243, 156, 18, 0.48);
+    border-top: 3px solid rgba(243, 156, 18, 0.48);
+    font-size:25px;
+    table-layout: fixed;
+}
+
+/* 상품 테이블 */
+.order3{
+	border-bottom: 2px solid #ddd;
+	font-size: 22px;
+    position: relative;
+    left: 401px;
+    bottom: 518px;
+    table-layout: fixed;
+}
+

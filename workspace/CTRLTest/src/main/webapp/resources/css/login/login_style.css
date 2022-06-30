@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/* 메인페이지 헤더 및 푸터 영역 css 시작 */
+@font-face {
+	font-family: 'Vitro_core'; /* 로고, 소제목 */
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Vitro_core.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Vitro_pride'; /* 나머지 글꼴, font-weight: bolder 적용! */
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Vitro_pride.woff')
+		format('woff');
+	font-weight: bolder;
+	font-style: normal;
+}
+
+
+/* 로그인 */
+body {
+	font-family: Vitro_pride;
+	font-weight: bolder;
+  font-size: 20px;
+}
+.container {
+	line-height: 40px;
+	text-align: center;
+}
+
+.container>h1 {
+	font-family: Vitro_core;
+	letter-spacing: 10px;
+  font-size: xxx-large;
+}
+
+.login_area, #button_area {
+	padding: 1%;
+}

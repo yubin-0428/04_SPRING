@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+#contents {
+    max-width: 1430px;  
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto 0;
+}
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼ 사각형 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+/* 마이페이지 사각형 크기 */
+.my_box{
+    width: 27%;
+    height: 550px; 
+    background: rgba(243, 156, 18, 0.48);
+    position : relative;
+    top:25px;
+    left:15px;
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+
+
+ul{
+  list-style:none;
+   }
+   
+/* 마이페이지 글자 위치 조정 */   
+.my{
+  font-size : 55px;
+  position : relative;
+  top:83px;
+  left:80px;
+}
+
+/* 회원정보 글자 위치 조정 */   
+.info{
+  font-size : 42px;
+    position : relative;
+  top:160px;
+  left:120px;
+}
+
+/* 주문조회 글자 위치 조정 */   
+.order{
+  font-size : 42px;
+  position : relative;
+  top:245px;
+  left:120px;
+  
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body{
+    min-width: 1480px;
+    font-family: 'Vitro_pride';
+}
+
+a:link {
+  color : black;
+}
+a:visited {
+  color : black;
+}
+a:hover {
+  color : black;
+}
+a:active {
+  color : black;
+}
+
+.form-control{
+    position: relative;
+  left: 700px;
+  bottom : 387px;
+}
+
+label{
+    position: relative;
+  left: 700px;
+  bottom: 387px;
+}
+
+
+
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲ 사각형 끝  ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼ 회원정보 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+
+/* blueone : 이름, 이메일 테이블 class */
+.blueone {
+  border-collapse: collapse;
+  position:relative;
+  left: 881px;
+  bottom: 725px;
+  font-size: 24px;
+  
+}  
+.blueone th {
+  padding: 10px;
+  color: #424242;
+  border-bottom: 3px solid rgba(243, 156, 18, 0.48);
+  text-align: left;
+}
+.blueone td {
+  color: #669;
+  padding: 13px;
+  border-bottom: 1px solid #ddd;
+}
+.blueone tr:hover td {
+  color: #004;
+}
+
+/* blueone2 : 번호, 주소 테이블 class */
+.blueone2 {
+  border-collapse: collapse;
+  position: relative;
+  bottom: 703px;
+  left: 623px;
+  font-size:24px;
+}  
+.blueone2 th {
+  padding: 10px;
+  color: #424242;
+  border-bottom: 3px solid rgba(243, 156, 18, 0.48);
+  text-align: left;
+}
+.blueone2 td {
+  color: #669;
+  padding: 13px;
+  border-bottom: 1px solid #ddd;
+}
+.blueone2 tr:hover td {
+  color: #004;
+}
+
+/* 라이언(프로필 사진) */
+.ryan{
+    position: relative;
+    bottom: 499px;
+    left: 620px; 
+}
+
+.name{
+    position: relative;
+    bottom:450px;
+    left:700px;
+}
+
+.all{
+    position: relative;
+    left:100px;
+    width:100%;
+    max-width: 1800px; /* 최대 폭, 값 없으면 화면 축소시 가운데로 x */
+    margin: 0 auto 0;
+    
+}
+
+/* 개인정보 수집동의 */
+.solo{
+	position: relative;
+    left: 623px;
+    bottom: 679px;
+    width: 890px;
+    color:#424242;
+}
+
+/* 마이페이지 글자 전체 div로 묶고 움직이기 */
+#my_all{
+	position: relative;
+	right:105px;
+	bottom:25px;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲ 회원정보 끝 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+

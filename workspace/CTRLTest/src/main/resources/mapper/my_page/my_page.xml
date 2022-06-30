@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pcwk.ctrl.my_page">
+    
+     <select id="memberList" resultType="com.pcwk.ctrl.cmn.MemberVO">
+        SELECT m_num AS mNum,
+        m_name AS mName,
+        m_email AS mEmail,
+        m_tel AS mTel,
+        m_addr AS mAddr,
+        m_grade AS mGrade
+        FROM member
+        ORDER BY mNum
+    </select>
+   
+</mapper>

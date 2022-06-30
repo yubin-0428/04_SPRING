@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pcwk.ctrl.order">
+    <select id="doRetrieve" resultType="HashMap">
+        SELECT d.o_num AS "oNum",       
+               d.p_num AS "pNum",   
+               p.p_name AS "pName",     
+               p.p_price AS "pPrice",
+               d.d_buy AS "dBuy",       
+               ot.o_status AS "oStatus",
+               d.d_num AS "dNum",       
+               ot.o_name AS "oName"      
+        FROM detail d JOIN product p  
+        ON d.p_num = p.p_num          
+        JOIN order_t ot               
+        ON d.o_num = ot.o_num         
+        JOIN member m               
+        ON ot.m_num = m.m_num
+        WHERE ot.m_num = #{mNum}         
+        ORDER BY ot.o_dt DESC         
+    </select>
+</mapper>

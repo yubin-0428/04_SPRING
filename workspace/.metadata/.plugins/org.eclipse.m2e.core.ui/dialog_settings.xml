@@ -79,6 +79,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\Uvin\Downloads\SW_SH23"/>
+			<item value="C:\Users\Uvin\Downloads\SW_SH22"/>
 			<item value="C:\Users\Uvin\Desktop\222222"/>
 			<item value="C:\Users\Uvin\Desktop\SW_SH22"/>
 			<item value="C:\Users\Uvin\Downloads\SW_SH21"/>
@@ -92,8 +94,6 @@
 			<item value="C:\Users\Uvin\Desktop\S_SH11_01"/>
 			<item value="C:\Users\Uvin\Desktop\S_SH11_02"/>
 			<item value="C:\Users\Uvin\Desktop\S_SH09_01"/>
-			<item value="C:\DCOM_20220127\04_SPRING\workspace\S_SH06_03"/>
-			<item value="C:\Users\Uvin\Desktop\S_SH07_06"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

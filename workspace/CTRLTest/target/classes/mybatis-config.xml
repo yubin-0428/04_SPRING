@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <setting name="logImpl" value="LOG4J2"/>
+    </settings>
+    <typeAliases>
+        <typeAlias type="com.pcwk.ctrl.cmn.ReviewVO" alias="ReviewVO"/>
+        <typeAlias type="com.pcwk.ctrl.cmn.ProductVO" alias="ProductVO"/>
+        <typeAlias type="com.pcwk.ctrl.cmn.RdVO" alias="RdVO"/>
+        <typeAlias type="com.pcwk.ctrl.cmn.MemberVO" alias="MemberVO"/>
+        <typeAlias type="com.pcwk.ctrl.cmn.ReviewRdVO" alias="ReviewRdVO"/>
+        <typeAlias type="com.pcwk.ctrl.cmn.CartVO" alias="CartVO"/>
+    </typeAliases>
+    <typeHandlers>
+        <typeHandler handler="com.pcwk.ctrl.cmn.ClobHandler" javaType="String" jdbcType="LONGVARCHAR"/>
+    </typeHandlers>    
+</configuration>
